@@ -10,7 +10,7 @@ Sunny_OS 是一套基于 LVGL 的应用层代码。它不提供自己的 `main()
 
 说明：
 
-- Win32 模拟器的 `main()` 入口在 `Sunny_OS/Simulator/host_win32/Sunny_OS_host_win32.cpp`（Sunny_OS 自己的宿主程序）。
+- Win32 模拟器的 `main()` 入口在 `Sunny_OS/Simulator/host_win32/host_win32.cpp`（Sunny_OS 自己的宿主程序）。
 - 目前仅 LVGL 源码从 `Sunny_OS/libs/lvgl/` 目录以源码方式编译进可执行文件；`win32drv` 与 `lv_fs_if` 已迁入 `Sunny_OS/third_party/` 由 Sunny_OS 自己编译维护。
 
 ## 构建（Win32 模拟器）
