@@ -6,7 +6,7 @@ set(CMAKE_C_STANDARD 99)
 
 # Compile SUNNY_OS with a Win32 host.
 # Only LVGL itself is taken from Wand (source-level dependency).
-set(LVGL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../SUNNY_OS/libs/lvgl")
+set(LVGL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../Sunny_OS/libs/lvgl")
 set(APP_DIR "${CMAKE_CURRENT_SOURCE_DIR}/..")
 set(THIRD_PARTY_DIR "${APP_DIR}/third_party")
 set(RES_DIR "${APP_DIR}/resources")
