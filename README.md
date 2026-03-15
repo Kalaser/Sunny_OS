@@ -58,23 +58,23 @@ powershell -ExecutionPolicy Bypass -File .\run.ps1 -Detach
 
 - ### 应用开发
 
-  - [APP_DEV_GUIDE.md](SUNNY_OS/apps/APP_DEV_GUIDE.md) 
+  - [APP_DEV_GUIDE.md](Sunny_OS/apps/APP_DEV_GUIDE.md) 
       `apps/` 目录应用开发指南，包括 Slice / Model / View 架构以及外设解耦建议。
 
   ### 系统设计
 
-  - [ARCHITECTURE.md](SUNNY_OS/docs/ARCHITECTURE.md) 
+  - [ARCHITECTURE.md](Sunny_OS/docs/ARCHITECTURE.md) 
       Sunny_OS 整体架构与系统分层说明。
 
-  - [NAMING.md](SUNNY_OS/docs/NAMING.md) 
+  - [NAMING.md](Sunny_OS/docs/NAMING.md) 
       项目命名规范与代码风格。
 
-  - [CONFIG.md](SUNNY_OS/docs/CONFIG.md) 
+  - [CONFIG.md](Sunny_OS/docs/CONFIG.md) 
       系统配置说明，例如 `ui_config.h`、UI 宏配置等。
 
   ### 移植指南
 
-  - [PORTING_GUIDE.md](SUNNY_OS/docs/PORTING_GUIDE.md) 
+  - [PORTING_GUIDE.md](Sunny_OS/docs/PORTING_GUIDE.md) 
       移植到 **FreeRTOS / NuttX / Linux / RT-Thread** 的关键接口与步骤。
 
 ## 备注
