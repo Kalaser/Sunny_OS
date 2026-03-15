@@ -1,4 +1,4 @@
-﻿# SUNNY_OS 文档索引
+﻿# Sunny_OS 文档索引
 
 - `ARCHITECTURE.md`：整体架构与分层说明。
 - `NAMING.md`：命名规范。
