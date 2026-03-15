@@ -1,6 +1,6 @@
-﻿# SUNNY_OS 架构说明
+﻿# Sunny_OS 架构说明
 
-SUNNY_OS 是一套基于 LVGL 的应用层：提供轻量 UI Shell（Desktop/Launcher/App chrome）、页面路由（`services::PageManager`）以及发布订阅总线（`services::DataCenter`）。
+Sunny_OS 是一套基于 LVGL 的应用层：提供轻量 UI Shell（Desktop/Launcher/App chrome）、页面路由（`services::PageManager`）以及发布订阅总线（`services::DataCenter`）。
 
 ## 分层与职责
 
@@ -10,7 +10,7 @@ SUNNY_OS 是一套基于 LVGL 的应用层：提供轻量 UI Shell（Desktop/Lau
 - `apps/`：应用模块（实现 `vsun::core::AppSlice`）。
 - `desktop/`、`launcher/`：Shell 自带的 slice（由 core 组装成页面）。
 - `pages/`：整页页面（例如 boot/shutdown），由 `services::PageManager` push/pop/replace。
-- `sunny_hal/`：硬件抽象层（模拟器 mock 或真实板级实现）。
+- `Sunny_hal/`：硬件抽象层（模拟器 mock 或真实板级实现）。
 - `port/`：OS/平台差异层（时间、关机/退出、等）。
 - `config/`：编译期配置宏（UI 尺寸、动画时序等）。
 
@@ -36,7 +36,7 @@ SUNNY_OS 是一套基于 LVGL 的应用层：提供轻量 UI Shell（Desktop/Lau
 - Worker 线程只做采集/协议栈/状态机，不直接碰 UI 指针。
 - 跨线程上报：worker 线程把 `Topic + payload` 入队，UI 线程每帧/tick drain 并统一发布到 DataCenter。
 
-SUNNY_OS 已提供一个最小实现：`services::UiPublishQueue`（见 `SUNNY_OS/services/ui_publish_queue.*`），UI 侧建议在 `AppController::update()` 开头调用 `UiPublishQueue::drain()`。
+Sunny_OS 已提供一个最小实现：`services::UiPublishQueue`（见 `Sunny_OS/services/ui_publish_queue.*`），UI 侧建议在 `AppController::update()` 开头调用 `UiPublishQueue::drain()`。
 
 `services::ConnectivityService` 也提供了跨线程/跨平台的上报接口：
 
@@ -46,4 +46,4 @@ SUNNY_OS 已提供一个最小实现：`services::UiPublishQueue`（见 `SUNNY_O
 建议平台侧驱动/协议栈回调在任意线程调用这些方法，上报会通过 `UiPublishQueue` 安全地在 UI 线程发布到 `DataCenter`。
 
 ## （参考）
-- SUNNY_OS：`sunny_hal/port` + `services::DataCenter` + `services::PageManager` + `AppSlice`。
+- Sunny_OS：`Sunny_hal/port` + `services::DataCenter` + `services::PageManager` + `AppSlice`。
