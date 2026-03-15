@@ -1,8 +1,8 @@
-﻿# SUNNY_OS 配置说明
+﻿# Sunny_OS 配置说明
 
 ## UI 布局与时序（`config/ui_config.h`）
 
-`SUNNY_OS/config/ui_config.h` 定义了 UI 尺寸/偏移/动画时序等宏。
+`Sunny_OS/config/ui_config.h` 定义了 UI 尺寸/偏移/动画时序等宏。
 
 可以在编译期通过 `-D...` 覆盖，例如：
 
