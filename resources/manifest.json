@@ -1,0 +1,31 @@
+{
+  "image_dirs": [
+    {
+      "dir": "resources/input/mynaui",
+      "glob": "*.svg",
+      "strip_prefix": "mynaui-",
+      "name_prefix": "MYNAUI_",
+      "px": 24,
+      "with_alpha": true,
+      "svg_color": "#FFFFFF"
+    }
+  ],
+  "images": [
+    {
+      "name": "MYNAUI16_ARROW_LEFT_SOLID",
+      "file": "resources/input/mynaui/mynaui-arrow-left-solid.svg",
+      "px": 16,
+      "with_alpha": true,
+      "svg_color": "#FFFFFF"
+    },
+    {
+      "name": "MYNAUI16_ARROW_RIGHT_SOLID",
+      "file": "resources/input/mynaui/mynaui-arrow-right-solid.svg",
+      "px": 16,
+      "with_alpha": true,
+      "svg_color": "#FFFFFF"
+    }
+  ],
+  "fonts": [],
+  "strings": []
+}

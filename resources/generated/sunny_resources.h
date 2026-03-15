@@ -1,0 +1,5139 @@
+﻿#pragma once
+#include "lvgl.h"
+
+// 自动生成文件，请勿手工修改。
+
+#define SUNNY_IMG(name) (&sunny_img_##name)
+#define SUNNY_FONT(name) (&sunny_font_##name)
+#define SUNNY_STR(name) (sunny_str_##name)
+
+// 图片
+extern const lv_img_dsc_t sunny_img_MYNAUI16_ARROW_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI16_ARROW_LEFT_SOLID (&sunny_img_MYNAUI16_ARROW_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI16_ARROW_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI16_ARROW_RIGHT_SOLID (&sunny_img_MYNAUI16_ARROW_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_A_ARROW_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_A_ARROW_DOWN_SOLID (&sunny_img_MYNAUI_A_ARROW_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_A_ARROW_DOWN;
+#define SUNNY_IMG_MYNAUI_A_ARROW_DOWN (&sunny_img_MYNAUI_A_ARROW_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_A_ARROW_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_A_ARROW_UP_SOLID (&sunny_img_MYNAUI_A_ARROW_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_A_ARROW_UP;
+#define SUNNY_IMG_MYNAUI_A_ARROW_UP (&sunny_img_MYNAUI_A_ARROW_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ACADEMIC_HAT_SOLID;
+#define SUNNY_IMG_MYNAUI_ACADEMIC_HAT_SOLID (&sunny_img_MYNAUI_ACADEMIC_HAT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ACADEMIC_HAT;
+#define SUNNY_IMG_MYNAUI_ACADEMIC_HAT (&sunny_img_MYNAUI_ACADEMIC_HAT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ACCESSIBILITY_SOLID;
+#define SUNNY_IMG_MYNAUI_ACCESSIBILITY_SOLID (&sunny_img_MYNAUI_ACCESSIBILITY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ACCESSIBILITY;
+#define SUNNY_IMG_MYNAUI_ACCESSIBILITY (&sunny_img_MYNAUI_ACCESSIBILITY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ACTIVITY_SOLID;
+#define SUNNY_IMG_MYNAUI_ACTIVITY_SOLID (&sunny_img_MYNAUI_ACTIVITY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ACTIVITY_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ACTIVITY_SQUARE_SOLID (&sunny_img_MYNAUI_ACTIVITY_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ACTIVITY_SQUARE;
+#define SUNNY_IMG_MYNAUI_ACTIVITY_SQUARE (&sunny_img_MYNAUI_ACTIVITY_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ACTIVITY;
+#define SUNNY_IMG_MYNAUI_ACTIVITY (&sunny_img_MYNAUI_ACTIVITY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ADD_QUEUE_SOLID;
+#define SUNNY_IMG_MYNAUI_ADD_QUEUE_SOLID (&sunny_img_MYNAUI_ADD_QUEUE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ADD_QUEUE;
+#define SUNNY_IMG_MYNAUI_ADD_QUEUE (&sunny_img_MYNAUI_ADD_QUEUE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AEROPLANE_SOLID;
+#define SUNNY_IMG_MYNAUI_AEROPLANE_SOLID (&sunny_img_MYNAUI_AEROPLANE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AEROPLANE;
+#define SUNNY_IMG_MYNAUI_AEROPLANE (&sunny_img_MYNAUI_AEROPLANE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AIR_CONDITIONER_SOLID;
+#define SUNNY_IMG_MYNAUI_AIR_CONDITIONER_SOLID (&sunny_img_MYNAUI_AIR_CONDITIONER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AIR_CONDITIONER;
+#define SUNNY_IMG_MYNAUI_AIR_CONDITIONER (&sunny_img_MYNAUI_AIR_CONDITIONER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AIRPLAY_SOLID;
+#define SUNNY_IMG_MYNAUI_AIRPLAY_SOLID (&sunny_img_MYNAUI_AIRPLAY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AIRPLAY;
+#define SUNNY_IMG_MYNAUI_AIRPLAY (&sunny_img_MYNAUI_AIRPLAY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AIRPODS_SOLID;
+#define SUNNY_IMG_MYNAUI_AIRPODS_SOLID (&sunny_img_MYNAUI_AIRPODS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AIRPODS;
+#define SUNNY_IMG_MYNAUI_AIRPODS (&sunny_img_MYNAUI_AIRPODS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_ALARM_CHECK_SOLID (&sunny_img_MYNAUI_ALARM_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_CHECK;
+#define SUNNY_IMG_MYNAUI_ALARM_CHECK (&sunny_img_MYNAUI_ALARM_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_ALARM_MINUS_SOLID (&sunny_img_MYNAUI_ALARM_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_MINUS;
+#define SUNNY_IMG_MYNAUI_ALARM_MINUS (&sunny_img_MYNAUI_ALARM_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_ALARM_PLUS_SOLID (&sunny_img_MYNAUI_ALARM_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_PLUS;
+#define SUNNY_IMG_MYNAUI_ALARM_PLUS (&sunny_img_MYNAUI_ALARM_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_SMOKE_SOLID;
+#define SUNNY_IMG_MYNAUI_ALARM_SMOKE_SOLID (&sunny_img_MYNAUI_ALARM_SMOKE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_SMOKE;
+#define SUNNY_IMG_MYNAUI_ALARM_SMOKE (&sunny_img_MYNAUI_ALARM_SMOKE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_SNOOZE_SOLID;
+#define SUNNY_IMG_MYNAUI_ALARM_SNOOZE_SOLID (&sunny_img_MYNAUI_ALARM_SNOOZE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_SNOOZE;
+#define SUNNY_IMG_MYNAUI_ALARM_SNOOZE (&sunny_img_MYNAUI_ALARM_SNOOZE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_SOLID;
+#define SUNNY_IMG_MYNAUI_ALARM_SOLID (&sunny_img_MYNAUI_ALARM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_X_SOLID;
+#define SUNNY_IMG_MYNAUI_ALARM_X_SOLID (&sunny_img_MYNAUI_ALARM_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM_X;
+#define SUNNY_IMG_MYNAUI_ALARM_X (&sunny_img_MYNAUI_ALARM_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALARM;
+#define SUNNY_IMG_MYNAUI_ALARM (&sunny_img_MYNAUI_ALARM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALBUM_SOLID;
+#define SUNNY_IMG_MYNAUI_ALBUM_SOLID (&sunny_img_MYNAUI_ALBUM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALBUM;
+#define SUNNY_IMG_MYNAUI_ALBUM (&sunny_img_MYNAUI_ALBUM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_BOTTOM_SOLID;
+#define SUNNY_IMG_MYNAUI_ALIGN_BOTTOM_SOLID (&sunny_img_MYNAUI_ALIGN_BOTTOM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_BOTTOM;
+#define SUNNY_IMG_MYNAUI_ALIGN_BOTTOM (&sunny_img_MYNAUI_ALIGN_BOTTOM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_HORIZONTAL_SOLID;
+#define SUNNY_IMG_MYNAUI_ALIGN_HORIZONTAL_SOLID (&sunny_img_MYNAUI_ALIGN_HORIZONTAL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_HORIZONTAL;
+#define SUNNY_IMG_MYNAUI_ALIGN_HORIZONTAL (&sunny_img_MYNAUI_ALIGN_HORIZONTAL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_ALIGN_LEFT_SOLID (&sunny_img_MYNAUI_ALIGN_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_LEFT;
+#define SUNNY_IMG_MYNAUI_ALIGN_LEFT (&sunny_img_MYNAUI_ALIGN_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_ALIGN_RIGHT_SOLID (&sunny_img_MYNAUI_ALIGN_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_RIGHT;
+#define SUNNY_IMG_MYNAUI_ALIGN_RIGHT (&sunny_img_MYNAUI_ALIGN_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_TOP_SOLID;
+#define SUNNY_IMG_MYNAUI_ALIGN_TOP_SOLID (&sunny_img_MYNAUI_ALIGN_TOP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_TOP;
+#define SUNNY_IMG_MYNAUI_ALIGN_TOP (&sunny_img_MYNAUI_ALIGN_TOP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_VERTICAL_SOLID;
+#define SUNNY_IMG_MYNAUI_ALIGN_VERTICAL_SOLID (&sunny_img_MYNAUI_ALIGN_VERTICAL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALIGN_VERTICAL;
+#define SUNNY_IMG_MYNAUI_ALIGN_VERTICAL (&sunny_img_MYNAUI_ALIGN_VERTICAL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALT_SOLID;
+#define SUNNY_IMG_MYNAUI_ALT_SOLID (&sunny_img_MYNAUI_ALT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ALT;
+#define SUNNY_IMG_MYNAUI_ALT (&sunny_img_MYNAUI_ALT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AMBULANCE_SOLID;
+#define SUNNY_IMG_MYNAUI_AMBULANCE_SOLID (&sunny_img_MYNAUI_AMBULANCE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AMBULANCE;
+#define SUNNY_IMG_MYNAUI_AMBULANCE (&sunny_img_MYNAUI_AMBULANCE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AMPERSAND_SOLID;
+#define SUNNY_IMG_MYNAUI_AMPERSAND_SOLID (&sunny_img_MYNAUI_AMPERSAND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AMPERSAND_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_AMPERSAND_SQUARE_SOLID (&sunny_img_MYNAUI_AMPERSAND_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AMPERSAND_SQUARE;
+#define SUNNY_IMG_MYNAUI_AMPERSAND_SQUARE (&sunny_img_MYNAUI_AMPERSAND_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AMPERSAND;
+#define SUNNY_IMG_MYNAUI_AMPERSAND (&sunny_img_MYNAUI_AMPERSAND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AMPERSANDS_SOLID;
+#define SUNNY_IMG_MYNAUI_AMPERSANDS_SOLID (&sunny_img_MYNAUI_AMPERSANDS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AMPERSANDS;
+#define SUNNY_IMG_MYNAUI_AMPERSANDS (&sunny_img_MYNAUI_AMPERSANDS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANCHOR_SOLID;
+#define SUNNY_IMG_MYNAUI_ANCHOR_SOLID (&sunny_img_MYNAUI_ANCHOR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANCHOR;
+#define SUNNY_IMG_MYNAUI_ANCHOR (&sunny_img_MYNAUI_ANCHOR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANGRY_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ANGRY_CIRCLE_SOLID (&sunny_img_MYNAUI_ANGRY_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANGRY_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ANGRY_CIRCLE (&sunny_img_MYNAUI_ANGRY_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANGRY_GHOST_SOLID;
+#define SUNNY_IMG_MYNAUI_ANGRY_GHOST_SOLID (&sunny_img_MYNAUI_ANGRY_GHOST_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANGRY_GHOST;
+#define SUNNY_IMG_MYNAUI_ANGRY_GHOST (&sunny_img_MYNAUI_ANGRY_GHOST)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANGRY_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ANGRY_SQUARE_SOLID (&sunny_img_MYNAUI_ANGRY_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANGRY_SQUARE;
+#define SUNNY_IMG_MYNAUI_ANGRY_SQUARE (&sunny_img_MYNAUI_ANGRY_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANNOYED_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ANNOYED_CIRCLE_SOLID (&sunny_img_MYNAUI_ANNOYED_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANNOYED_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ANNOYED_CIRCLE (&sunny_img_MYNAUI_ANNOYED_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANNOYED_GHOST_SOLID;
+#define SUNNY_IMG_MYNAUI_ANNOYED_GHOST_SOLID (&sunny_img_MYNAUI_ANNOYED_GHOST_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANNOYED_GHOST;
+#define SUNNY_IMG_MYNAUI_ANNOYED_GHOST (&sunny_img_MYNAUI_ANNOYED_GHOST)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANNOYED_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ANNOYED_SQUARE_SOLID (&sunny_img_MYNAUI_ANNOYED_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ANNOYED_SQUARE;
+#define SUNNY_IMG_MYNAUI_ANNOYED_SQUARE (&sunny_img_MYNAUI_ANNOYED_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_APERTURE_SOLID;
+#define SUNNY_IMG_MYNAUI_APERTURE_SOLID (&sunny_img_MYNAUI_APERTURE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_APERTURE;
+#define SUNNY_IMG_MYNAUI_APERTURE (&sunny_img_MYNAUI_APERTURE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_API_SOLID;
+#define SUNNY_IMG_MYNAUI_API_SOLID (&sunny_img_MYNAUI_API_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_API;
+#define SUNNY_IMG_MYNAUI_API (&sunny_img_MYNAUI_API)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AR_SOLID;
+#define SUNNY_IMG_MYNAUI_AR_SOLID (&sunny_img_MYNAUI_AR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AR;
+#define SUNNY_IMG_MYNAUI_AR (&sunny_img_MYNAUI_AR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARCHIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARCHIVE_SOLID (&sunny_img_MYNAUI_ARCHIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARCHIVE;
+#define SUNNY_IMG_MYNAUI_ARCHIVE (&sunny_img_MYNAUI_ARCHIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DIAGONAL_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DIAGONAL_ONE_SOLID (&sunny_img_MYNAUI_ARROW_DIAGONAL_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DIAGONAL_ONE;
+#define SUNNY_IMG_MYNAUI_ARROW_DIAGONAL_ONE (&sunny_img_MYNAUI_ARROW_DIAGONAL_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DIAGONAL_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DIAGONAL_TWO_SOLID (&sunny_img_MYNAUI_ARROW_DIAGONAL_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DIAGONAL_TWO;
+#define SUNNY_IMG_MYNAUI_ARROW_DIAGONAL_TWO (&sunny_img_MYNAUI_ARROW_DIAGONAL_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_CIRCLE_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_CIRCLE (&sunny_img_MYNAUI_ARROW_DOWN_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_LEFT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_LEFT_CIRCLE_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_LEFT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_LEFT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_LEFT_CIRCLE (&sunny_img_MYNAUI_ARROW_DOWN_LEFT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_LEFT_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_LEFT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_LEFT_SQUARE_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_LEFT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_LEFT_SQUARE;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_LEFT_SQUARE (&sunny_img_MYNAUI_ARROW_DOWN_LEFT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_LEFT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_LEFT_WAVES_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_LEFT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_LEFT_WAVES;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_LEFT_WAVES (&sunny_img_MYNAUI_ARROW_DOWN_LEFT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_LEFT;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_LEFT (&sunny_img_MYNAUI_ARROW_DOWN_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_RIGHT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_RIGHT_CIRCLE_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_RIGHT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_RIGHT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_RIGHT_CIRCLE (&sunny_img_MYNAUI_ARROW_DOWN_RIGHT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_RIGHT_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_RIGHT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_RIGHT_SQUARE_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_RIGHT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_RIGHT_SQUARE;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_RIGHT_SQUARE (&sunny_img_MYNAUI_ARROW_DOWN_RIGHT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_RIGHT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_RIGHT_WAVES_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_RIGHT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_RIGHT_WAVES;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_RIGHT_WAVES (&sunny_img_MYNAUI_ARROW_DOWN_RIGHT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_RIGHT;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_RIGHT (&sunny_img_MYNAUI_ARROW_DOWN_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_SQUARE_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_SQUARE;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_SQUARE (&sunny_img_MYNAUI_ARROW_DOWN_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_WAVES_SOLID (&sunny_img_MYNAUI_ARROW_DOWN_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN_WAVES;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN_WAVES (&sunny_img_MYNAUI_ARROW_DOWN_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_DOWN;
+#define SUNNY_IMG_MYNAUI_ARROW_DOWN (&sunny_img_MYNAUI_ARROW_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LEFT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LEFT_CIRCLE_SOLID (&sunny_img_MYNAUI_ARROW_LEFT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LEFT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ARROW_LEFT_CIRCLE (&sunny_img_MYNAUI_ARROW_LEFT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LEFT_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LEFT_RIGHT_SOLID (&sunny_img_MYNAUI_ARROW_LEFT_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LEFT_RIGHT;
+#define SUNNY_IMG_MYNAUI_ARROW_LEFT_RIGHT (&sunny_img_MYNAUI_ARROW_LEFT_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LEFT_SOLID (&sunny_img_MYNAUI_ARROW_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LEFT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LEFT_SQUARE_SOLID (&sunny_img_MYNAUI_ARROW_LEFT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LEFT_SQUARE;
+#define SUNNY_IMG_MYNAUI_ARROW_LEFT_SQUARE (&sunny_img_MYNAUI_ARROW_LEFT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LEFT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LEFT_WAVES_SOLID (&sunny_img_MYNAUI_ARROW_LEFT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LEFT_WAVES;
+#define SUNNY_IMG_MYNAUI_ARROW_LEFT_WAVES (&sunny_img_MYNAUI_ARROW_LEFT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LEFT;
+#define SUNNY_IMG_MYNAUI_ARROW_LEFT (&sunny_img_MYNAUI_ARROW_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_DOWN_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_DOWN_LEFT_SOLID (&sunny_img_MYNAUI_ARROW_LONG_DOWN_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_DOWN_LEFT;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_DOWN_LEFT (&sunny_img_MYNAUI_ARROW_LONG_DOWN_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_DOWN_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_DOWN_RIGHT_SOLID (&sunny_img_MYNAUI_ARROW_LONG_DOWN_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_DOWN_RIGHT;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_DOWN_RIGHT (&sunny_img_MYNAUI_ARROW_LONG_DOWN_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_DOWN_SOLID (&sunny_img_MYNAUI_ARROW_LONG_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_DOWN;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_DOWN (&sunny_img_MYNAUI_ARROW_LONG_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_LEFT_SOLID (&sunny_img_MYNAUI_ARROW_LONG_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_LEFT;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_LEFT (&sunny_img_MYNAUI_ARROW_LONG_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_RIGHT_SOLID (&sunny_img_MYNAUI_ARROW_LONG_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_RIGHT;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_RIGHT (&sunny_img_MYNAUI_ARROW_LONG_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_UP_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_UP_LEFT_SOLID (&sunny_img_MYNAUI_ARROW_LONG_UP_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_UP_LEFT;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_UP_LEFT (&sunny_img_MYNAUI_ARROW_LONG_UP_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_UP_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_UP_RIGHT_SOLID (&sunny_img_MYNAUI_ARROW_LONG_UP_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_UP_RIGHT;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_UP_RIGHT (&sunny_img_MYNAUI_ARROW_LONG_UP_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_UP_SOLID (&sunny_img_MYNAUI_ARROW_LONG_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_LONG_UP;
+#define SUNNY_IMG_MYNAUI_ARROW_LONG_UP (&sunny_img_MYNAUI_ARROW_LONG_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_RIGHT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_RIGHT_CIRCLE_SOLID (&sunny_img_MYNAUI_ARROW_RIGHT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_RIGHT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ARROW_RIGHT_CIRCLE (&sunny_img_MYNAUI_ARROW_RIGHT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_RIGHT_SOLID (&sunny_img_MYNAUI_ARROW_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_RIGHT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_RIGHT_SQUARE_SOLID (&sunny_img_MYNAUI_ARROW_RIGHT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_RIGHT_SQUARE;
+#define SUNNY_IMG_MYNAUI_ARROW_RIGHT_SQUARE (&sunny_img_MYNAUI_ARROW_RIGHT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_RIGHT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_RIGHT_WAVES_SOLID (&sunny_img_MYNAUI_ARROW_RIGHT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_RIGHT_WAVES;
+#define SUNNY_IMG_MYNAUI_ARROW_RIGHT_WAVES (&sunny_img_MYNAUI_ARROW_RIGHT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_RIGHT;
+#define SUNNY_IMG_MYNAUI_ARROW_RIGHT (&sunny_img_MYNAUI_ARROW_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_CIRCLE_SOLID (&sunny_img_MYNAUI_ARROW_UP_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_CIRCLE (&sunny_img_MYNAUI_ARROW_UP_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_DOWN_SOLID (&sunny_img_MYNAUI_ARROW_UP_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_DOWN;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_DOWN (&sunny_img_MYNAUI_ARROW_UP_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_LEFT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_LEFT_CIRCLE_SOLID (&sunny_img_MYNAUI_ARROW_UP_LEFT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_LEFT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_LEFT_CIRCLE (&sunny_img_MYNAUI_ARROW_UP_LEFT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_LEFT_SOLID (&sunny_img_MYNAUI_ARROW_UP_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_LEFT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_LEFT_SQUARE_SOLID (&sunny_img_MYNAUI_ARROW_UP_LEFT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_LEFT_SQUARE;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_LEFT_SQUARE (&sunny_img_MYNAUI_ARROW_UP_LEFT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_LEFT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_LEFT_WAVES_SOLID (&sunny_img_MYNAUI_ARROW_UP_LEFT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_LEFT_WAVES;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_LEFT_WAVES (&sunny_img_MYNAUI_ARROW_UP_LEFT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_LEFT;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_LEFT (&sunny_img_MYNAUI_ARROW_UP_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_RIGHT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_RIGHT_CIRCLE_SOLID (&sunny_img_MYNAUI_ARROW_UP_RIGHT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_RIGHT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_RIGHT_CIRCLE (&sunny_img_MYNAUI_ARROW_UP_RIGHT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_RIGHT_SOLID (&sunny_img_MYNAUI_ARROW_UP_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_RIGHT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_RIGHT_SQUARE_SOLID (&sunny_img_MYNAUI_ARROW_UP_RIGHT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_RIGHT_SQUARE;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_RIGHT_SQUARE (&sunny_img_MYNAUI_ARROW_UP_RIGHT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_RIGHT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_RIGHT_WAVES_SOLID (&sunny_img_MYNAUI_ARROW_UP_RIGHT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_RIGHT_WAVES;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_RIGHT_WAVES (&sunny_img_MYNAUI_ARROW_UP_RIGHT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_RIGHT;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_RIGHT (&sunny_img_MYNAUI_ARROW_UP_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_SOLID (&sunny_img_MYNAUI_ARROW_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_SQUARE_SOLID (&sunny_img_MYNAUI_ARROW_UP_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_SQUARE;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_SQUARE (&sunny_img_MYNAUI_ARROW_UP_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_WAVES_SOLID (&sunny_img_MYNAUI_ARROW_UP_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP_WAVES;
+#define SUNNY_IMG_MYNAUI_ARROW_UP_WAVES (&sunny_img_MYNAUI_ARROW_UP_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ARROW_UP;
+#define SUNNY_IMG_MYNAUI_ARROW_UP (&sunny_img_MYNAUI_ARROW_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ASTERISK_CIRCLE_SOLID (&sunny_img_MYNAUI_ASTERISK_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ASTERISK_CIRCLE (&sunny_img_MYNAUI_ASTERISK_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_ASTERISK_DIAMOND_SOLID (&sunny_img_MYNAUI_ASTERISK_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_DIAMOND;
+#define SUNNY_IMG_MYNAUI_ASTERISK_DIAMOND (&sunny_img_MYNAUI_ASTERISK_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_ASTERISK_HEXAGON_SOLID (&sunny_img_MYNAUI_ASTERISK_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_HEXAGON;
+#define SUNNY_IMG_MYNAUI_ASTERISK_HEXAGON (&sunny_img_MYNAUI_ASTERISK_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_ASTERISK_OCTAGON_SOLID (&sunny_img_MYNAUI_ASTERISK_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_OCTAGON;
+#define SUNNY_IMG_MYNAUI_ASTERISK_OCTAGON (&sunny_img_MYNAUI_ASTERISK_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ASTERISK_SQUARE_SOLID (&sunny_img_MYNAUI_ASTERISK_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_SQUARE;
+#define SUNNY_IMG_MYNAUI_ASTERISK_SQUARE (&sunny_img_MYNAUI_ASTERISK_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_ASTERISK_WAVES_SOLID (&sunny_img_MYNAUI_ASTERISK_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ASTERISK_WAVES;
+#define SUNNY_IMG_MYNAUI_ASTERISK_WAVES (&sunny_img_MYNAUI_ASTERISK_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AT_SOLID;
+#define SUNNY_IMG_MYNAUI_AT_SOLID (&sunny_img_MYNAUI_AT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_AT;
+#define SUNNY_IMG_MYNAUI_AT (&sunny_img_MYNAUI_AT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ATOM_SOLID;
+#define SUNNY_IMG_MYNAUI_ATOM_SOLID (&sunny_img_MYNAUI_ATOM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ATOM;
+#define SUNNY_IMG_MYNAUI_ATOM (&sunny_img_MYNAUI_ATOM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BABY_SOLID;
+#define SUNNY_IMG_MYNAUI_BABY_SOLID (&sunny_img_MYNAUI_BABY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BABY;
+#define SUNNY_IMG_MYNAUI_BABY (&sunny_img_MYNAUI_BABY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BACKPACK_SOLID;
+#define SUNNY_IMG_MYNAUI_BACKPACK_SOLID (&sunny_img_MYNAUI_BACKPACK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BACKPACK;
+#define SUNNY_IMG_MYNAUI_BACKPACK (&sunny_img_MYNAUI_BACKPACK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BADGE_SOLID;
+#define SUNNY_IMG_MYNAUI_BADGE_SOLID (&sunny_img_MYNAUI_BADGE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BADGE;
+#define SUNNY_IMG_MYNAUI_BADGE (&sunny_img_MYNAUI_BADGE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BAGGAGE_CLAIM_SOLID;
+#define SUNNY_IMG_MYNAUI_BAGGAGE_CLAIM_SOLID (&sunny_img_MYNAUI_BAGGAGE_CLAIM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BAGGAGE_CLAIM;
+#define SUNNY_IMG_MYNAUI_BAGGAGE_CLAIM (&sunny_img_MYNAUI_BAGGAGE_CLAIM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BAN_SOLID;
+#define SUNNY_IMG_MYNAUI_BAN_SOLID (&sunny_img_MYNAUI_BAN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BAN;
+#define SUNNY_IMG_MYNAUI_BAN (&sunny_img_MYNAUI_BAN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BANK_SOLID;
+#define SUNNY_IMG_MYNAUI_BANK_SOLID (&sunny_img_MYNAUI_BANK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BANK;
+#define SUNNY_IMG_MYNAUI_BANK (&sunny_img_MYNAUI_BANK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BASEBALL_SOLID;
+#define SUNNY_IMG_MYNAUI_BASEBALL_SOLID (&sunny_img_MYNAUI_BASEBALL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BASEBALL;
+#define SUNNY_IMG_MYNAUI_BASEBALL (&sunny_img_MYNAUI_BASEBALL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATH_SOLID;
+#define SUNNY_IMG_MYNAUI_BATH_SOLID (&sunny_img_MYNAUI_BATH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATH;
+#define SUNNY_IMG_MYNAUI_BATH (&sunny_img_MYNAUI_BATH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHARGING_FOUR_SOLID;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHARGING_FOUR_SOLID (&sunny_img_MYNAUI_BATTERY_CHARGING_FOUR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHARGING_FOUR;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHARGING_FOUR (&sunny_img_MYNAUI_BATTERY_CHARGING_FOUR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHARGING_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHARGING_ONE_SOLID (&sunny_img_MYNAUI_BATTERY_CHARGING_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHARGING_ONE;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHARGING_ONE (&sunny_img_MYNAUI_BATTERY_CHARGING_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHARGING_SOLID;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHARGING_SOLID (&sunny_img_MYNAUI_BATTERY_CHARGING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHARGING_THREE_SOLID;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHARGING_THREE_SOLID (&sunny_img_MYNAUI_BATTERY_CHARGING_THREE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHARGING_THREE;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHARGING_THREE (&sunny_img_MYNAUI_BATTERY_CHARGING_THREE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHARGING_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHARGING_TWO_SOLID (&sunny_img_MYNAUI_BATTERY_CHARGING_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHARGING_TWO;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHARGING_TWO (&sunny_img_MYNAUI_BATTERY_CHARGING_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHARGING;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHARGING (&sunny_img_MYNAUI_BATTERY_CHARGING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHECK_SOLID (&sunny_img_MYNAUI_BATTERY_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_CHECK;
+#define SUNNY_IMG_MYNAUI_BATTERY_CHECK (&sunny_img_MYNAUI_BATTERY_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_EMPTY_SOLID;
+#define SUNNY_IMG_MYNAUI_BATTERY_EMPTY_SOLID (&sunny_img_MYNAUI_BATTERY_EMPTY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_EMPTY;
+#define SUNNY_IMG_MYNAUI_BATTERY_EMPTY (&sunny_img_MYNAUI_BATTERY_EMPTY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_FULL_SOLID;
+#define SUNNY_IMG_MYNAUI_BATTERY_FULL_SOLID (&sunny_img_MYNAUI_BATTERY_FULL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_FULL;
+#define SUNNY_IMG_MYNAUI_BATTERY_FULL (&sunny_img_MYNAUI_BATTERY_FULL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_BATTERY_MINUS_SOLID (&sunny_img_MYNAUI_BATTERY_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_MINUS;
+#define SUNNY_IMG_MYNAUI_BATTERY_MINUS (&sunny_img_MYNAUI_BATTERY_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_BATTERY_PLUS_SOLID (&sunny_img_MYNAUI_BATTERY_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_PLUS;
+#define SUNNY_IMG_MYNAUI_BATTERY_PLUS (&sunny_img_MYNAUI_BATTERY_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_X_SOLID;
+#define SUNNY_IMG_MYNAUI_BATTERY_X_SOLID (&sunny_img_MYNAUI_BATTERY_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BATTERY_X;
+#define SUNNY_IMG_MYNAUI_BATTERY_X (&sunny_img_MYNAUI_BATTERY_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_BELL_CHECK_SOLID (&sunny_img_MYNAUI_BELL_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_CHECK;
+#define SUNNY_IMG_MYNAUI_BELL_CHECK (&sunny_img_MYNAUI_BELL_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_HOME_SOLID;
+#define SUNNY_IMG_MYNAUI_BELL_HOME_SOLID (&sunny_img_MYNAUI_BELL_HOME_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_HOME;
+#define SUNNY_IMG_MYNAUI_BELL_HOME (&sunny_img_MYNAUI_BELL_HOME)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_BELL_MINUS_SOLID (&sunny_img_MYNAUI_BELL_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_MINUS;
+#define SUNNY_IMG_MYNAUI_BELL_MINUS (&sunny_img_MYNAUI_BELL_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_ON_SOLID;
+#define SUNNY_IMG_MYNAUI_BELL_ON_SOLID (&sunny_img_MYNAUI_BELL_ON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_ON;
+#define SUNNY_IMG_MYNAUI_BELL_ON (&sunny_img_MYNAUI_BELL_ON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_BELL_PLUS_SOLID (&sunny_img_MYNAUI_BELL_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_PLUS;
+#define SUNNY_IMG_MYNAUI_BELL_PLUS (&sunny_img_MYNAUI_BELL_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_BELL_SLASH_SOLID (&sunny_img_MYNAUI_BELL_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_SLASH;
+#define SUNNY_IMG_MYNAUI_BELL_SLASH (&sunny_img_MYNAUI_BELL_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_SNOOZE_SOLID;
+#define SUNNY_IMG_MYNAUI_BELL_SNOOZE_SOLID (&sunny_img_MYNAUI_BELL_SNOOZE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_SNOOZE;
+#define SUNNY_IMG_MYNAUI_BELL_SNOOZE (&sunny_img_MYNAUI_BELL_SNOOZE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_SOLID;
+#define SUNNY_IMG_MYNAUI_BELL_SOLID (&sunny_img_MYNAUI_BELL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_USER_SOLID;
+#define SUNNY_IMG_MYNAUI_BELL_USER_SOLID (&sunny_img_MYNAUI_BELL_USER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_USER;
+#define SUNNY_IMG_MYNAUI_BELL_USER (&sunny_img_MYNAUI_BELL_USER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_X_SOLID;
+#define SUNNY_IMG_MYNAUI_BELL_X_SOLID (&sunny_img_MYNAUI_BELL_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL_X;
+#define SUNNY_IMG_MYNAUI_BELL_X (&sunny_img_MYNAUI_BELL_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BELL;
+#define SUNNY_IMG_MYNAUI_BELL (&sunny_img_MYNAUI_BELL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BINOCULARS_SOLID;
+#define SUNNY_IMG_MYNAUI_BINOCULARS_SOLID (&sunny_img_MYNAUI_BINOCULARS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BINOCULARS;
+#define SUNNY_IMG_MYNAUI_BINOCULARS (&sunny_img_MYNAUI_BINOCULARS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_BITCOIN_CIRCLE_SOLID (&sunny_img_MYNAUI_BITCOIN_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_CIRCLE;
+#define SUNNY_IMG_MYNAUI_BITCOIN_CIRCLE (&sunny_img_MYNAUI_BITCOIN_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_BITCOIN_DIAMOND_SOLID (&sunny_img_MYNAUI_BITCOIN_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_DIAMOND;
+#define SUNNY_IMG_MYNAUI_BITCOIN_DIAMOND (&sunny_img_MYNAUI_BITCOIN_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_BITCOIN_HEXAGON_SOLID (&sunny_img_MYNAUI_BITCOIN_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_HEXAGON;
+#define SUNNY_IMG_MYNAUI_BITCOIN_HEXAGON (&sunny_img_MYNAUI_BITCOIN_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_BITCOIN_OCTAGON_SOLID (&sunny_img_MYNAUI_BITCOIN_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_OCTAGON;
+#define SUNNY_IMG_MYNAUI_BITCOIN_OCTAGON (&sunny_img_MYNAUI_BITCOIN_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_SOLID;
+#define SUNNY_IMG_MYNAUI_BITCOIN_SOLID (&sunny_img_MYNAUI_BITCOIN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_BITCOIN_SQUARE_SOLID (&sunny_img_MYNAUI_BITCOIN_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_SQUARE;
+#define SUNNY_IMG_MYNAUI_BITCOIN_SQUARE (&sunny_img_MYNAUI_BITCOIN_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_BITCOIN_WAVES_SOLID (&sunny_img_MYNAUI_BITCOIN_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN_WAVES;
+#define SUNNY_IMG_MYNAUI_BITCOIN_WAVES (&sunny_img_MYNAUI_BITCOIN_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BITCOIN;
+#define SUNNY_IMG_MYNAUI_BITCOIN (&sunny_img_MYNAUI_BITCOIN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BLUETOOTH_SOLID;
+#define SUNNY_IMG_MYNAUI_BLUETOOTH_SOLID (&sunny_img_MYNAUI_BLUETOOTH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BLUETOOTH;
+#define SUNNY_IMG_MYNAUI_BLUETOOTH (&sunny_img_MYNAUI_BLUETOOTH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOAT_SOLID;
+#define SUNNY_IMG_MYNAUI_BOAT_SOLID (&sunny_img_MYNAUI_BOAT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOAT;
+#define SUNNY_IMG_MYNAUI_BOAT (&sunny_img_MYNAUI_BOAT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_CHECK_SOLID (&sunny_img_MYNAUI_BOOK_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_CHECK;
+#define SUNNY_IMG_MYNAUI_BOOK_CHECK (&sunny_img_MYNAUI_BOOK_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_DOT_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_DOT_SOLID (&sunny_img_MYNAUI_BOOK_DOT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_DOT;
+#define SUNNY_IMG_MYNAUI_BOOK_DOT (&sunny_img_MYNAUI_BOOK_DOT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_HOME_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_HOME_SOLID (&sunny_img_MYNAUI_BOOK_HOME_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_HOME;
+#define SUNNY_IMG_MYNAUI_BOOK_HOME (&sunny_img_MYNAUI_BOOK_HOME)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_IMAGE_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_IMAGE_SOLID (&sunny_img_MYNAUI_BOOK_IMAGE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_IMAGE;
+#define SUNNY_IMG_MYNAUI_BOOK_IMAGE (&sunny_img_MYNAUI_BOOK_IMAGE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_MINUS_SOLID (&sunny_img_MYNAUI_BOOK_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_MINUS;
+#define SUNNY_IMG_MYNAUI_BOOK_MINUS (&sunny_img_MYNAUI_BOOK_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_OPEN_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_OPEN_SOLID (&sunny_img_MYNAUI_BOOK_OPEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_OPEN;
+#define SUNNY_IMG_MYNAUI_BOOK_OPEN (&sunny_img_MYNAUI_BOOK_OPEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_PLUS_SOLID (&sunny_img_MYNAUI_BOOK_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_PLUS;
+#define SUNNY_IMG_MYNAUI_BOOK_PLUS (&sunny_img_MYNAUI_BOOK_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_SLASH_SOLID (&sunny_img_MYNAUI_BOOK_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_SLASH;
+#define SUNNY_IMG_MYNAUI_BOOK_SLASH (&sunny_img_MYNAUI_BOOK_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_SNOOZE_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_SNOOZE_SOLID (&sunny_img_MYNAUI_BOOK_SNOOZE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_SNOOZE;
+#define SUNNY_IMG_MYNAUI_BOOK_SNOOZE (&sunny_img_MYNAUI_BOOK_SNOOZE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_SOLID (&sunny_img_MYNAUI_BOOK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_USER_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_USER_SOLID (&sunny_img_MYNAUI_BOOK_USER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_USER;
+#define SUNNY_IMG_MYNAUI_BOOK_USER (&sunny_img_MYNAUI_BOOK_USER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_X_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOK_X_SOLID (&sunny_img_MYNAUI_BOOK_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK_X;
+#define SUNNY_IMG_MYNAUI_BOOK_X (&sunny_img_MYNAUI_BOOK_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOK;
+#define SUNNY_IMG_MYNAUI_BOOK (&sunny_img_MYNAUI_BOOK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_CHECK_SOLID (&sunny_img_MYNAUI_BOOKMARK_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_CHECK;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_CHECK (&sunny_img_MYNAUI_BOOKMARK_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_DOT_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_DOT_SOLID (&sunny_img_MYNAUI_BOOKMARK_DOT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_DOT;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_DOT (&sunny_img_MYNAUI_BOOKMARK_DOT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_HOME_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_HOME_SOLID (&sunny_img_MYNAUI_BOOKMARK_HOME_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_HOME;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_HOME (&sunny_img_MYNAUI_BOOKMARK_HOME)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_MINUS_SOLID (&sunny_img_MYNAUI_BOOKMARK_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_MINUS;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_MINUS (&sunny_img_MYNAUI_BOOKMARK_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_PLUS_SOLID (&sunny_img_MYNAUI_BOOKMARK_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_PLUS;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_PLUS (&sunny_img_MYNAUI_BOOKMARK_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_SLASH_SOLID (&sunny_img_MYNAUI_BOOKMARK_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_SLASH;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_SLASH (&sunny_img_MYNAUI_BOOKMARK_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_SNOOZE_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_SNOOZE_SOLID (&sunny_img_MYNAUI_BOOKMARK_SNOOZE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_SNOOZE;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_SNOOZE (&sunny_img_MYNAUI_BOOKMARK_SNOOZE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_SOLID (&sunny_img_MYNAUI_BOOKMARK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_USER_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_USER_SOLID (&sunny_img_MYNAUI_BOOKMARK_USER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_USER;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_USER (&sunny_img_MYNAUI_BOOKMARK_USER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_X_SOLID;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_X_SOLID (&sunny_img_MYNAUI_BOOKMARK_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK_X;
+#define SUNNY_IMG_MYNAUI_BOOKMARK_X (&sunny_img_MYNAUI_BOOKMARK_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOOKMARK;
+#define SUNNY_IMG_MYNAUI_BOOKMARK (&sunny_img_MYNAUI_BOOKMARK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOUNDING_BOX_SOLID;
+#define SUNNY_IMG_MYNAUI_BOUNDING_BOX_SOLID (&sunny_img_MYNAUI_BOUNDING_BOX_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOUNDING_BOX;
+#define SUNNY_IMG_MYNAUI_BOUNDING_BOX (&sunny_img_MYNAUI_BOUNDING_BOX)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOWL_SOLID;
+#define SUNNY_IMG_MYNAUI_BOWL_SOLID (&sunny_img_MYNAUI_BOWL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOWL;
+#define SUNNY_IMG_MYNAUI_BOWL (&sunny_img_MYNAUI_BOWL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOX_SOLID;
+#define SUNNY_IMG_MYNAUI_BOX_SOLID (&sunny_img_MYNAUI_BOX_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BOX;
+#define SUNNY_IMG_MYNAUI_BOX (&sunny_img_MYNAUI_BOX)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_CHROME_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_CHROME_SOLID (&sunny_img_MYNAUI_BRAND_CHROME_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_CHROME;
+#define SUNNY_IMG_MYNAUI_BRAND_CHROME (&sunny_img_MYNAUI_BRAND_CHROME)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_CODEPEN_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_CODEPEN_SOLID (&sunny_img_MYNAUI_BRAND_CODEPEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_CODEPEN;
+#define SUNNY_IMG_MYNAUI_BRAND_CODEPEN (&sunny_img_MYNAUI_BRAND_CODEPEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_CODESANDBOX_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_CODESANDBOX_SOLID (&sunny_img_MYNAUI_BRAND_CODESANDBOX_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_CODESANDBOX;
+#define SUNNY_IMG_MYNAUI_BRAND_CODESANDBOX (&sunny_img_MYNAUI_BRAND_CODESANDBOX)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_DRIBBBLE_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_DRIBBBLE_SOLID (&sunny_img_MYNAUI_BRAND_DRIBBBLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_DRIBBBLE;
+#define SUNNY_IMG_MYNAUI_BRAND_DRIBBBLE (&sunny_img_MYNAUI_BRAND_DRIBBBLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_FACEBOOK_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_FACEBOOK_SOLID (&sunny_img_MYNAUI_BRAND_FACEBOOK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_FACEBOOK;
+#define SUNNY_IMG_MYNAUI_BRAND_FACEBOOK (&sunny_img_MYNAUI_BRAND_FACEBOOK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_FIGMA_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_FIGMA_SOLID (&sunny_img_MYNAUI_BRAND_FIGMA_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_FIGMA;
+#define SUNNY_IMG_MYNAUI_BRAND_FIGMA (&sunny_img_MYNAUI_BRAND_FIGMA)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_FRAMER_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_FRAMER_SOLID (&sunny_img_MYNAUI_BRAND_FRAMER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_FRAMER;
+#define SUNNY_IMG_MYNAUI_BRAND_FRAMER (&sunny_img_MYNAUI_BRAND_FRAMER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_GITHUB_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_GITHUB_SOLID (&sunny_img_MYNAUI_BRAND_GITHUB_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_GITHUB;
+#define SUNNY_IMG_MYNAUI_BRAND_GITHUB (&sunny_img_MYNAUI_BRAND_GITHUB)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_GITLAB_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_GITLAB_SOLID (&sunny_img_MYNAUI_BRAND_GITLAB_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_GITLAB;
+#define SUNNY_IMG_MYNAUI_BRAND_GITLAB (&sunny_img_MYNAUI_BRAND_GITLAB)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_GOOGLE_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_GOOGLE_SOLID (&sunny_img_MYNAUI_BRAND_GOOGLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_GOOGLE;
+#define SUNNY_IMG_MYNAUI_BRAND_GOOGLE (&sunny_img_MYNAUI_BRAND_GOOGLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_INSTAGRAM_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_INSTAGRAM_SOLID (&sunny_img_MYNAUI_BRAND_INSTAGRAM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_INSTAGRAM;
+#define SUNNY_IMG_MYNAUI_BRAND_INSTAGRAM (&sunny_img_MYNAUI_BRAND_INSTAGRAM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_LINKEDIN_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_LINKEDIN_SOLID (&sunny_img_MYNAUI_BRAND_LINKEDIN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_LINKEDIN;
+#define SUNNY_IMG_MYNAUI_BRAND_LINKEDIN (&sunny_img_MYNAUI_BRAND_LINKEDIN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_PINTEREST_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_PINTEREST_SOLID (&sunny_img_MYNAUI_BRAND_PINTEREST_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_PINTEREST;
+#define SUNNY_IMG_MYNAUI_BRAND_PINTEREST (&sunny_img_MYNAUI_BRAND_PINTEREST)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_POCKET_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_POCKET_SOLID (&sunny_img_MYNAUI_BRAND_POCKET_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_POCKET;
+#define SUNNY_IMG_MYNAUI_BRAND_POCKET (&sunny_img_MYNAUI_BRAND_POCKET)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_SLACK_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_SLACK_SOLID (&sunny_img_MYNAUI_BRAND_SLACK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_SLACK;
+#define SUNNY_IMG_MYNAUI_BRAND_SLACK (&sunny_img_MYNAUI_BRAND_SLACK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_SPOTIFY_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_SPOTIFY_SOLID (&sunny_img_MYNAUI_BRAND_SPOTIFY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_SPOTIFY;
+#define SUNNY_IMG_MYNAUI_BRAND_SPOTIFY (&sunny_img_MYNAUI_BRAND_SPOTIFY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_TELEGRAM_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_TELEGRAM_SOLID (&sunny_img_MYNAUI_BRAND_TELEGRAM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_TELEGRAM;
+#define SUNNY_IMG_MYNAUI_BRAND_TELEGRAM (&sunny_img_MYNAUI_BRAND_TELEGRAM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_THREADS_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_THREADS_SOLID (&sunny_img_MYNAUI_BRAND_THREADS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_THREADS;
+#define SUNNY_IMG_MYNAUI_BRAND_THREADS (&sunny_img_MYNAUI_BRAND_THREADS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_TRELLO_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_TRELLO_SOLID (&sunny_img_MYNAUI_BRAND_TRELLO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_TRELLO;
+#define SUNNY_IMG_MYNAUI_BRAND_TRELLO (&sunny_img_MYNAUI_BRAND_TRELLO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_TWITCH_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_TWITCH_SOLID (&sunny_img_MYNAUI_BRAND_TWITCH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_TWITCH;
+#define SUNNY_IMG_MYNAUI_BRAND_TWITCH (&sunny_img_MYNAUI_BRAND_TWITCH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_TWITTER_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_TWITTER_SOLID (&sunny_img_MYNAUI_BRAND_TWITTER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_TWITTER;
+#define SUNNY_IMG_MYNAUI_BRAND_TWITTER (&sunny_img_MYNAUI_BRAND_TWITTER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_X_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_X_SOLID (&sunny_img_MYNAUI_BRAND_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_X;
+#define SUNNY_IMG_MYNAUI_BRAND_X (&sunny_img_MYNAUI_BRAND_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_YOUTUBE_SOLID;
+#define SUNNY_IMG_MYNAUI_BRAND_YOUTUBE_SOLID (&sunny_img_MYNAUI_BRAND_YOUTUBE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRAND_YOUTUBE;
+#define SUNNY_IMG_MYNAUI_BRAND_YOUTUBE (&sunny_img_MYNAUI_BRAND_YOUTUBE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRIEFCASE_CONVEYOR_BELT_SOLID;
+#define SUNNY_IMG_MYNAUI_BRIEFCASE_CONVEYOR_BELT_SOLID (&sunny_img_MYNAUI_BRIEFCASE_CONVEYOR_BELT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRIEFCASE_CONVEYOR_BELT;
+#define SUNNY_IMG_MYNAUI_BRIEFCASE_CONVEYOR_BELT (&sunny_img_MYNAUI_BRIEFCASE_CONVEYOR_BELT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRIEFCASE_SOLID;
+#define SUNNY_IMG_MYNAUI_BRIEFCASE_SOLID (&sunny_img_MYNAUI_BRIEFCASE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRIEFCASE;
+#define SUNNY_IMG_MYNAUI_BRIEFCASE (&sunny_img_MYNAUI_BRIEFCASE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRIGHTNESS_HIGH_SOLID;
+#define SUNNY_IMG_MYNAUI_BRIGHTNESS_HIGH_SOLID (&sunny_img_MYNAUI_BRIGHTNESS_HIGH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRIGHTNESS_HIGH;
+#define SUNNY_IMG_MYNAUI_BRIGHTNESS_HIGH (&sunny_img_MYNAUI_BRIGHTNESS_HIGH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRIGHTNESS_LOW_SOLID;
+#define SUNNY_IMG_MYNAUI_BRIGHTNESS_LOW_SOLID (&sunny_img_MYNAUI_BRIGHTNESS_LOW_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BRIGHTNESS_LOW;
+#define SUNNY_IMG_MYNAUI_BRIGHTNESS_LOW (&sunny_img_MYNAUI_BRIGHTNESS_LOW)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BUBBLES_SOLID;
+#define SUNNY_IMG_MYNAUI_BUBBLES_SOLID (&sunny_img_MYNAUI_BUBBLES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BUBBLES;
+#define SUNNY_IMG_MYNAUI_BUBBLES (&sunny_img_MYNAUI_BUBBLES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BUILDING_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_BUILDING_ONE_SOLID (&sunny_img_MYNAUI_BUILDING_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BUILDING_ONE;
+#define SUNNY_IMG_MYNAUI_BUILDING_ONE (&sunny_img_MYNAUI_BUILDING_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BUILDING_SOLID;
+#define SUNNY_IMG_MYNAUI_BUILDING_SOLID (&sunny_img_MYNAUI_BUILDING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_BUILDING;
+#define SUNNY_IMG_MYNAUI_BUILDING (&sunny_img_MYNAUI_BUILDING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CABLE_CAR_SOLID;
+#define SUNNY_IMG_MYNAUI_CABLE_CAR_SOLID (&sunny_img_MYNAUI_CABLE_CAR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CABLE_CAR;
+#define SUNNY_IMG_MYNAUI_CABLE_CAR (&sunny_img_MYNAUI_CABLE_CAR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CAKE_SOLID;
+#define SUNNY_IMG_MYNAUI_CAKE_SOLID (&sunny_img_MYNAUI_CAKE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CAKE;
+#define SUNNY_IMG_MYNAUI_CAKE (&sunny_img_MYNAUI_CAKE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_CALENDAR_CHECK_SOLID (&sunny_img_MYNAUI_CALENDAR_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_CHECK;
+#define SUNNY_IMG_MYNAUI_CALENDAR_CHECK (&sunny_img_MYNAUI_CALENDAR_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_CALENDAR_DOWN_SOLID (&sunny_img_MYNAUI_CALENDAR_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_DOWN;
+#define SUNNY_IMG_MYNAUI_CALENDAR_DOWN (&sunny_img_MYNAUI_CALENDAR_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_CALENDAR_MINUS_SOLID (&sunny_img_MYNAUI_CALENDAR_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_MINUS;
+#define SUNNY_IMG_MYNAUI_CALENDAR_MINUS (&sunny_img_MYNAUI_CALENDAR_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_CALENDAR_PLUS_SOLID (&sunny_img_MYNAUI_CALENDAR_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_PLUS;
+#define SUNNY_IMG_MYNAUI_CALENDAR_PLUS (&sunny_img_MYNAUI_CALENDAR_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_CALENDAR_SLASH_SOLID (&sunny_img_MYNAUI_CALENDAR_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_SLASH;
+#define SUNNY_IMG_MYNAUI_CALENDAR_SLASH (&sunny_img_MYNAUI_CALENDAR_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_SOLID;
+#define SUNNY_IMG_MYNAUI_CALENDAR_SOLID (&sunny_img_MYNAUI_CALENDAR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_CALENDAR_UP_SOLID (&sunny_img_MYNAUI_CALENDAR_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_UP;
+#define SUNNY_IMG_MYNAUI_CALENDAR_UP (&sunny_img_MYNAUI_CALENDAR_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_X_SOLID;
+#define SUNNY_IMG_MYNAUI_CALENDAR_X_SOLID (&sunny_img_MYNAUI_CALENDAR_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR_X;
+#define SUNNY_IMG_MYNAUI_CALENDAR_X (&sunny_img_MYNAUI_CALENDAR_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CALENDAR;
+#define SUNNY_IMG_MYNAUI_CALENDAR (&sunny_img_MYNAUI_CALENDAR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CAMERA_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_CAMERA_SLASH_SOLID (&sunny_img_MYNAUI_CAMERA_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CAMERA_SLASH;
+#define SUNNY_IMG_MYNAUI_CAMERA_SLASH (&sunny_img_MYNAUI_CAMERA_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CAMERA_SOLID;
+#define SUNNY_IMG_MYNAUI_CAMERA_SOLID (&sunny_img_MYNAUI_CAMERA_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CAMERA;
+#define SUNNY_IMG_MYNAUI_CAMERA (&sunny_img_MYNAUI_CAMERA)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CAMPFIRE_SOLID;
+#define SUNNY_IMG_MYNAUI_CAMPFIRE_SOLID (&sunny_img_MYNAUI_CAMPFIRE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CAMPFIRE;
+#define SUNNY_IMG_MYNAUI_CAMPFIRE (&sunny_img_MYNAUI_CAMPFIRE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CANNABIS_SOLID;
+#define SUNNY_IMG_MYNAUI_CANNABIS_SOLID (&sunny_img_MYNAUI_CANNABIS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CANNABIS;
+#define SUNNY_IMG_MYNAUI_CANNABIS (&sunny_img_MYNAUI_CANNABIS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CARAVAN_SOLID;
+#define SUNNY_IMG_MYNAUI_CARAVAN_SOLID (&sunny_img_MYNAUI_CARAVAN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CARAVAN;
+#define SUNNY_IMG_MYNAUI_CARAVAN (&sunny_img_MYNAUI_CARAVAN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CART_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_CART_CHECK_SOLID (&sunny_img_MYNAUI_CART_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CART_CHECK;
+#define SUNNY_IMG_MYNAUI_CART_CHECK (&sunny_img_MYNAUI_CART_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CART_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_CART_MINUS_SOLID (&sunny_img_MYNAUI_CART_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CART_MINUS;
+#define SUNNY_IMG_MYNAUI_CART_MINUS (&sunny_img_MYNAUI_CART_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CART_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_CART_PLUS_SOLID (&sunny_img_MYNAUI_CART_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CART_PLUS;
+#define SUNNY_IMG_MYNAUI_CART_PLUS (&sunny_img_MYNAUI_CART_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CART_SOLID;
+#define SUNNY_IMG_MYNAUI_CART_SOLID (&sunny_img_MYNAUI_CART_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CART_X_SOLID;
+#define SUNNY_IMG_MYNAUI_CART_X_SOLID (&sunny_img_MYNAUI_CART_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CART_X;
+#define SUNNY_IMG_MYNAUI_CART_X (&sunny_img_MYNAUI_CART_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CART;
+#define SUNNY_IMG_MYNAUI_CART (&sunny_img_MYNAUI_CART)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CAST_SCREEN_SOLID;
+#define SUNNY_IMG_MYNAUI_CAST_SCREEN_SOLID (&sunny_img_MYNAUI_CAST_SCREEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CAST_SCREEN;
+#define SUNNY_IMG_MYNAUI_CAST_SCREEN (&sunny_img_MYNAUI_CAST_SCREEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CENTER_FOCUS_SOLID;
+#define SUNNY_IMG_MYNAUI_CENTER_FOCUS_SOLID (&sunny_img_MYNAUI_CENTER_FOCUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CENTER_FOCUS;
+#define SUNNY_IMG_MYNAUI_CENTER_FOCUS (&sunny_img_MYNAUI_CENTER_FOCUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_AREA_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_AREA_SOLID (&sunny_img_MYNAUI_CHART_AREA_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_AREA;
+#define SUNNY_IMG_MYNAUI_CHART_AREA (&sunny_img_MYNAUI_CHART_AREA)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR_BIG_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_BAR_BIG_SOLID (&sunny_img_MYNAUI_CHART_BAR_BIG_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR_BIG;
+#define SUNNY_IMG_MYNAUI_CHART_BAR_BIG (&sunny_img_MYNAUI_CHART_BAR_BIG)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR_DECREASING_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_BAR_DECREASING_SOLID (&sunny_img_MYNAUI_CHART_BAR_DECREASING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR_DECREASING;
+#define SUNNY_IMG_MYNAUI_CHART_BAR_DECREASING (&sunny_img_MYNAUI_CHART_BAR_DECREASING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR_INCREASING_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_BAR_INCREASING_SOLID (&sunny_img_MYNAUI_CHART_BAR_INCREASING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR_INCREASING;
+#define SUNNY_IMG_MYNAUI_CHART_BAR_INCREASING (&sunny_img_MYNAUI_CHART_BAR_INCREASING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_BAR_ONE_SOLID (&sunny_img_MYNAUI_CHART_BAR_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR_ONE;
+#define SUNNY_IMG_MYNAUI_CHART_BAR_ONE (&sunny_img_MYNAUI_CHART_BAR_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_BAR_SOLID (&sunny_img_MYNAUI_CHART_BAR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR_STACKED_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_BAR_STACKED_SOLID (&sunny_img_MYNAUI_CHART_BAR_STACKED_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR_STACKED;
+#define SUNNY_IMG_MYNAUI_CHART_BAR_STACKED (&sunny_img_MYNAUI_CHART_BAR_STACKED)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BAR;
+#define SUNNY_IMG_MYNAUI_CHART_BAR (&sunny_img_MYNAUI_CHART_BAR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BUBBLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_BUBBLE_SOLID (&sunny_img_MYNAUI_CHART_BUBBLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_BUBBLE;
+#define SUNNY_IMG_MYNAUI_CHART_BUBBLE (&sunny_img_MYNAUI_CHART_BUBBLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_CANDLESTICK_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_CANDLESTICK_SOLID (&sunny_img_MYNAUI_CHART_CANDLESTICK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_CANDLESTICK;
+#define SUNNY_IMG_MYNAUI_CHART_CANDLESTICK (&sunny_img_MYNAUI_CHART_CANDLESTICK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_COLUMN_BIG_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_COLUMN_BIG_SOLID (&sunny_img_MYNAUI_CHART_COLUMN_BIG_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_COLUMN_BIG;
+#define SUNNY_IMG_MYNAUI_CHART_COLUMN_BIG (&sunny_img_MYNAUI_CHART_COLUMN_BIG)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_COLUMN_DECREASING_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_COLUMN_DECREASING_SOLID (&sunny_img_MYNAUI_CHART_COLUMN_DECREASING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_COLUMN_DECREASING;
+#define SUNNY_IMG_MYNAUI_CHART_COLUMN_DECREASING (&sunny_img_MYNAUI_CHART_COLUMN_DECREASING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_COLUMN_INCREASING_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_COLUMN_INCREASING_SOLID (&sunny_img_MYNAUI_CHART_COLUMN_INCREASING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_COLUMN_INCREASING;
+#define SUNNY_IMG_MYNAUI_CHART_COLUMN_INCREASING (&sunny_img_MYNAUI_CHART_COLUMN_INCREASING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_COLUMN_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_COLUMN_SOLID (&sunny_img_MYNAUI_CHART_COLUMN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_COLUMN_STACKED_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_COLUMN_STACKED_SOLID (&sunny_img_MYNAUI_CHART_COLUMN_STACKED_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_COLUMN_STACKED;
+#define SUNNY_IMG_MYNAUI_CHART_COLUMN_STACKED (&sunny_img_MYNAUI_CHART_COLUMN_STACKED)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_COLUMN;
+#define SUNNY_IMG_MYNAUI_CHART_COLUMN (&sunny_img_MYNAUI_CHART_COLUMN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_GANTT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_GANTT_SOLID (&sunny_img_MYNAUI_CHART_GANTT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_GANTT;
+#define SUNNY_IMG_MYNAUI_CHART_GANTT (&sunny_img_MYNAUI_CHART_GANTT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_GRAPH_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_GRAPH_SOLID (&sunny_img_MYNAUI_CHART_GRAPH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_GRAPH;
+#define SUNNY_IMG_MYNAUI_CHART_GRAPH (&sunny_img_MYNAUI_CHART_GRAPH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_LINE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_LINE_SOLID (&sunny_img_MYNAUI_CHART_LINE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_LINE;
+#define SUNNY_IMG_MYNAUI_CHART_LINE (&sunny_img_MYNAUI_CHART_LINE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NETWORK_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_NETWORK_SOLID (&sunny_img_MYNAUI_CHART_NETWORK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NETWORK;
+#define SUNNY_IMG_MYNAUI_CHART_NETWORK (&sunny_img_MYNAUI_CHART_NETWORK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NO_AXES_COLUMN_DECREASING_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_NO_AXES_COLUMN_DECREASING_SOLID (&sunny_img_MYNAUI_CHART_NO_AXES_COLUMN_DECREASING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NO_AXES_COLUMN_DECREASING;
+#define SUNNY_IMG_MYNAUI_CHART_NO_AXES_COLUMN_DECREASING (&sunny_img_MYNAUI_CHART_NO_AXES_COLUMN_DECREASING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NO_AXES_COLUMN_INCREASING_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_NO_AXES_COLUMN_INCREASING_SOLID (&sunny_img_MYNAUI_CHART_NO_AXES_COLUMN_INCREASING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NO_AXES_COLUMN_INCREASING;
+#define SUNNY_IMG_MYNAUI_CHART_NO_AXES_COLUMN_INCREASING (&sunny_img_MYNAUI_CHART_NO_AXES_COLUMN_INCREASING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NO_AXES_COLUMN_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_NO_AXES_COLUMN_SOLID (&sunny_img_MYNAUI_CHART_NO_AXES_COLUMN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NO_AXES_COLUMN;
+#define SUNNY_IMG_MYNAUI_CHART_NO_AXES_COLUMN (&sunny_img_MYNAUI_CHART_NO_AXES_COLUMN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NO_AXES_COMBINED_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_NO_AXES_COMBINED_SOLID (&sunny_img_MYNAUI_CHART_NO_AXES_COMBINED_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NO_AXES_COMBINED;
+#define SUNNY_IMG_MYNAUI_CHART_NO_AXES_COMBINED (&sunny_img_MYNAUI_CHART_NO_AXES_COMBINED)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NO_AXES_GANTT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_NO_AXES_GANTT_SOLID (&sunny_img_MYNAUI_CHART_NO_AXES_GANTT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_NO_AXES_GANTT;
+#define SUNNY_IMG_MYNAUI_CHART_NO_AXES_GANTT (&sunny_img_MYNAUI_CHART_NO_AXES_GANTT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_PIE_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_PIE_ONE_SOLID (&sunny_img_MYNAUI_CHART_PIE_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_PIE_ONE;
+#define SUNNY_IMG_MYNAUI_CHART_PIE_ONE (&sunny_img_MYNAUI_CHART_PIE_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_PIE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_PIE_SOLID (&sunny_img_MYNAUI_CHART_PIE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_PIE_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_PIE_TWO_SOLID (&sunny_img_MYNAUI_CHART_PIE_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_PIE_TWO;
+#define SUNNY_IMG_MYNAUI_CHART_PIE_TWO (&sunny_img_MYNAUI_CHART_PIE_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_PIE;
+#define SUNNY_IMG_MYNAUI_CHART_PIE (&sunny_img_MYNAUI_CHART_PIE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_SCATTER_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_SCATTER_SOLID (&sunny_img_MYNAUI_CHART_SCATTER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_SCATTER;
+#define SUNNY_IMG_MYNAUI_CHART_SCATTER (&sunny_img_MYNAUI_CHART_SCATTER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_SPLINE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHART_SPLINE_SOLID (&sunny_img_MYNAUI_CHART_SPLINE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHART_SPLINE;
+#define SUNNY_IMG_MYNAUI_CHART_SPLINE (&sunny_img_MYNAUI_CHART_SPLINE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_CHAT_CHECK_SOLID (&sunny_img_MYNAUI_CHAT_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_CHECK;
+#define SUNNY_IMG_MYNAUI_CHAT_CHECK (&sunny_img_MYNAUI_CHAT_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_DOTS_SOLID;
+#define SUNNY_IMG_MYNAUI_CHAT_DOTS_SOLID (&sunny_img_MYNAUI_CHAT_DOTS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_DOTS;
+#define SUNNY_IMG_MYNAUI_CHAT_DOTS (&sunny_img_MYNAUI_CHAT_DOTS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_MESSAGES_SOLID;
+#define SUNNY_IMG_MYNAUI_CHAT_MESSAGES_SOLID (&sunny_img_MYNAUI_CHAT_MESSAGES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_MESSAGES;
+#define SUNNY_IMG_MYNAUI_CHAT_MESSAGES (&sunny_img_MYNAUI_CHAT_MESSAGES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_CHAT_MINUS_SOLID (&sunny_img_MYNAUI_CHAT_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_MINUS;
+#define SUNNY_IMG_MYNAUI_CHAT_MINUS (&sunny_img_MYNAUI_CHAT_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_CHAT_PLUS_SOLID (&sunny_img_MYNAUI_CHAT_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_PLUS;
+#define SUNNY_IMG_MYNAUI_CHAT_PLUS (&sunny_img_MYNAUI_CHAT_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHAT_SOLID (&sunny_img_MYNAUI_CHAT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_X_SOLID;
+#define SUNNY_IMG_MYNAUI_CHAT_X_SOLID (&sunny_img_MYNAUI_CHAT_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT_X;
+#define SUNNY_IMG_MYNAUI_CHAT_X (&sunny_img_MYNAUI_CHAT_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHAT;
+#define SUNNY_IMG_MYNAUI_CHAT (&sunny_img_MYNAUI_CHAT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_CIRCLE_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHECK_CIRCLE_ONE_SOLID (&sunny_img_MYNAUI_CHECK_CIRCLE_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_CIRCLE_ONE;
+#define SUNNY_IMG_MYNAUI_CHECK_CIRCLE_ONE (&sunny_img_MYNAUI_CHECK_CIRCLE_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHECK_CIRCLE_SOLID (&sunny_img_MYNAUI_CHECK_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CHECK_CIRCLE (&sunny_img_MYNAUI_CHECK_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_CHECK_DIAMOND_SOLID (&sunny_img_MYNAUI_CHECK_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_DIAMOND;
+#define SUNNY_IMG_MYNAUI_CHECK_DIAMOND (&sunny_img_MYNAUI_CHECK_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_CHECK_HEXAGON_SOLID (&sunny_img_MYNAUI_CHECK_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_HEXAGON;
+#define SUNNY_IMG_MYNAUI_CHECK_HEXAGON (&sunny_img_MYNAUI_CHECK_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_CHECK_OCTAGON_SOLID (&sunny_img_MYNAUI_CHECK_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_OCTAGON;
+#define SUNNY_IMG_MYNAUI_CHECK_OCTAGON (&sunny_img_MYNAUI_CHECK_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_CHECK_SOLID (&sunny_img_MYNAUI_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_SQUARE_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHECK_SQUARE_ONE_SOLID (&sunny_img_MYNAUI_CHECK_SQUARE_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_SQUARE_ONE;
+#define SUNNY_IMG_MYNAUI_CHECK_SQUARE_ONE (&sunny_img_MYNAUI_CHECK_SQUARE_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHECK_SQUARE_SOLID (&sunny_img_MYNAUI_CHECK_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_SQUARE;
+#define SUNNY_IMG_MYNAUI_CHECK_SQUARE (&sunny_img_MYNAUI_CHECK_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_CHECK_WAVES_SOLID (&sunny_img_MYNAUI_CHECK_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK_WAVES;
+#define SUNNY_IMG_MYNAUI_CHECK_WAVES (&sunny_img_MYNAUI_CHECK_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHECK;
+#define SUNNY_IMG_MYNAUI_CHECK (&sunny_img_MYNAUI_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_DOWN_LEFT_SOLID (&sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN_LEFT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_DOWN_LEFT (&sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_DOWN_RIGHT_SOLID (&sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN_RIGHT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_DOWN_RIGHT (&sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_DOWN_SOLID (&sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_DOWN (&sunny_img_MYNAUI_CHEVRON_DOUBLE_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_LEFT_SOLID (&sunny_img_MYNAUI_CHEVRON_DOUBLE_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_LEFT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_LEFT (&sunny_img_MYNAUI_CHEVRON_DOUBLE_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_RIGHT_SOLID (&sunny_img_MYNAUI_CHEVRON_DOUBLE_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_RIGHT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_RIGHT (&sunny_img_MYNAUI_CHEVRON_DOUBLE_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_UP_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_UP_LEFT_SOLID (&sunny_img_MYNAUI_CHEVRON_DOUBLE_UP_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_UP_LEFT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_UP_LEFT (&sunny_img_MYNAUI_CHEVRON_DOUBLE_UP_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_UP_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_UP_RIGHT_SOLID (&sunny_img_MYNAUI_CHEVRON_DOUBLE_UP_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_UP_RIGHT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_UP_RIGHT (&sunny_img_MYNAUI_CHEVRON_DOUBLE_UP_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_UP_SOLID (&sunny_img_MYNAUI_CHEVRON_DOUBLE_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOUBLE_UP;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOUBLE_UP (&sunny_img_MYNAUI_CHEVRON_DOUBLE_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_CIRCLE_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_CIRCLE (&sunny_img_MYNAUI_CHEVRON_DOWN_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_LEFT_CIRCLE_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_LEFT_CIRCLE (&sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_LEFT_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_LEFT_SQUARE_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_SQUARE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_LEFT_SQUARE (&sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_LEFT_WAVES_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_WAVES;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_LEFT_WAVES (&sunny_img_MYNAUI_CHEVRON_DOWN_LEFT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_LEFT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_LEFT (&sunny_img_MYNAUI_CHEVRON_DOWN_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_RIGHT_CIRCLE_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_RIGHT_CIRCLE (&sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_RIGHT_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_RIGHT_SQUARE_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_SQUARE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_RIGHT_SQUARE (&sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_RIGHT_WAVES_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_WAVES;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_RIGHT_WAVES (&sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_RIGHT (&sunny_img_MYNAUI_CHEVRON_DOWN_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_SQUARE_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_SQUARE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_SQUARE (&sunny_img_MYNAUI_CHEVRON_DOWN_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_WAVES_SOLID (&sunny_img_MYNAUI_CHEVRON_DOWN_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN_WAVES;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN_WAVES (&sunny_img_MYNAUI_CHEVRON_DOWN_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_DOWN;
+#define SUNNY_IMG_MYNAUI_CHEVRON_DOWN (&sunny_img_MYNAUI_CHEVRON_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_LEFT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_LEFT_CIRCLE_SOLID (&sunny_img_MYNAUI_CHEVRON_LEFT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_LEFT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_LEFT_CIRCLE (&sunny_img_MYNAUI_CHEVRON_LEFT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_LEFT_SOLID (&sunny_img_MYNAUI_CHEVRON_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_LEFT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_LEFT_SQUARE_SOLID (&sunny_img_MYNAUI_CHEVRON_LEFT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_LEFT_SQUARE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_LEFT_SQUARE (&sunny_img_MYNAUI_CHEVRON_LEFT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_LEFT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_LEFT_WAVES_SOLID (&sunny_img_MYNAUI_CHEVRON_LEFT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_LEFT_WAVES;
+#define SUNNY_IMG_MYNAUI_CHEVRON_LEFT_WAVES (&sunny_img_MYNAUI_CHEVRON_LEFT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_LEFT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_LEFT (&sunny_img_MYNAUI_CHEVRON_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_RIGHT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_RIGHT_CIRCLE_SOLID (&sunny_img_MYNAUI_CHEVRON_RIGHT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_RIGHT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_RIGHT_CIRCLE (&sunny_img_MYNAUI_CHEVRON_RIGHT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_RIGHT_SOLID (&sunny_img_MYNAUI_CHEVRON_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_RIGHT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_RIGHT_SQUARE_SOLID (&sunny_img_MYNAUI_CHEVRON_RIGHT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_RIGHT_SQUARE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_RIGHT_SQUARE (&sunny_img_MYNAUI_CHEVRON_RIGHT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_RIGHT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_RIGHT_WAVES_SOLID (&sunny_img_MYNAUI_CHEVRON_RIGHT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_RIGHT_WAVES;
+#define SUNNY_IMG_MYNAUI_CHEVRON_RIGHT_WAVES (&sunny_img_MYNAUI_CHEVRON_RIGHT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_RIGHT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_RIGHT (&sunny_img_MYNAUI_CHEVRON_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_CIRCLE_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_CIRCLE (&sunny_img_MYNAUI_CHEVRON_UP_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_DOWN_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_DOWN;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_DOWN (&sunny_img_MYNAUI_CHEVRON_UP_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_LEFT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_LEFT_CIRCLE_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_LEFT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_LEFT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_LEFT_CIRCLE (&sunny_img_MYNAUI_CHEVRON_UP_LEFT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_LEFT_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_LEFT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_LEFT_SQUARE_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_LEFT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_LEFT_SQUARE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_LEFT_SQUARE (&sunny_img_MYNAUI_CHEVRON_UP_LEFT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_LEFT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_LEFT_WAVES_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_LEFT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_LEFT_WAVES;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_LEFT_WAVES (&sunny_img_MYNAUI_CHEVRON_UP_LEFT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_LEFT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_LEFT (&sunny_img_MYNAUI_CHEVRON_UP_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_RIGHT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_RIGHT_CIRCLE_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_RIGHT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_RIGHT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_RIGHT_CIRCLE (&sunny_img_MYNAUI_CHEVRON_UP_RIGHT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_RIGHT_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_RIGHT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_RIGHT_SQUARE_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_RIGHT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_RIGHT_SQUARE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_RIGHT_SQUARE (&sunny_img_MYNAUI_CHEVRON_UP_RIGHT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_RIGHT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_RIGHT_WAVES_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_RIGHT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_RIGHT_WAVES;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_RIGHT_WAVES (&sunny_img_MYNAUI_CHEVRON_UP_RIGHT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_RIGHT;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_RIGHT (&sunny_img_MYNAUI_CHEVRON_UP_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_SQUARE_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_SQUARE;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_SQUARE (&sunny_img_MYNAUI_CHEVRON_UP_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_WAVES_SOLID (&sunny_img_MYNAUI_CHEVRON_UP_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP_WAVES;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP_WAVES (&sunny_img_MYNAUI_CHEVRON_UP_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHEVRON_UP;
+#define SUNNY_IMG_MYNAUI_CHEVRON_UP (&sunny_img_MYNAUI_CHEVRON_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHIP_SOLID;
+#define SUNNY_IMG_MYNAUI_CHIP_SOLID (&sunny_img_MYNAUI_CHIP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CHIP;
+#define SUNNY_IMG_MYNAUI_CHIP (&sunny_img_MYNAUI_CHIP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIGARETTE_OFF_SOLID;
+#define SUNNY_IMG_MYNAUI_CIGARETTE_OFF_SOLID (&sunny_img_MYNAUI_CIGARETTE_OFF_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIGARETTE_OFF;
+#define SUNNY_IMG_MYNAUI_CIGARETTE_OFF (&sunny_img_MYNAUI_CIGARETTE_OFF)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIGARETTE_SOLID;
+#define SUNNY_IMG_MYNAUI_CIGARETTE_SOLID (&sunny_img_MYNAUI_CIGARETTE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIGARETTE;
+#define SUNNY_IMG_MYNAUI_CIGARETTE (&sunny_img_MYNAUI_CIGARETTE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIRCLE_DASHED_SOLID;
+#define SUNNY_IMG_MYNAUI_CIRCLE_DASHED_SOLID (&sunny_img_MYNAUI_CIRCLE_DASHED_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIRCLE_DASHED;
+#define SUNNY_IMG_MYNAUI_CIRCLE_DASHED (&sunny_img_MYNAUI_CIRCLE_DASHED)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIRCLE_HALF_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CIRCLE_HALF_CIRCLE_SOLID (&sunny_img_MYNAUI_CIRCLE_HALF_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIRCLE_HALF_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CIRCLE_HALF_CIRCLE (&sunny_img_MYNAUI_CIRCLE_HALF_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIRCLE_HALF_SOLID;
+#define SUNNY_IMG_MYNAUI_CIRCLE_HALF_SOLID (&sunny_img_MYNAUI_CIRCLE_HALF_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIRCLE_HALF;
+#define SUNNY_IMG_MYNAUI_CIRCLE_HALF (&sunny_img_MYNAUI_CIRCLE_HALF)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIRCLE_NOTCH_SOLID;
+#define SUNNY_IMG_MYNAUI_CIRCLE_NOTCH_SOLID (&sunny_img_MYNAUI_CIRCLE_NOTCH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIRCLE_NOTCH;
+#define SUNNY_IMG_MYNAUI_CIRCLE_NOTCH (&sunny_img_MYNAUI_CIRCLE_NOTCH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CIRCLE_SOLID (&sunny_img_MYNAUI_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CIRCLE (&sunny_img_MYNAUI_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLICK_SOLID;
+#define SUNNY_IMG_MYNAUI_CLICK_SOLID (&sunny_img_MYNAUI_CLICK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLICK;
+#define SUNNY_IMG_MYNAUI_CLICK (&sunny_img_MYNAUI_CLICK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLIPBOARD_SOLID;
+#define SUNNY_IMG_MYNAUI_CLIPBOARD_SOLID (&sunny_img_MYNAUI_CLIPBOARD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLIPBOARD;
+#define SUNNY_IMG_MYNAUI_CLIPBOARD (&sunny_img_MYNAUI_CLIPBOARD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_CIRCLE_SOLID (&sunny_img_MYNAUI_CLOCK_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CLOCK_CIRCLE (&sunny_img_MYNAUI_CLOCK_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_DIAMOND_SOLID (&sunny_img_MYNAUI_CLOCK_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_DIAMOND;
+#define SUNNY_IMG_MYNAUI_CLOCK_DIAMOND (&sunny_img_MYNAUI_CLOCK_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_EIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_EIGHT_SOLID (&sunny_img_MYNAUI_CLOCK_EIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_EIGHT;
+#define SUNNY_IMG_MYNAUI_CLOCK_EIGHT (&sunny_img_MYNAUI_CLOCK_EIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_ELEVEN_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_ELEVEN_SOLID (&sunny_img_MYNAUI_CLOCK_ELEVEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_ELEVEN;
+#define SUNNY_IMG_MYNAUI_CLOCK_ELEVEN (&sunny_img_MYNAUI_CLOCK_ELEVEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_FIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_FIVE_SOLID (&sunny_img_MYNAUI_CLOCK_FIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_FIVE;
+#define SUNNY_IMG_MYNAUI_CLOCK_FIVE (&sunny_img_MYNAUI_CLOCK_FIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_FOUR_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_FOUR_SOLID (&sunny_img_MYNAUI_CLOCK_FOUR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_FOUR;
+#define SUNNY_IMG_MYNAUI_CLOCK_FOUR (&sunny_img_MYNAUI_CLOCK_FOUR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_HAND_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_HAND_SOLID (&sunny_img_MYNAUI_CLOCK_HAND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_HAND;
+#define SUNNY_IMG_MYNAUI_CLOCK_HAND (&sunny_img_MYNAUI_CLOCK_HAND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_HEXAGON_SOLID (&sunny_img_MYNAUI_CLOCK_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_HEXAGON;
+#define SUNNY_IMG_MYNAUI_CLOCK_HEXAGON (&sunny_img_MYNAUI_CLOCK_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_NINE_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_NINE_SOLID (&sunny_img_MYNAUI_CLOCK_NINE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_NINE;
+#define SUNNY_IMG_MYNAUI_CLOCK_NINE (&sunny_img_MYNAUI_CLOCK_NINE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_OCTAGON_SOLID (&sunny_img_MYNAUI_CLOCK_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_OCTAGON;
+#define SUNNY_IMG_MYNAUI_CLOCK_OCTAGON (&sunny_img_MYNAUI_CLOCK_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_ONE_SOLID (&sunny_img_MYNAUI_CLOCK_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_ONE;
+#define SUNNY_IMG_MYNAUI_CLOCK_ONE (&sunny_img_MYNAUI_CLOCK_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_SEVEN_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_SEVEN_SOLID (&sunny_img_MYNAUI_CLOCK_SEVEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_SEVEN;
+#define SUNNY_IMG_MYNAUI_CLOCK_SEVEN (&sunny_img_MYNAUI_CLOCK_SEVEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_SIX_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_SIX_SOLID (&sunny_img_MYNAUI_CLOCK_SIX_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_SIX;
+#define SUNNY_IMG_MYNAUI_CLOCK_SIX (&sunny_img_MYNAUI_CLOCK_SIX)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_SQUARE_SOLID (&sunny_img_MYNAUI_CLOCK_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_SQUARE;
+#define SUNNY_IMG_MYNAUI_CLOCK_SQUARE (&sunny_img_MYNAUI_CLOCK_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_TEN_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_TEN_SOLID (&sunny_img_MYNAUI_CLOCK_TEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_TEN;
+#define SUNNY_IMG_MYNAUI_CLOCK_TEN (&sunny_img_MYNAUI_CLOCK_TEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_THREE_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_THREE_SOLID (&sunny_img_MYNAUI_CLOCK_THREE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_THREE;
+#define SUNNY_IMG_MYNAUI_CLOCK_THREE (&sunny_img_MYNAUI_CLOCK_THREE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_TWELVE_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_TWELVE_SOLID (&sunny_img_MYNAUI_CLOCK_TWELVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_TWELVE;
+#define SUNNY_IMG_MYNAUI_CLOCK_TWELVE (&sunny_img_MYNAUI_CLOCK_TWELVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_TWO_SOLID (&sunny_img_MYNAUI_CLOCK_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_TWO;
+#define SUNNY_IMG_MYNAUI_CLOCK_TWO (&sunny_img_MYNAUI_CLOCK_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOCK_WAVES_SOLID (&sunny_img_MYNAUI_CLOCK_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOCK_WAVES;
+#define SUNNY_IMG_MYNAUI_CLOCK_WAVES (&sunny_img_MYNAUI_CLOCK_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_DOWNLOAD_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_DOWNLOAD_SOLID (&sunny_img_MYNAUI_CLOUD_DOWNLOAD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_DOWNLOAD;
+#define SUNNY_IMG_MYNAUI_CLOUD_DOWNLOAD (&sunny_img_MYNAUI_CLOUD_DOWNLOAD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_DRIZZLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_DRIZZLE_SOLID (&sunny_img_MYNAUI_CLOUD_DRIZZLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_DRIZZLE;
+#define SUNNY_IMG_MYNAUI_CLOUD_DRIZZLE (&sunny_img_MYNAUI_CLOUD_DRIZZLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_FOG_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_FOG_SOLID (&sunny_img_MYNAUI_CLOUD_FOG_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_FOG;
+#define SUNNY_IMG_MYNAUI_CLOUD_FOG (&sunny_img_MYNAUI_CLOUD_FOG)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_HAIL_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_HAIL_SOLID (&sunny_img_MYNAUI_CLOUD_HAIL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_HAIL;
+#define SUNNY_IMG_MYNAUI_CLOUD_HAIL (&sunny_img_MYNAUI_CLOUD_HAIL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_LIGHTNING_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_LIGHTNING_SOLID (&sunny_img_MYNAUI_CLOUD_LIGHTNING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_LIGHTNING;
+#define SUNNY_IMG_MYNAUI_CLOUD_LIGHTNING (&sunny_img_MYNAUI_CLOUD_LIGHTNING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_MOON_RAIN_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_MOON_RAIN_SOLID (&sunny_img_MYNAUI_CLOUD_MOON_RAIN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_MOON_RAIN;
+#define SUNNY_IMG_MYNAUI_CLOUD_MOON_RAIN (&sunny_img_MYNAUI_CLOUD_MOON_RAIN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_MOON_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_MOON_SOLID (&sunny_img_MYNAUI_CLOUD_MOON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_MOON;
+#define SUNNY_IMG_MYNAUI_CLOUD_MOON (&sunny_img_MYNAUI_CLOUD_MOON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_OFF_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_OFF_SOLID (&sunny_img_MYNAUI_CLOUD_OFF_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_OFF;
+#define SUNNY_IMG_MYNAUI_CLOUD_OFF (&sunny_img_MYNAUI_CLOUD_OFF)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_RAIN_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_RAIN_SOLID (&sunny_img_MYNAUI_CLOUD_RAIN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_RAIN_WIND_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_RAIN_WIND_SOLID (&sunny_img_MYNAUI_CLOUD_RAIN_WIND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_RAIN_WIND;
+#define SUNNY_IMG_MYNAUI_CLOUD_RAIN_WIND (&sunny_img_MYNAUI_CLOUD_RAIN_WIND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_RAIN;
+#define SUNNY_IMG_MYNAUI_CLOUD_RAIN (&sunny_img_MYNAUI_CLOUD_RAIN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_SLASH_SOLID (&sunny_img_MYNAUI_CLOUD_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_SNOW_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_SNOW_SOLID (&sunny_img_MYNAUI_CLOUD_SNOW_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_SNOW;
+#define SUNNY_IMG_MYNAUI_CLOUD_SNOW (&sunny_img_MYNAUI_CLOUD_SNOW)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_SOLID (&sunny_img_MYNAUI_CLOUD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_SUN_RAIN_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_SUN_RAIN_SOLID (&sunny_img_MYNAUI_CLOUD_SUN_RAIN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_SUN_RAIN;
+#define SUNNY_IMG_MYNAUI_CLOUD_SUN_RAIN (&sunny_img_MYNAUI_CLOUD_SUN_RAIN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_SUN_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_SUN_SOLID (&sunny_img_MYNAUI_CLOUD_SUN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_SUN;
+#define SUNNY_IMG_MYNAUI_CLOUD_SUN (&sunny_img_MYNAUI_CLOUD_SUN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_UPLOAD_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUD_UPLOAD_SOLID (&sunny_img_MYNAUI_CLOUD_UPLOAD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD_UPLOAD;
+#define SUNNY_IMG_MYNAUI_CLOUD_UPLOAD (&sunny_img_MYNAUI_CLOUD_UPLOAD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUD;
+#define SUNNY_IMG_MYNAUI_CLOUD (&sunny_img_MYNAUI_CLOUD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUDY_SOLID;
+#define SUNNY_IMG_MYNAUI_CLOUDY_SOLID (&sunny_img_MYNAUI_CLOUDY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CLOUDY;
+#define SUNNY_IMG_MYNAUI_CLOUDY (&sunny_img_MYNAUI_CLOUDY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COCKTAIL_SOLID;
+#define SUNNY_IMG_MYNAUI_COCKTAIL_SOLID (&sunny_img_MYNAUI_COCKTAIL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COCKTAIL;
+#define SUNNY_IMG_MYNAUI_COCKTAIL (&sunny_img_MYNAUI_COCKTAIL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CODE_CIRCLE_SOLID (&sunny_img_MYNAUI_CODE_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CODE_CIRCLE (&sunny_img_MYNAUI_CODE_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_CODE_DIAMOND_SOLID (&sunny_img_MYNAUI_CODE_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_DIAMOND;
+#define SUNNY_IMG_MYNAUI_CODE_DIAMOND (&sunny_img_MYNAUI_CODE_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_CODE_HEXAGON_SOLID (&sunny_img_MYNAUI_CODE_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_HEXAGON;
+#define SUNNY_IMG_MYNAUI_CODE_HEXAGON (&sunny_img_MYNAUI_CODE_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_CODE_OCTAGON_SOLID (&sunny_img_MYNAUI_CODE_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_OCTAGON;
+#define SUNNY_IMG_MYNAUI_CODE_OCTAGON (&sunny_img_MYNAUI_CODE_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_SOLID;
+#define SUNNY_IMG_MYNAUI_CODE_SOLID (&sunny_img_MYNAUI_CODE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_CODE_SQUARE_SOLID (&sunny_img_MYNAUI_CODE_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_SQUARE;
+#define SUNNY_IMG_MYNAUI_CODE_SQUARE (&sunny_img_MYNAUI_CODE_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_CODE_WAVES_SOLID (&sunny_img_MYNAUI_CODE_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE_WAVES;
+#define SUNNY_IMG_MYNAUI_CODE_WAVES (&sunny_img_MYNAUI_CODE_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CODE;
+#define SUNNY_IMG_MYNAUI_CODE (&sunny_img_MYNAUI_CODE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COFFEE_SOLID;
+#define SUNNY_IMG_MYNAUI_COFFEE_SOLID (&sunny_img_MYNAUI_COFFEE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COFFEE;
+#define SUNNY_IMG_MYNAUI_COFFEE (&sunny_img_MYNAUI_COFFEE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COG_FOUR_SOLID;
+#define SUNNY_IMG_MYNAUI_COG_FOUR_SOLID (&sunny_img_MYNAUI_COG_FOUR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COG_FOUR;
+#define SUNNY_IMG_MYNAUI_COG_FOUR (&sunny_img_MYNAUI_COG_FOUR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COG_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_COG_ONE_SOLID (&sunny_img_MYNAUI_COG_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COG_ONE;
+#define SUNNY_IMG_MYNAUI_COG_ONE (&sunny_img_MYNAUI_COG_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COG_SOLID;
+#define SUNNY_IMG_MYNAUI_COG_SOLID (&sunny_img_MYNAUI_COG_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COG_THREE_SOLID;
+#define SUNNY_IMG_MYNAUI_COG_THREE_SOLID (&sunny_img_MYNAUI_COG_THREE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COG_THREE;
+#define SUNNY_IMG_MYNAUI_COG_THREE (&sunny_img_MYNAUI_COG_THREE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COG_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_COG_TWO_SOLID (&sunny_img_MYNAUI_COG_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COG_TWO;
+#define SUNNY_IMG_MYNAUI_COG_TWO (&sunny_img_MYNAUI_COG_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COG;
+#define SUNNY_IMG_MYNAUI_COG (&sunny_img_MYNAUI_COG)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COLUMNS_SOLID;
+#define SUNNY_IMG_MYNAUI_COLUMNS_SOLID (&sunny_img_MYNAUI_COLUMNS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COLUMNS;
+#define SUNNY_IMG_MYNAUI_COLUMNS (&sunny_img_MYNAUI_COLUMNS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COMMAND_SOLID;
+#define SUNNY_IMG_MYNAUI_COMMAND_SOLID (&sunny_img_MYNAUI_COMMAND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COMMAND;
+#define SUNNY_IMG_MYNAUI_COMMAND (&sunny_img_MYNAUI_COMMAND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COMPASS_SOLID;
+#define SUNNY_IMG_MYNAUI_COMPASS_SOLID (&sunny_img_MYNAUI_COMPASS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COMPASS;
+#define SUNNY_IMG_MYNAUI_COMPASS (&sunny_img_MYNAUI_COMPASS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COMPONENTS_SOLID;
+#define SUNNY_IMG_MYNAUI_COMPONENTS_SOLID (&sunny_img_MYNAUI_COMPONENTS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COMPONENTS;
+#define SUNNY_IMG_MYNAUI_COMPONENTS (&sunny_img_MYNAUI_COMPONENTS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONFETTI_SOLID;
+#define SUNNY_IMG_MYNAUI_CONFETTI_SOLID (&sunny_img_MYNAUI_CONFETTI_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONFETTI;
+#define SUNNY_IMG_MYNAUI_CONFETTI (&sunny_img_MYNAUI_CONFETTI)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONFIG_SOLID;
+#define SUNNY_IMG_MYNAUI_CONFIG_SOLID (&sunny_img_MYNAUI_CONFIG_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONFIG_VERTICAL_SOLID;
+#define SUNNY_IMG_MYNAUI_CONFIG_VERTICAL_SOLID (&sunny_img_MYNAUI_CONFIG_VERTICAL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONFIG_VERTICAL;
+#define SUNNY_IMG_MYNAUI_CONFIG_VERTICAL (&sunny_img_MYNAUI_CONFIG_VERTICAL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONFIG;
+#define SUNNY_IMG_MYNAUI_CONFIG (&sunny_img_MYNAUI_CONFIG)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONTACTLESS_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_CONTACTLESS_CIRCLE_SOLID (&sunny_img_MYNAUI_CONTACTLESS_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONTACTLESS_CIRCLE;
+#define SUNNY_IMG_MYNAUI_CONTACTLESS_CIRCLE (&sunny_img_MYNAUI_CONTACTLESS_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONTACTLESS_SOLID;
+#define SUNNY_IMG_MYNAUI_CONTACTLESS_SOLID (&sunny_img_MYNAUI_CONTACTLESS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONTACTLESS;
+#define SUNNY_IMG_MYNAUI_CONTACTLESS (&sunny_img_MYNAUI_CONTACTLESS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONTROLLER_SOLID;
+#define SUNNY_IMG_MYNAUI_CONTROLLER_SOLID (&sunny_img_MYNAUI_CONTROLLER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CONTROLLER;
+#define SUNNY_IMG_MYNAUI_CONTROLLER (&sunny_img_MYNAUI_CONTROLLER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COOKIE_SOLID;
+#define SUNNY_IMG_MYNAUI_COOKIE_SOLID (&sunny_img_MYNAUI_COOKIE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COOKIE;
+#define SUNNY_IMG_MYNAUI_COOKIE (&sunny_img_MYNAUI_COOKIE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COPY_SOLID;
+#define SUNNY_IMG_MYNAUI_COPY_SOLID (&sunny_img_MYNAUI_COPY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COPY;
+#define SUNNY_IMG_MYNAUI_COPY (&sunny_img_MYNAUI_COPY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COPYLEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_COPYLEFT_SOLID (&sunny_img_MYNAUI_COPYLEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COPYLEFT;
+#define SUNNY_IMG_MYNAUI_COPYLEFT (&sunny_img_MYNAUI_COPYLEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COPYRIGHT_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_COPYRIGHT_SLASH_SOLID (&sunny_img_MYNAUI_COPYRIGHT_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COPYRIGHT_SLASH;
+#define SUNNY_IMG_MYNAUI_COPYRIGHT_SLASH (&sunny_img_MYNAUI_COPYRIGHT_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COPYRIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_COPYRIGHT_SOLID (&sunny_img_MYNAUI_COPYRIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_COPYRIGHT;
+#define SUNNY_IMG_MYNAUI_COPYRIGHT (&sunny_img_MYNAUI_COPYRIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_DOWN_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_CORNER_DOWN_LEFT_SOLID (&sunny_img_MYNAUI_CORNER_DOWN_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_DOWN_LEFT;
+#define SUNNY_IMG_MYNAUI_CORNER_DOWN_LEFT (&sunny_img_MYNAUI_CORNER_DOWN_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_DOWN_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_CORNER_DOWN_RIGHT_SOLID (&sunny_img_MYNAUI_CORNER_DOWN_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_DOWN_RIGHT;
+#define SUNNY_IMG_MYNAUI_CORNER_DOWN_RIGHT (&sunny_img_MYNAUI_CORNER_DOWN_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_LEFT_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_CORNER_LEFT_DOWN_SOLID (&sunny_img_MYNAUI_CORNER_LEFT_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_LEFT_DOWN;
+#define SUNNY_IMG_MYNAUI_CORNER_LEFT_DOWN (&sunny_img_MYNAUI_CORNER_LEFT_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_LEFT_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_CORNER_LEFT_UP_SOLID (&sunny_img_MYNAUI_CORNER_LEFT_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_LEFT_UP;
+#define SUNNY_IMG_MYNAUI_CORNER_LEFT_UP (&sunny_img_MYNAUI_CORNER_LEFT_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_RIGHT_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_CORNER_RIGHT_DOWN_SOLID (&sunny_img_MYNAUI_CORNER_RIGHT_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_RIGHT_DOWN;
+#define SUNNY_IMG_MYNAUI_CORNER_RIGHT_DOWN (&sunny_img_MYNAUI_CORNER_RIGHT_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_RIGHT_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_CORNER_RIGHT_UP_SOLID (&sunny_img_MYNAUI_CORNER_RIGHT_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_RIGHT_UP;
+#define SUNNY_IMG_MYNAUI_CORNER_RIGHT_UP (&sunny_img_MYNAUI_CORNER_RIGHT_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_UP_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_CORNER_UP_LEFT_SOLID (&sunny_img_MYNAUI_CORNER_UP_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_UP_LEFT;
+#define SUNNY_IMG_MYNAUI_CORNER_UP_LEFT (&sunny_img_MYNAUI_CORNER_UP_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_UP_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_CORNER_UP_RIGHT_SOLID (&sunny_img_MYNAUI_CORNER_UP_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CORNER_UP_RIGHT;
+#define SUNNY_IMG_MYNAUI_CORNER_UP_RIGHT (&sunny_img_MYNAUI_CORNER_UP_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CREDIT_CARD_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_CREDIT_CARD_CHECK_SOLID (&sunny_img_MYNAUI_CREDIT_CARD_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CREDIT_CARD_CHECK;
+#define SUNNY_IMG_MYNAUI_CREDIT_CARD_CHECK (&sunny_img_MYNAUI_CREDIT_CARD_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CREDIT_CARD_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_CREDIT_CARD_MINUS_SOLID (&sunny_img_MYNAUI_CREDIT_CARD_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CREDIT_CARD_MINUS;
+#define SUNNY_IMG_MYNAUI_CREDIT_CARD_MINUS (&sunny_img_MYNAUI_CREDIT_CARD_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CREDIT_CARD_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_CREDIT_CARD_PLUS_SOLID (&sunny_img_MYNAUI_CREDIT_CARD_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CREDIT_CARD_PLUS;
+#define SUNNY_IMG_MYNAUI_CREDIT_CARD_PLUS (&sunny_img_MYNAUI_CREDIT_CARD_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CREDIT_CARD_SOLID;
+#define SUNNY_IMG_MYNAUI_CREDIT_CARD_SOLID (&sunny_img_MYNAUI_CREDIT_CARD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CREDIT_CARD_X_SOLID;
+#define SUNNY_IMG_MYNAUI_CREDIT_CARD_X_SOLID (&sunny_img_MYNAUI_CREDIT_CARD_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CREDIT_CARD_X;
+#define SUNNY_IMG_MYNAUI_CREDIT_CARD_X (&sunny_img_MYNAUI_CREDIT_CARD_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CREDIT_CARD;
+#define SUNNY_IMG_MYNAUI_CREDIT_CARD (&sunny_img_MYNAUI_CREDIT_CARD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CROISSANT_SOLID;
+#define SUNNY_IMG_MYNAUI_CROISSANT_SOLID (&sunny_img_MYNAUI_CROISSANT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CROISSANT;
+#define SUNNY_IMG_MYNAUI_CROISSANT (&sunny_img_MYNAUI_CROISSANT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CROP_SOLID;
+#define SUNNY_IMG_MYNAUI_CROP_SOLID (&sunny_img_MYNAUI_CROP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CROP;
+#define SUNNY_IMG_MYNAUI_CROP (&sunny_img_MYNAUI_CROP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CROSSHAIR_SOLID;
+#define SUNNY_IMG_MYNAUI_CROSSHAIR_SOLID (&sunny_img_MYNAUI_CROSSHAIR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CROSSHAIR;
+#define SUNNY_IMG_MYNAUI_CROSSHAIR (&sunny_img_MYNAUI_CROSSHAIR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CUPCAKE_SOLID;
+#define SUNNY_IMG_MYNAUI_CUPCAKE_SOLID (&sunny_img_MYNAUI_CUPCAKE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_CUPCAKE;
+#define SUNNY_IMG_MYNAUI_CUPCAKE (&sunny_img_MYNAUI_CUPCAKE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_DANGER_CIRCLE_SOLID (&sunny_img_MYNAUI_DANGER_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_CIRCLE;
+#define SUNNY_IMG_MYNAUI_DANGER_CIRCLE (&sunny_img_MYNAUI_DANGER_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_DANGER_DIAMOND_SOLID (&sunny_img_MYNAUI_DANGER_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_DIAMOND;
+#define SUNNY_IMG_MYNAUI_DANGER_DIAMOND (&sunny_img_MYNAUI_DANGER_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_DANGER_HEXAGON_SOLID (&sunny_img_MYNAUI_DANGER_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_HEXAGON;
+#define SUNNY_IMG_MYNAUI_DANGER_HEXAGON (&sunny_img_MYNAUI_DANGER_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_DANGER_OCTAGON_SOLID (&sunny_img_MYNAUI_DANGER_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_OCTAGON;
+#define SUNNY_IMG_MYNAUI_DANGER_OCTAGON (&sunny_img_MYNAUI_DANGER_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_SOLID;
+#define SUNNY_IMG_MYNAUI_DANGER_SOLID (&sunny_img_MYNAUI_DANGER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_DANGER_SQUARE_SOLID (&sunny_img_MYNAUI_DANGER_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_SQUARE;
+#define SUNNY_IMG_MYNAUI_DANGER_SQUARE (&sunny_img_MYNAUI_DANGER_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_TRIANGLE_SOLID;
+#define SUNNY_IMG_MYNAUI_DANGER_TRIANGLE_SOLID (&sunny_img_MYNAUI_DANGER_TRIANGLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_TRIANGLE;
+#define SUNNY_IMG_MYNAUI_DANGER_TRIANGLE (&sunny_img_MYNAUI_DANGER_TRIANGLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_DANGER_WAVES_SOLID (&sunny_img_MYNAUI_DANGER_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER_WAVES;
+#define SUNNY_IMG_MYNAUI_DANGER_WAVES (&sunny_img_MYNAUI_DANGER_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DANGER;
+#define SUNNY_IMG_MYNAUI_DANGER (&sunny_img_MYNAUI_DANGER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DATABASE_SOLID;
+#define SUNNY_IMG_MYNAUI_DATABASE_SOLID (&sunny_img_MYNAUI_DATABASE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DATABASE;
+#define SUNNY_IMG_MYNAUI_DATABASE (&sunny_img_MYNAUI_DATABASE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DAZE_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_DAZE_CIRCLE_SOLID (&sunny_img_MYNAUI_DAZE_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DAZE_CIRCLE;
+#define SUNNY_IMG_MYNAUI_DAZE_CIRCLE (&sunny_img_MYNAUI_DAZE_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DAZE_GHOST_SOLID;
+#define SUNNY_IMG_MYNAUI_DAZE_GHOST_SOLID (&sunny_img_MYNAUI_DAZE_GHOST_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DAZE_GHOST;
+#define SUNNY_IMG_MYNAUI_DAZE_GHOST (&sunny_img_MYNAUI_DAZE_GHOST)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DAZE_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_DAZE_SQUARE_SOLID (&sunny_img_MYNAUI_DAZE_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DAZE_SQUARE;
+#define SUNNY_IMG_MYNAUI_DAZE_SQUARE (&sunny_img_MYNAUI_DAZE_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DELETE_SOLID;
+#define SUNNY_IMG_MYNAUI_DELETE_SOLID (&sunny_img_MYNAUI_DELETE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DELETE;
+#define SUNNY_IMG_MYNAUI_DELETE (&sunny_img_MYNAUI_DELETE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DESKTOP_SOLID;
+#define SUNNY_IMG_MYNAUI_DESKTOP_SOLID (&sunny_img_MYNAUI_DESKTOP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DESKTOP;
+#define SUNNY_IMG_MYNAUI_DESKTOP (&sunny_img_MYNAUI_DESKTOP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_DIAMOND_SOLID (&sunny_img_MYNAUI_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DIAMOND;
+#define SUNNY_IMG_MYNAUI_DIAMOND (&sunny_img_MYNAUI_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_FIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_DICE_FIVE_SOLID (&sunny_img_MYNAUI_DICE_FIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_FIVE;
+#define SUNNY_IMG_MYNAUI_DICE_FIVE (&sunny_img_MYNAUI_DICE_FIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_FOUR_SOLID;
+#define SUNNY_IMG_MYNAUI_DICE_FOUR_SOLID (&sunny_img_MYNAUI_DICE_FOUR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_FOUR;
+#define SUNNY_IMG_MYNAUI_DICE_FOUR (&sunny_img_MYNAUI_DICE_FOUR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_DICE_ONE_SOLID (&sunny_img_MYNAUI_DICE_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_ONE;
+#define SUNNY_IMG_MYNAUI_DICE_ONE (&sunny_img_MYNAUI_DICE_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_SIX_SOLID;
+#define SUNNY_IMG_MYNAUI_DICE_SIX_SOLID (&sunny_img_MYNAUI_DICE_SIX_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_SIX;
+#define SUNNY_IMG_MYNAUI_DICE_SIX (&sunny_img_MYNAUI_DICE_SIX)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_THREE_SOLID;
+#define SUNNY_IMG_MYNAUI_DICE_THREE_SOLID (&sunny_img_MYNAUI_DICE_THREE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_THREE;
+#define SUNNY_IMG_MYNAUI_DICE_THREE (&sunny_img_MYNAUI_DICE_THREE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_DICE_TWO_SOLID (&sunny_img_MYNAUI_DICE_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DICE_TWO;
+#define SUNNY_IMG_MYNAUI_DICE_TWO (&sunny_img_MYNAUI_DICE_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DISLIKE_SOLID;
+#define SUNNY_IMG_MYNAUI_DISLIKE_SOLID (&sunny_img_MYNAUI_DISLIKE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DISLIKE;
+#define SUNNY_IMG_MYNAUI_DISLIKE (&sunny_img_MYNAUI_DISLIKE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DIVIDE_SOLID;
+#define SUNNY_IMG_MYNAUI_DIVIDE_SOLID (&sunny_img_MYNAUI_DIVIDE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DIVIDE;
+#define SUNNY_IMG_MYNAUI_DIVIDE (&sunny_img_MYNAUI_DIVIDE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_DOLLAR_CIRCLE_SOLID (&sunny_img_MYNAUI_DOLLAR_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_CIRCLE;
+#define SUNNY_IMG_MYNAUI_DOLLAR_CIRCLE (&sunny_img_MYNAUI_DOLLAR_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_DOLLAR_DIAMOND_SOLID (&sunny_img_MYNAUI_DOLLAR_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_DIAMOND;
+#define SUNNY_IMG_MYNAUI_DOLLAR_DIAMOND (&sunny_img_MYNAUI_DOLLAR_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_DOLLAR_HEXAGON_SOLID (&sunny_img_MYNAUI_DOLLAR_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_HEXAGON;
+#define SUNNY_IMG_MYNAUI_DOLLAR_HEXAGON (&sunny_img_MYNAUI_DOLLAR_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_DOLLAR_OCTAGON_SOLID (&sunny_img_MYNAUI_DOLLAR_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_OCTAGON;
+#define SUNNY_IMG_MYNAUI_DOLLAR_OCTAGON (&sunny_img_MYNAUI_DOLLAR_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_SOLID;
+#define SUNNY_IMG_MYNAUI_DOLLAR_SOLID (&sunny_img_MYNAUI_DOLLAR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_DOLLAR_SQUARE_SOLID (&sunny_img_MYNAUI_DOLLAR_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_SQUARE;
+#define SUNNY_IMG_MYNAUI_DOLLAR_SQUARE (&sunny_img_MYNAUI_DOLLAR_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_DOLLAR_WAVES_SOLID (&sunny_img_MYNAUI_DOLLAR_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR_WAVES;
+#define SUNNY_IMG_MYNAUI_DOLLAR_WAVES (&sunny_img_MYNAUI_DOLLAR_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOLLAR;
+#define SUNNY_IMG_MYNAUI_DOLLAR (&sunny_img_MYNAUI_DOLLAR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOOR_CLOSED_LOCKED_SOLID;
+#define SUNNY_IMG_MYNAUI_DOOR_CLOSED_LOCKED_SOLID (&sunny_img_MYNAUI_DOOR_CLOSED_LOCKED_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOOR_CLOSED_LOCKED;
+#define SUNNY_IMG_MYNAUI_DOOR_CLOSED_LOCKED (&sunny_img_MYNAUI_DOOR_CLOSED_LOCKED)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOOR_CLOSED_SOLID;
+#define SUNNY_IMG_MYNAUI_DOOR_CLOSED_SOLID (&sunny_img_MYNAUI_DOOR_CLOSED_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOOR_CLOSED;
+#define SUNNY_IMG_MYNAUI_DOOR_CLOSED (&sunny_img_MYNAUI_DOOR_CLOSED)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOOR_OPEN_SOLID;
+#define SUNNY_IMG_MYNAUI_DOOR_OPEN_SOLID (&sunny_img_MYNAUI_DOOR_OPEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOOR_OPEN;
+#define SUNNY_IMG_MYNAUI_DOOR_OPEN (&sunny_img_MYNAUI_DOOR_OPEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_CIRCLE_SOLID (&sunny_img_MYNAUI_DOTS_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_CIRCLE;
+#define SUNNY_IMG_MYNAUI_DOTS_CIRCLE (&sunny_img_MYNAUI_DOTS_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_DIAMOND_SOLID (&sunny_img_MYNAUI_DOTS_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_DIAMOND;
+#define SUNNY_IMG_MYNAUI_DOTS_DIAMOND (&sunny_img_MYNAUI_DOTS_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_HEXAGON_SOLID (&sunny_img_MYNAUI_DOTS_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_HEXAGON;
+#define SUNNY_IMG_MYNAUI_DOTS_HEXAGON (&sunny_img_MYNAUI_DOTS_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_OCTAGON_SOLID (&sunny_img_MYNAUI_DOTS_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_OCTAGON;
+#define SUNNY_IMG_MYNAUI_DOTS_OCTAGON (&sunny_img_MYNAUI_DOTS_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_SOLID (&sunny_img_MYNAUI_DOTS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_SQUARE_SOLID (&sunny_img_MYNAUI_DOTS_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_SQUARE;
+#define SUNNY_IMG_MYNAUI_DOTS_SQUARE (&sunny_img_MYNAUI_DOTS_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_CIRCLE_SOLID (&sunny_img_MYNAUI_DOTS_VERTICAL_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_CIRCLE;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_CIRCLE (&sunny_img_MYNAUI_DOTS_VERTICAL_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_DIAMOND_SOLID (&sunny_img_MYNAUI_DOTS_VERTICAL_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_DIAMOND;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_DIAMOND (&sunny_img_MYNAUI_DOTS_VERTICAL_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_HEXAGON_SOLID (&sunny_img_MYNAUI_DOTS_VERTICAL_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_HEXAGON;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_HEXAGON (&sunny_img_MYNAUI_DOTS_VERTICAL_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_OCTAGON_SOLID (&sunny_img_MYNAUI_DOTS_VERTICAL_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_OCTAGON;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_OCTAGON (&sunny_img_MYNAUI_DOTS_VERTICAL_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_SOLID (&sunny_img_MYNAUI_DOTS_VERTICAL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_SQUARE_SOLID (&sunny_img_MYNAUI_DOTS_VERTICAL_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_SQUARE;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_SQUARE (&sunny_img_MYNAUI_DOTS_VERTICAL_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_WAVES_SOLID (&sunny_img_MYNAUI_DOTS_VERTICAL_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL_WAVES;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL_WAVES (&sunny_img_MYNAUI_DOTS_VERTICAL_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_VERTICAL;
+#define SUNNY_IMG_MYNAUI_DOTS_VERTICAL (&sunny_img_MYNAUI_DOTS_VERTICAL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_DOTS_WAVES_SOLID (&sunny_img_MYNAUI_DOTS_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS_WAVES;
+#define SUNNY_IMG_MYNAUI_DOTS_WAVES (&sunny_img_MYNAUI_DOTS_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOTS;
+#define SUNNY_IMG_MYNAUI_DOTS (&sunny_img_MYNAUI_DOTS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOWNLOAD_SOLID;
+#define SUNNY_IMG_MYNAUI_DOWNLOAD_SOLID (&sunny_img_MYNAUI_DOWNLOAD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DOWNLOAD;
+#define SUNNY_IMG_MYNAUI_DOWNLOAD (&sunny_img_MYNAUI_DOWNLOAD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DROP_SOLID;
+#define SUNNY_IMG_MYNAUI_DROP_SOLID (&sunny_img_MYNAUI_DROP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DROP;
+#define SUNNY_IMG_MYNAUI_DROP (&sunny_img_MYNAUI_DROP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DROPLET_OFF_SOLID;
+#define SUNNY_IMG_MYNAUI_DROPLET_OFF_SOLID (&sunny_img_MYNAUI_DROPLET_OFF_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DROPLET_OFF;
+#define SUNNY_IMG_MYNAUI_DROPLET_OFF (&sunny_img_MYNAUI_DROPLET_OFF)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DROPLET_SOLID;
+#define SUNNY_IMG_MYNAUI_DROPLET_SOLID (&sunny_img_MYNAUI_DROPLET_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DROPLET;
+#define SUNNY_IMG_MYNAUI_DROPLET (&sunny_img_MYNAUI_DROPLET)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DROPLETS_SOLID;
+#define SUNNY_IMG_MYNAUI_DROPLETS_SOLID (&sunny_img_MYNAUI_DROPLETS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_DROPLETS;
+#define SUNNY_IMG_MYNAUI_DROPLETS (&sunny_img_MYNAUI_DROPLETS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EAR_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_EAR_SLASH_SOLID (&sunny_img_MYNAUI_EAR_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EAR_SLASH;
+#define SUNNY_IMG_MYNAUI_EAR_SLASH (&sunny_img_MYNAUI_EAR_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EAR_SOLID;
+#define SUNNY_IMG_MYNAUI_EAR_SOLID (&sunny_img_MYNAUI_EAR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EAR;
+#define SUNNY_IMG_MYNAUI_EAR (&sunny_img_MYNAUI_EAR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EARTH_SOLID;
+#define SUNNY_IMG_MYNAUI_EARTH_SOLID (&sunny_img_MYNAUI_EARTH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EARTH;
+#define SUNNY_IMG_MYNAUI_EARTH (&sunny_img_MYNAUI_EARTH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ECLIPSE_SOLID;
+#define SUNNY_IMG_MYNAUI_ECLIPSE_SOLID (&sunny_img_MYNAUI_ECLIPSE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ECLIPSE;
+#define SUNNY_IMG_MYNAUI_ECLIPSE (&sunny_img_MYNAUI_ECLIPSE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EDIT_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_EDIT_ONE_SOLID (&sunny_img_MYNAUI_EDIT_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EDIT_ONE;
+#define SUNNY_IMG_MYNAUI_EDIT_ONE (&sunny_img_MYNAUI_EDIT_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EDIT_SOLID;
+#define SUNNY_IMG_MYNAUI_EDIT_SOLID (&sunny_img_MYNAUI_EDIT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EDIT;
+#define SUNNY_IMG_MYNAUI_EDIT (&sunny_img_MYNAUI_EDIT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EGG_SOLID;
+#define SUNNY_IMG_MYNAUI_EGG_SOLID (&sunny_img_MYNAUI_EGG_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EGG;
+#define SUNNY_IMG_MYNAUI_EGG (&sunny_img_MYNAUI_EGG)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_EIGHT_CIRCLE_SOLID (&sunny_img_MYNAUI_EIGHT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_EIGHT_CIRCLE (&sunny_img_MYNAUI_EIGHT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_EIGHT_DIAMOND_SOLID (&sunny_img_MYNAUI_EIGHT_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_DIAMOND;
+#define SUNNY_IMG_MYNAUI_EIGHT_DIAMOND (&sunny_img_MYNAUI_EIGHT_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_EIGHT_HEXAGON_SOLID (&sunny_img_MYNAUI_EIGHT_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_HEXAGON;
+#define SUNNY_IMG_MYNAUI_EIGHT_HEXAGON (&sunny_img_MYNAUI_EIGHT_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_EIGHT_OCTAGON_SOLID (&sunny_img_MYNAUI_EIGHT_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_OCTAGON;
+#define SUNNY_IMG_MYNAUI_EIGHT_OCTAGON (&sunny_img_MYNAUI_EIGHT_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_EIGHT_SOLID (&sunny_img_MYNAUI_EIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_EIGHT_SQUARE_SOLID (&sunny_img_MYNAUI_EIGHT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_SQUARE;
+#define SUNNY_IMG_MYNAUI_EIGHT_SQUARE (&sunny_img_MYNAUI_EIGHT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_EIGHT_WAVES_SOLID (&sunny_img_MYNAUI_EIGHT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT_WAVES;
+#define SUNNY_IMG_MYNAUI_EIGHT_WAVES (&sunny_img_MYNAUI_EIGHT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EIGHT;
+#define SUNNY_IMG_MYNAUI_EIGHT (&sunny_img_MYNAUI_EIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ELEVATOR_SOLID;
+#define SUNNY_IMG_MYNAUI_ELEVATOR_SOLID (&sunny_img_MYNAUI_ELEVATOR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ELEVATOR;
+#define SUNNY_IMG_MYNAUI_ELEVATOR (&sunny_img_MYNAUI_ELEVATOR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ENVELOPE_OPEN_SOLID;
+#define SUNNY_IMG_MYNAUI_ENVELOPE_OPEN_SOLID (&sunny_img_MYNAUI_ENVELOPE_OPEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ENVELOPE_OPEN;
+#define SUNNY_IMG_MYNAUI_ENVELOPE_OPEN (&sunny_img_MYNAUI_ENVELOPE_OPEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ENVELOPE_SOLID;
+#define SUNNY_IMG_MYNAUI_ENVELOPE_SOLID (&sunny_img_MYNAUI_ENVELOPE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ENVELOPE;
+#define SUNNY_IMG_MYNAUI_ENVELOPE (&sunny_img_MYNAUI_ENVELOPE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_EURO_CIRCLE_SOLID (&sunny_img_MYNAUI_EURO_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_CIRCLE;
+#define SUNNY_IMG_MYNAUI_EURO_CIRCLE (&sunny_img_MYNAUI_EURO_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_EURO_DIAMOND_SOLID (&sunny_img_MYNAUI_EURO_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_DIAMOND;
+#define SUNNY_IMG_MYNAUI_EURO_DIAMOND (&sunny_img_MYNAUI_EURO_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_EURO_HEXAGON_SOLID (&sunny_img_MYNAUI_EURO_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_HEXAGON;
+#define SUNNY_IMG_MYNAUI_EURO_HEXAGON (&sunny_img_MYNAUI_EURO_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_EURO_OCTAGON_SOLID (&sunny_img_MYNAUI_EURO_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_OCTAGON;
+#define SUNNY_IMG_MYNAUI_EURO_OCTAGON (&sunny_img_MYNAUI_EURO_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_SOLID;
+#define SUNNY_IMG_MYNAUI_EURO_SOLID (&sunny_img_MYNAUI_EURO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_EURO_SQUARE_SOLID (&sunny_img_MYNAUI_EURO_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_SQUARE;
+#define SUNNY_IMG_MYNAUI_EURO_SQUARE (&sunny_img_MYNAUI_EURO_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_EURO_WAVES_SOLID (&sunny_img_MYNAUI_EURO_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO_WAVES;
+#define SUNNY_IMG_MYNAUI_EURO_WAVES (&sunny_img_MYNAUI_EURO_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EURO;
+#define SUNNY_IMG_MYNAUI_EURO (&sunny_img_MYNAUI_EURO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EXCLUDE_SOLID;
+#define SUNNY_IMG_MYNAUI_EXCLUDE_SOLID (&sunny_img_MYNAUI_EXCLUDE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EXCLUDE;
+#define SUNNY_IMG_MYNAUI_EXCLUDE (&sunny_img_MYNAUI_EXCLUDE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EXTERNAL_LINK_SOLID;
+#define SUNNY_IMG_MYNAUI_EXTERNAL_LINK_SOLID (&sunny_img_MYNAUI_EXTERNAL_LINK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EXTERNAL_LINK;
+#define SUNNY_IMG_MYNAUI_EXTERNAL_LINK (&sunny_img_MYNAUI_EXTERNAL_LINK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EYE_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_EYE_SLASH_SOLID (&sunny_img_MYNAUI_EYE_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EYE_SLASH;
+#define SUNNY_IMG_MYNAUI_EYE_SLASH (&sunny_img_MYNAUI_EYE_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EYE_SOLID;
+#define SUNNY_IMG_MYNAUI_EYE_SOLID (&sunny_img_MYNAUI_EYE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_EYE;
+#define SUNNY_IMG_MYNAUI_EYE (&sunny_img_MYNAUI_EYE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FACE_ID_SOLID;
+#define SUNNY_IMG_MYNAUI_FACE_ID_SOLID (&sunny_img_MYNAUI_FACE_ID_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FACE_ID;
+#define SUNNY_IMG_MYNAUI_FACE_ID (&sunny_img_MYNAUI_FACE_ID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_DOWN_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_DOWN_LEFT_SOLID (&sunny_img_MYNAUI_FAT_ARROW_DOWN_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_DOWN_LEFT;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_DOWN_LEFT (&sunny_img_MYNAUI_FAT_ARROW_DOWN_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_DOWN_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_DOWN_RIGHT_SOLID (&sunny_img_MYNAUI_FAT_ARROW_DOWN_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_DOWN_RIGHT;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_DOWN_RIGHT (&sunny_img_MYNAUI_FAT_ARROW_DOWN_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_DOWN_SOLID (&sunny_img_MYNAUI_FAT_ARROW_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_DOWN;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_DOWN (&sunny_img_MYNAUI_FAT_ARROW_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_LEFT_SOLID (&sunny_img_MYNAUI_FAT_ARROW_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_LEFT;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_LEFT (&sunny_img_MYNAUI_FAT_ARROW_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_RIGHT_SOLID (&sunny_img_MYNAUI_FAT_ARROW_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_RIGHT;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_RIGHT (&sunny_img_MYNAUI_FAT_ARROW_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_UP_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_UP_LEFT_SOLID (&sunny_img_MYNAUI_FAT_ARROW_UP_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_UP_LEFT;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_UP_LEFT (&sunny_img_MYNAUI_FAT_ARROW_UP_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_UP_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_UP_RIGHT_SOLID (&sunny_img_MYNAUI_FAT_ARROW_UP_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_UP_RIGHT;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_UP_RIGHT (&sunny_img_MYNAUI_FAT_ARROW_UP_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_UP_SOLID (&sunny_img_MYNAUI_FAT_ARROW_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_ARROW_UP;
+#define SUNNY_IMG_MYNAUI_FAT_ARROW_UP (&sunny_img_MYNAUI_FAT_ARROW_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_DOWN_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_DOWN_LEFT_SOLID (&sunny_img_MYNAUI_FAT_CORNER_DOWN_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_DOWN_LEFT;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_DOWN_LEFT (&sunny_img_MYNAUI_FAT_CORNER_DOWN_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_DOWN_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_DOWN_RIGHT_SOLID (&sunny_img_MYNAUI_FAT_CORNER_DOWN_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_DOWN_RIGHT;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_DOWN_RIGHT (&sunny_img_MYNAUI_FAT_CORNER_DOWN_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_LEFT_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_LEFT_DOWN_SOLID (&sunny_img_MYNAUI_FAT_CORNER_LEFT_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_LEFT_DOWN;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_LEFT_DOWN (&sunny_img_MYNAUI_FAT_CORNER_LEFT_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_LEFT_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_LEFT_UP_SOLID (&sunny_img_MYNAUI_FAT_CORNER_LEFT_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_LEFT_UP;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_LEFT_UP (&sunny_img_MYNAUI_FAT_CORNER_LEFT_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_RIGHT_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_RIGHT_DOWN_SOLID (&sunny_img_MYNAUI_FAT_CORNER_RIGHT_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_RIGHT_DOWN;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_RIGHT_DOWN (&sunny_img_MYNAUI_FAT_CORNER_RIGHT_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_RIGHT_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_RIGHT_UP_SOLID (&sunny_img_MYNAUI_FAT_CORNER_RIGHT_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_RIGHT_UP;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_RIGHT_UP (&sunny_img_MYNAUI_FAT_CORNER_RIGHT_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_UP_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_UP_LEFT_SOLID (&sunny_img_MYNAUI_FAT_CORNER_UP_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_UP_LEFT;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_UP_LEFT (&sunny_img_MYNAUI_FAT_CORNER_UP_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_UP_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_UP_RIGHT_SOLID (&sunny_img_MYNAUI_FAT_CORNER_UP_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FAT_CORNER_UP_RIGHT;
+#define SUNNY_IMG_MYNAUI_FAT_CORNER_UP_RIGHT (&sunny_img_MYNAUI_FAT_CORNER_UP_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FEMALE_SOLID;
+#define SUNNY_IMG_MYNAUI_FEMALE_SOLID (&sunny_img_MYNAUI_FEMALE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FEMALE;
+#define SUNNY_IMG_MYNAUI_FEMALE (&sunny_img_MYNAUI_FEMALE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_FILE_CHECK_SOLID (&sunny_img_MYNAUI_FILE_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE_CHECK;
+#define SUNNY_IMG_MYNAUI_FILE_CHECK (&sunny_img_MYNAUI_FILE_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_FILE_MINUS_SOLID (&sunny_img_MYNAUI_FILE_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE_MINUS;
+#define SUNNY_IMG_MYNAUI_FILE_MINUS (&sunny_img_MYNAUI_FILE_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_FILE_PLUS_SOLID (&sunny_img_MYNAUI_FILE_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE_PLUS;
+#define SUNNY_IMG_MYNAUI_FILE_PLUS (&sunny_img_MYNAUI_FILE_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE_SOLID;
+#define SUNNY_IMG_MYNAUI_FILE_SOLID (&sunny_img_MYNAUI_FILE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE_TEXT_SOLID;
+#define SUNNY_IMG_MYNAUI_FILE_TEXT_SOLID (&sunny_img_MYNAUI_FILE_TEXT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE_TEXT;
+#define SUNNY_IMG_MYNAUI_FILE_TEXT (&sunny_img_MYNAUI_FILE_TEXT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE_X_SOLID;
+#define SUNNY_IMG_MYNAUI_FILE_X_SOLID (&sunny_img_MYNAUI_FILE_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE_X;
+#define SUNNY_IMG_MYNAUI_FILE_X (&sunny_img_MYNAUI_FILE_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILE;
+#define SUNNY_IMG_MYNAUI_FILE (&sunny_img_MYNAUI_FILE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILM_SOLID;
+#define SUNNY_IMG_MYNAUI_FILM_SOLID (&sunny_img_MYNAUI_FILM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILM;
+#define SUNNY_IMG_MYNAUI_FILM (&sunny_img_MYNAUI_FILM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILTER_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_FILTER_ONE_SOLID (&sunny_img_MYNAUI_FILTER_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILTER_ONE;
+#define SUNNY_IMG_MYNAUI_FILTER_ONE (&sunny_img_MYNAUI_FILTER_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILTER_SOLID;
+#define SUNNY_IMG_MYNAUI_FILTER_SOLID (&sunny_img_MYNAUI_FILTER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FILTER;
+#define SUNNY_IMG_MYNAUI_FILTER (&sunny_img_MYNAUI_FILTER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FINE_TUNE_SOLID;
+#define SUNNY_IMG_MYNAUI_FINE_TUNE_SOLID (&sunny_img_MYNAUI_FINE_TUNE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FINE_TUNE;
+#define SUNNY_IMG_MYNAUI_FINE_TUNE (&sunny_img_MYNAUI_FINE_TUNE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIRE_SOLID;
+#define SUNNY_IMG_MYNAUI_FIRE_SOLID (&sunny_img_MYNAUI_FIRE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIRE;
+#define SUNNY_IMG_MYNAUI_FIRE (&sunny_img_MYNAUI_FIRE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_FIVE_CIRCLE_SOLID (&sunny_img_MYNAUI_FIVE_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_CIRCLE;
+#define SUNNY_IMG_MYNAUI_FIVE_CIRCLE (&sunny_img_MYNAUI_FIVE_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_FIVE_DIAMOND_SOLID (&sunny_img_MYNAUI_FIVE_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_DIAMOND;
+#define SUNNY_IMG_MYNAUI_FIVE_DIAMOND (&sunny_img_MYNAUI_FIVE_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_FIVE_HEXAGON_SOLID (&sunny_img_MYNAUI_FIVE_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_HEXAGON;
+#define SUNNY_IMG_MYNAUI_FIVE_HEXAGON (&sunny_img_MYNAUI_FIVE_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_FIVE_OCTAGON_SOLID (&sunny_img_MYNAUI_FIVE_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_OCTAGON;
+#define SUNNY_IMG_MYNAUI_FIVE_OCTAGON (&sunny_img_MYNAUI_FIVE_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_FIVE_SOLID (&sunny_img_MYNAUI_FIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_FIVE_SQUARE_SOLID (&sunny_img_MYNAUI_FIVE_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_SQUARE;
+#define SUNNY_IMG_MYNAUI_FIVE_SQUARE (&sunny_img_MYNAUI_FIVE_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_FIVE_WAVES_SOLID (&sunny_img_MYNAUI_FIVE_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE_WAVES;
+#define SUNNY_IMG_MYNAUI_FIVE_WAVES (&sunny_img_MYNAUI_FIVE_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FIVE;
+#define SUNNY_IMG_MYNAUI_FIVE (&sunny_img_MYNAUI_FIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLAG_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_FLAG_ONE_SOLID (&sunny_img_MYNAUI_FLAG_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLAG_ONE;
+#define SUNNY_IMG_MYNAUI_FLAG_ONE (&sunny_img_MYNAUI_FLAG_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLAG_SOLID;
+#define SUNNY_IMG_MYNAUI_FLAG_SOLID (&sunny_img_MYNAUI_FLAG_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLAG;
+#define SUNNY_IMG_MYNAUI_FLAG (&sunny_img_MYNAUI_FLAG)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLAME_KINDLING_SOLID;
+#define SUNNY_IMG_MYNAUI_FLAME_KINDLING_SOLID (&sunny_img_MYNAUI_FLAME_KINDLING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLAME_KINDLING;
+#define SUNNY_IMG_MYNAUI_FLAME_KINDLING (&sunny_img_MYNAUI_FLAME_KINDLING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLAME_SOLID;
+#define SUNNY_IMG_MYNAUI_FLAME_SOLID (&sunny_img_MYNAUI_FLAME_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLAME;
+#define SUNNY_IMG_MYNAUI_FLAME (&sunny_img_MYNAUI_FLAME)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLASK_SOLID;
+#define SUNNY_IMG_MYNAUI_FLASK_SOLID (&sunny_img_MYNAUI_FLASK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLASK;
+#define SUNNY_IMG_MYNAUI_FLASK (&sunny_img_MYNAUI_FLASK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLOWER_2_SOLID;
+#define SUNNY_IMG_MYNAUI_FLOWER_2_SOLID (&sunny_img_MYNAUI_FLOWER_2_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLOWER_2;
+#define SUNNY_IMG_MYNAUI_FLOWER_2 (&sunny_img_MYNAUI_FLOWER_2)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLOWER_SOLID;
+#define SUNNY_IMG_MYNAUI_FLOWER_SOLID (&sunny_img_MYNAUI_FLOWER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FLOWER;
+#define SUNNY_IMG_MYNAUI_FLOWER (&sunny_img_MYNAUI_FLOWER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_FOLDER_CHECK_SOLID (&sunny_img_MYNAUI_FOLDER_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_CHECK;
+#define SUNNY_IMG_MYNAUI_FOLDER_CHECK (&sunny_img_MYNAUI_FOLDER_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_HEART_SOLID;
+#define SUNNY_IMG_MYNAUI_FOLDER_HEART_SOLID (&sunny_img_MYNAUI_FOLDER_HEART_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_HEART;
+#define SUNNY_IMG_MYNAUI_FOLDER_HEART (&sunny_img_MYNAUI_FOLDER_HEART)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_KANBAN_SOLID;
+#define SUNNY_IMG_MYNAUI_FOLDER_KANBAN_SOLID (&sunny_img_MYNAUI_FOLDER_KANBAN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_KANBAN;
+#define SUNNY_IMG_MYNAUI_FOLDER_KANBAN (&sunny_img_MYNAUI_FOLDER_KANBAN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_FOLDER_MINUS_SOLID (&sunny_img_MYNAUI_FOLDER_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_MINUS;
+#define SUNNY_IMG_MYNAUI_FOLDER_MINUS (&sunny_img_MYNAUI_FOLDER_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_FOLDER_ONE_SOLID (&sunny_img_MYNAUI_FOLDER_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_ONE;
+#define SUNNY_IMG_MYNAUI_FOLDER_ONE (&sunny_img_MYNAUI_FOLDER_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_FOLDER_PLUS_SOLID (&sunny_img_MYNAUI_FOLDER_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_PLUS;
+#define SUNNY_IMG_MYNAUI_FOLDER_PLUS (&sunny_img_MYNAUI_FOLDER_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_FOLDER_SLASH_SOLID (&sunny_img_MYNAUI_FOLDER_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_SLASH;
+#define SUNNY_IMG_MYNAUI_FOLDER_SLASH (&sunny_img_MYNAUI_FOLDER_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_SOLID;
+#define SUNNY_IMG_MYNAUI_FOLDER_SOLID (&sunny_img_MYNAUI_FOLDER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_FOLDER_TWO_SOLID (&sunny_img_MYNAUI_FOLDER_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_TWO;
+#define SUNNY_IMG_MYNAUI_FOLDER_TWO (&sunny_img_MYNAUI_FOLDER_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_X_SOLID;
+#define SUNNY_IMG_MYNAUI_FOLDER_X_SOLID (&sunny_img_MYNAUI_FOLDER_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER_X;
+#define SUNNY_IMG_MYNAUI_FOLDER_X (&sunny_img_MYNAUI_FOLDER_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOLDER;
+#define SUNNY_IMG_MYNAUI_FOLDER (&sunny_img_MYNAUI_FOLDER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_FORWARD_CIRCLE_SOLID (&sunny_img_MYNAUI_FORWARD_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_CIRCLE;
+#define SUNNY_IMG_MYNAUI_FORWARD_CIRCLE (&sunny_img_MYNAUI_FORWARD_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_FORWARD_DIAMOND_SOLID (&sunny_img_MYNAUI_FORWARD_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_DIAMOND;
+#define SUNNY_IMG_MYNAUI_FORWARD_DIAMOND (&sunny_img_MYNAUI_FORWARD_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_FORWARD_HEXAGON_SOLID (&sunny_img_MYNAUI_FORWARD_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_HEXAGON;
+#define SUNNY_IMG_MYNAUI_FORWARD_HEXAGON (&sunny_img_MYNAUI_FORWARD_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_FORWARD_OCTAGON_SOLID (&sunny_img_MYNAUI_FORWARD_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_OCTAGON;
+#define SUNNY_IMG_MYNAUI_FORWARD_OCTAGON (&sunny_img_MYNAUI_FORWARD_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_SOLID;
+#define SUNNY_IMG_MYNAUI_FORWARD_SOLID (&sunny_img_MYNAUI_FORWARD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_FORWARD_SQUARE_SOLID (&sunny_img_MYNAUI_FORWARD_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_SQUARE;
+#define SUNNY_IMG_MYNAUI_FORWARD_SQUARE (&sunny_img_MYNAUI_FORWARD_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_FORWARD_WAVES_SOLID (&sunny_img_MYNAUI_FORWARD_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD_WAVES;
+#define SUNNY_IMG_MYNAUI_FORWARD_WAVES (&sunny_img_MYNAUI_FORWARD_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FORWARD;
+#define SUNNY_IMG_MYNAUI_FORWARD (&sunny_img_MYNAUI_FORWARD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_FOUR_CIRCLE_SOLID (&sunny_img_MYNAUI_FOUR_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_CIRCLE;
+#define SUNNY_IMG_MYNAUI_FOUR_CIRCLE (&sunny_img_MYNAUI_FOUR_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_FOUR_DIAMOND_SOLID (&sunny_img_MYNAUI_FOUR_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_DIAMOND;
+#define SUNNY_IMG_MYNAUI_FOUR_DIAMOND (&sunny_img_MYNAUI_FOUR_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_FOUR_HEXAGON_SOLID (&sunny_img_MYNAUI_FOUR_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_HEXAGON;
+#define SUNNY_IMG_MYNAUI_FOUR_HEXAGON (&sunny_img_MYNAUI_FOUR_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_FOUR_OCTAGON_SOLID (&sunny_img_MYNAUI_FOUR_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_OCTAGON;
+#define SUNNY_IMG_MYNAUI_FOUR_OCTAGON (&sunny_img_MYNAUI_FOUR_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_SOLID;
+#define SUNNY_IMG_MYNAUI_FOUR_SOLID (&sunny_img_MYNAUI_FOUR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_FOUR_SQUARE_SOLID (&sunny_img_MYNAUI_FOUR_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_SQUARE;
+#define SUNNY_IMG_MYNAUI_FOUR_SQUARE (&sunny_img_MYNAUI_FOUR_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_FOUR_WAVES_SOLID (&sunny_img_MYNAUI_FOUR_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR_WAVES;
+#define SUNNY_IMG_MYNAUI_FOUR_WAVES (&sunny_img_MYNAUI_FOUR_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FOUR;
+#define SUNNY_IMG_MYNAUI_FOUR (&sunny_img_MYNAUI_FOUR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FRAME_SOLID;
+#define SUNNY_IMG_MYNAUI_FRAME_SOLID (&sunny_img_MYNAUI_FRAME_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FRAME;
+#define SUNNY_IMG_MYNAUI_FRAME (&sunny_img_MYNAUI_FRAME)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FUNNY_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_FUNNY_CIRCLE_SOLID (&sunny_img_MYNAUI_FUNNY_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FUNNY_CIRCLE;
+#define SUNNY_IMG_MYNAUI_FUNNY_CIRCLE (&sunny_img_MYNAUI_FUNNY_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FUNNY_GHOST_SOLID;
+#define SUNNY_IMG_MYNAUI_FUNNY_GHOST_SOLID (&sunny_img_MYNAUI_FUNNY_GHOST_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FUNNY_GHOST;
+#define SUNNY_IMG_MYNAUI_FUNNY_GHOST (&sunny_img_MYNAUI_FUNNY_GHOST)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FUNNY_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_FUNNY_SQUARE_SOLID (&sunny_img_MYNAUI_FUNNY_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_FUNNY_SQUARE;
+#define SUNNY_IMG_MYNAUI_FUNNY_SQUARE (&sunny_img_MYNAUI_FUNNY_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GHOST_DAZE;
+#define SUNNY_IMG_MYNAUI_GHOST_DAZE (&sunny_img_MYNAUI_GHOST_DAZE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GHOST_FUNNY;
+#define SUNNY_IMG_MYNAUI_GHOST_FUNNY (&sunny_img_MYNAUI_GHOST_FUNNY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GHOST_INDIFFERENT;
+#define SUNNY_IMG_MYNAUI_GHOST_INDIFFERENT (&sunny_img_MYNAUI_GHOST_INDIFFERENT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GHOST_SAD;
+#define SUNNY_IMG_MYNAUI_GHOST_SAD (&sunny_img_MYNAUI_GHOST_SAD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GHOST_SMILE;
+#define SUNNY_IMG_MYNAUI_GHOST_SMILE (&sunny_img_MYNAUI_GHOST_SMILE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIFT_SOLID;
+#define SUNNY_IMG_MYNAUI_GIFT_SOLID (&sunny_img_MYNAUI_GIFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIFT;
+#define SUNNY_IMG_MYNAUI_GIFT (&sunny_img_MYNAUI_GIFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_BRANCH_SOLID;
+#define SUNNY_IMG_MYNAUI_GIT_BRANCH_SOLID (&sunny_img_MYNAUI_GIT_BRANCH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_BRANCH;
+#define SUNNY_IMG_MYNAUI_GIT_BRANCH (&sunny_img_MYNAUI_GIT_BRANCH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_GIT_CIRCLE_SOLID (&sunny_img_MYNAUI_GIT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_GIT_CIRCLE (&sunny_img_MYNAUI_GIT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_COMMIT_SOLID;
+#define SUNNY_IMG_MYNAUI_GIT_COMMIT_SOLID (&sunny_img_MYNAUI_GIT_COMMIT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_COMMIT;
+#define SUNNY_IMG_MYNAUI_GIT_COMMIT (&sunny_img_MYNAUI_GIT_COMMIT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_GIT_DIAMOND_SOLID (&sunny_img_MYNAUI_GIT_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_DIAMOND;
+#define SUNNY_IMG_MYNAUI_GIT_DIAMOND (&sunny_img_MYNAUI_GIT_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_DIFF_SOLID;
+#define SUNNY_IMG_MYNAUI_GIT_DIFF_SOLID (&sunny_img_MYNAUI_GIT_DIFF_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_DIFF;
+#define SUNNY_IMG_MYNAUI_GIT_DIFF (&sunny_img_MYNAUI_GIT_DIFF)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_GIT_HEXAGON_SOLID (&sunny_img_MYNAUI_GIT_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_HEXAGON;
+#define SUNNY_IMG_MYNAUI_GIT_HEXAGON (&sunny_img_MYNAUI_GIT_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_MERGE_SOLID;
+#define SUNNY_IMG_MYNAUI_GIT_MERGE_SOLID (&sunny_img_MYNAUI_GIT_MERGE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_MERGE;
+#define SUNNY_IMG_MYNAUI_GIT_MERGE (&sunny_img_MYNAUI_GIT_MERGE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_GIT_OCTAGON_SOLID (&sunny_img_MYNAUI_GIT_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_OCTAGON;
+#define SUNNY_IMG_MYNAUI_GIT_OCTAGON (&sunny_img_MYNAUI_GIT_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_PULL_REQUEST_SOLID;
+#define SUNNY_IMG_MYNAUI_GIT_PULL_REQUEST_SOLID (&sunny_img_MYNAUI_GIT_PULL_REQUEST_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_PULL_REQUEST;
+#define SUNNY_IMG_MYNAUI_GIT_PULL_REQUEST (&sunny_img_MYNAUI_GIT_PULL_REQUEST)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_GIT_SQUARE_SOLID (&sunny_img_MYNAUI_GIT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_SQUARE;
+#define SUNNY_IMG_MYNAUI_GIT_SQUARE (&sunny_img_MYNAUI_GIT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_GIT_WAVES_SOLID (&sunny_img_MYNAUI_GIT_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GIT_WAVES;
+#define SUNNY_IMG_MYNAUI_GIT_WAVES (&sunny_img_MYNAUI_GIT_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GLASSES_SOLID;
+#define SUNNY_IMG_MYNAUI_GLASSES_SOLID (&sunny_img_MYNAUI_GLASSES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GLASSES;
+#define SUNNY_IMG_MYNAUI_GLASSES (&sunny_img_MYNAUI_GLASSES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GLOBE_SOLID;
+#define SUNNY_IMG_MYNAUI_GLOBE_SOLID (&sunny_img_MYNAUI_GLOBE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GLOBE;
+#define SUNNY_IMG_MYNAUI_GLOBE (&sunny_img_MYNAUI_GLOBE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GRID_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_GRID_ONE_SOLID (&sunny_img_MYNAUI_GRID_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GRID_ONE;
+#define SUNNY_IMG_MYNAUI_GRID_ONE (&sunny_img_MYNAUI_GRID_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GRID_SOLID;
+#define SUNNY_IMG_MYNAUI_GRID_SOLID (&sunny_img_MYNAUI_GRID_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_GRID;
+#define SUNNY_IMG_MYNAUI_GRID (&sunny_img_MYNAUI_GRID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HAND_SOLID;
+#define SUNNY_IMG_MYNAUI_HAND_SOLID (&sunny_img_MYNAUI_HAND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HAND;
+#define SUNNY_IMG_MYNAUI_HAND (&sunny_img_MYNAUI_HAND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HARD_DRIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_HARD_DRIVE_SOLID (&sunny_img_MYNAUI_HARD_DRIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HARD_DRIVE;
+#define SUNNY_IMG_MYNAUI_HARD_DRIVE (&sunny_img_MYNAUI_HARD_DRIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_HASH_CIRCLE_SOLID (&sunny_img_MYNAUI_HASH_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_CIRCLE;
+#define SUNNY_IMG_MYNAUI_HASH_CIRCLE (&sunny_img_MYNAUI_HASH_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_HASH_DIAMOND_SOLID (&sunny_img_MYNAUI_HASH_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_DIAMOND;
+#define SUNNY_IMG_MYNAUI_HASH_DIAMOND (&sunny_img_MYNAUI_HASH_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_HASH_HEXAGON_SOLID (&sunny_img_MYNAUI_HASH_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_HEXAGON;
+#define SUNNY_IMG_MYNAUI_HASH_HEXAGON (&sunny_img_MYNAUI_HASH_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_HASH_OCTAGON_SOLID (&sunny_img_MYNAUI_HASH_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_OCTAGON;
+#define SUNNY_IMG_MYNAUI_HASH_OCTAGON (&sunny_img_MYNAUI_HASH_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_SOLID;
+#define SUNNY_IMG_MYNAUI_HASH_SOLID (&sunny_img_MYNAUI_HASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_HASH_SQUARE_SOLID (&sunny_img_MYNAUI_HASH_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_SQUARE;
+#define SUNNY_IMG_MYNAUI_HASH_SQUARE (&sunny_img_MYNAUI_HASH_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_HASH_WAVES_SOLID (&sunny_img_MYNAUI_HASH_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH_WAVES;
+#define SUNNY_IMG_MYNAUI_HASH_WAVES (&sunny_img_MYNAUI_HASH_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HASH;
+#define SUNNY_IMG_MYNAUI_HASH (&sunny_img_MYNAUI_HASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HAZE_SOLID;
+#define SUNNY_IMG_MYNAUI_HAZE_SOLID (&sunny_img_MYNAUI_HAZE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HAZE;
+#define SUNNY_IMG_MYNAUI_HAZE (&sunny_img_MYNAUI_HAZE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_FIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_HEADING_FIVE_SOLID (&sunny_img_MYNAUI_HEADING_FIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_FIVE;
+#define SUNNY_IMG_MYNAUI_HEADING_FIVE (&sunny_img_MYNAUI_HEADING_FIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_FOUR_SOLID;
+#define SUNNY_IMG_MYNAUI_HEADING_FOUR_SOLID (&sunny_img_MYNAUI_HEADING_FOUR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_FOUR;
+#define SUNNY_IMG_MYNAUI_HEADING_FOUR (&sunny_img_MYNAUI_HEADING_FOUR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_HEADING_ONE_SOLID (&sunny_img_MYNAUI_HEADING_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_ONE;
+#define SUNNY_IMG_MYNAUI_HEADING_ONE (&sunny_img_MYNAUI_HEADING_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_SIX_SOLID;
+#define SUNNY_IMG_MYNAUI_HEADING_SIX_SOLID (&sunny_img_MYNAUI_HEADING_SIX_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_SIX;
+#define SUNNY_IMG_MYNAUI_HEADING_SIX (&sunny_img_MYNAUI_HEADING_SIX)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_SOLID;
+#define SUNNY_IMG_MYNAUI_HEADING_SOLID (&sunny_img_MYNAUI_HEADING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_THREE_SOLID;
+#define SUNNY_IMG_MYNAUI_HEADING_THREE_SOLID (&sunny_img_MYNAUI_HEADING_THREE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_THREE;
+#define SUNNY_IMG_MYNAUI_HEADING_THREE (&sunny_img_MYNAUI_HEADING_THREE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_HEADING_TWO_SOLID (&sunny_img_MYNAUI_HEADING_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING_TWO;
+#define SUNNY_IMG_MYNAUI_HEADING_TWO (&sunny_img_MYNAUI_HEADING_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADING;
+#define SUNNY_IMG_MYNAUI_HEADING (&sunny_img_MYNAUI_HEADING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADPHONES_SOLID;
+#define SUNNY_IMG_MYNAUI_HEADPHONES_SOLID (&sunny_img_MYNAUI_HEADPHONES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEADPHONES;
+#define SUNNY_IMG_MYNAUI_HEADPHONES (&sunny_img_MYNAUI_HEADPHONES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_BROKEN_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_BROKEN_SOLID (&sunny_img_MYNAUI_HEART_BROKEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_BROKEN;
+#define SUNNY_IMG_MYNAUI_HEART_BROKEN (&sunny_img_MYNAUI_HEART_BROKEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_CHECK_SOLID (&sunny_img_MYNAUI_HEART_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_CHECK;
+#define SUNNY_IMG_MYNAUI_HEART_CHECK (&sunny_img_MYNAUI_HEART_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_CIRCLE_SOLID (&sunny_img_MYNAUI_HEART_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_CIRCLE;
+#define SUNNY_IMG_MYNAUI_HEART_CIRCLE (&sunny_img_MYNAUI_HEART_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_DIAMOND_SOLID (&sunny_img_MYNAUI_HEART_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_DIAMOND;
+#define SUNNY_IMG_MYNAUI_HEART_DIAMOND (&sunny_img_MYNAUI_HEART_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_DOT_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_DOT_SOLID (&sunny_img_MYNAUI_HEART_DOT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_DOT;
+#define SUNNY_IMG_MYNAUI_HEART_DOT (&sunny_img_MYNAUI_HEART_DOT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_HEXAGON_SOLID (&sunny_img_MYNAUI_HEART_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_HEXAGON;
+#define SUNNY_IMG_MYNAUI_HEART_HEXAGON (&sunny_img_MYNAUI_HEART_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_HOME_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_HOME_SOLID (&sunny_img_MYNAUI_HEART_HOME_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_HOME;
+#define SUNNY_IMG_MYNAUI_HEART_HOME (&sunny_img_MYNAUI_HEART_HOME)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_MINUS_SOLID (&sunny_img_MYNAUI_HEART_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_MINUS;
+#define SUNNY_IMG_MYNAUI_HEART_MINUS (&sunny_img_MYNAUI_HEART_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_OCTAGON_SOLID (&sunny_img_MYNAUI_HEART_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_OCTAGON;
+#define SUNNY_IMG_MYNAUI_HEART_OCTAGON (&sunny_img_MYNAUI_HEART_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_PLUS_SOLID (&sunny_img_MYNAUI_HEART_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_PLUS;
+#define SUNNY_IMG_MYNAUI_HEART_PLUS (&sunny_img_MYNAUI_HEART_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_SLASH_SOLID (&sunny_img_MYNAUI_HEART_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_SLASH;
+#define SUNNY_IMG_MYNAUI_HEART_SLASH (&sunny_img_MYNAUI_HEART_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_SNOOZE_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_SNOOZE_SOLID (&sunny_img_MYNAUI_HEART_SNOOZE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_SNOOZE;
+#define SUNNY_IMG_MYNAUI_HEART_SNOOZE (&sunny_img_MYNAUI_HEART_SNOOZE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_SOLID (&sunny_img_MYNAUI_HEART_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_SQUARE_SOLID (&sunny_img_MYNAUI_HEART_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_SQUARE;
+#define SUNNY_IMG_MYNAUI_HEART_SQUARE (&sunny_img_MYNAUI_HEART_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_USER_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_USER_SOLID (&sunny_img_MYNAUI_HEART_USER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_USER;
+#define SUNNY_IMG_MYNAUI_HEART_USER (&sunny_img_MYNAUI_HEART_USER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_WAVES_SOLID (&sunny_img_MYNAUI_HEART_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_WAVES;
+#define SUNNY_IMG_MYNAUI_HEART_WAVES (&sunny_img_MYNAUI_HEART_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_X_SOLID;
+#define SUNNY_IMG_MYNAUI_HEART_X_SOLID (&sunny_img_MYNAUI_HEART_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART_X;
+#define SUNNY_IMG_MYNAUI_HEART_X (&sunny_img_MYNAUI_HEART_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEART;
+#define SUNNY_IMG_MYNAUI_HEART (&sunny_img_MYNAUI_HEART)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_HEXAGON_SOLID (&sunny_img_MYNAUI_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HEXAGON;
+#define SUNNY_IMG_MYNAUI_HEXAGON (&sunny_img_MYNAUI_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_HOME_CHECK_SOLID (&sunny_img_MYNAUI_HOME_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME_CHECK;
+#define SUNNY_IMG_MYNAUI_HOME_CHECK (&sunny_img_MYNAUI_HOME_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_HOME_MINUS_SOLID (&sunny_img_MYNAUI_HOME_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME_MINUS;
+#define SUNNY_IMG_MYNAUI_HOME_MINUS (&sunny_img_MYNAUI_HOME_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_HOME_PLUS_SOLID (&sunny_img_MYNAUI_HOME_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME_PLUS;
+#define SUNNY_IMG_MYNAUI_HOME_PLUS (&sunny_img_MYNAUI_HOME_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME_SMILE_SOLID;
+#define SUNNY_IMG_MYNAUI_HOME_SMILE_SOLID (&sunny_img_MYNAUI_HOME_SMILE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME_SMILE;
+#define SUNNY_IMG_MYNAUI_HOME_SMILE (&sunny_img_MYNAUI_HOME_SMILE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME_SOLID;
+#define SUNNY_IMG_MYNAUI_HOME_SOLID (&sunny_img_MYNAUI_HOME_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME_X_SOLID;
+#define SUNNY_IMG_MYNAUI_HOME_X_SOLID (&sunny_img_MYNAUI_HOME_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME_X;
+#define SUNNY_IMG_MYNAUI_HOME_X (&sunny_img_MYNAUI_HOME_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_HOME;
+#define SUNNY_IMG_MYNAUI_HOME (&sunny_img_MYNAUI_HOME)
+extern const lv_img_dsc_t sunny_img_MYNAUI_IMAGE_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_IMAGE_CIRCLE_SOLID (&sunny_img_MYNAUI_IMAGE_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_IMAGE_CIRCLE;
+#define SUNNY_IMG_MYNAUI_IMAGE_CIRCLE (&sunny_img_MYNAUI_IMAGE_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_IMAGE_RECTANGLE_SOLID;
+#define SUNNY_IMG_MYNAUI_IMAGE_RECTANGLE_SOLID (&sunny_img_MYNAUI_IMAGE_RECTANGLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_IMAGE_RECTANGLE;
+#define SUNNY_IMG_MYNAUI_IMAGE_RECTANGLE (&sunny_img_MYNAUI_IMAGE_RECTANGLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_IMAGE_SOLID;
+#define SUNNY_IMG_MYNAUI_IMAGE_SOLID (&sunny_img_MYNAUI_IMAGE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_IMAGE;
+#define SUNNY_IMG_MYNAUI_IMAGE (&sunny_img_MYNAUI_IMAGE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_ARCHIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_INBOX_ARCHIVE_SOLID (&sunny_img_MYNAUI_INBOX_ARCHIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_ARCHIVE;
+#define SUNNY_IMG_MYNAUI_INBOX_ARCHIVE (&sunny_img_MYNAUI_INBOX_ARCHIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_INBOX_CHECK_SOLID (&sunny_img_MYNAUI_INBOX_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_CHECK;
+#define SUNNY_IMG_MYNAUI_INBOX_CHECK (&sunny_img_MYNAUI_INBOX_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_INBOX_DOWN_SOLID (&sunny_img_MYNAUI_INBOX_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_DOWN;
+#define SUNNY_IMG_MYNAUI_INBOX_DOWN (&sunny_img_MYNAUI_INBOX_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_INBOX_MINUS_SOLID (&sunny_img_MYNAUI_INBOX_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_MINUS;
+#define SUNNY_IMG_MYNAUI_INBOX_MINUS (&sunny_img_MYNAUI_INBOX_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_INBOX_PLUS_SOLID (&sunny_img_MYNAUI_INBOX_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_PLUS;
+#define SUNNY_IMG_MYNAUI_INBOX_PLUS (&sunny_img_MYNAUI_INBOX_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_SOLID;
+#define SUNNY_IMG_MYNAUI_INBOX_SOLID (&sunny_img_MYNAUI_INBOX_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_INBOX_UP_SOLID (&sunny_img_MYNAUI_INBOX_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_UP;
+#define SUNNY_IMG_MYNAUI_INBOX_UP (&sunny_img_MYNAUI_INBOX_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_X_SOLID;
+#define SUNNY_IMG_MYNAUI_INBOX_X_SOLID (&sunny_img_MYNAUI_INBOX_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX_X;
+#define SUNNY_IMG_MYNAUI_INBOX_X (&sunny_img_MYNAUI_INBOX_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INBOX;
+#define SUNNY_IMG_MYNAUI_INBOX (&sunny_img_MYNAUI_INBOX)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INCOGNITO_SOLID;
+#define SUNNY_IMG_MYNAUI_INCOGNITO_SOLID (&sunny_img_MYNAUI_INCOGNITO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INCOGNITO;
+#define SUNNY_IMG_MYNAUI_INCOGNITO (&sunny_img_MYNAUI_INCOGNITO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INDIFFERENT_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_INDIFFERENT_CIRCLE_SOLID (&sunny_img_MYNAUI_INDIFFERENT_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INDIFFERENT_CIRCLE;
+#define SUNNY_IMG_MYNAUI_INDIFFERENT_CIRCLE (&sunny_img_MYNAUI_INDIFFERENT_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INDIFFERENT_GHOST_SOLID;
+#define SUNNY_IMG_MYNAUI_INDIFFERENT_GHOST_SOLID (&sunny_img_MYNAUI_INDIFFERENT_GHOST_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INDIFFERENT_GHOST;
+#define SUNNY_IMG_MYNAUI_INDIFFERENT_GHOST (&sunny_img_MYNAUI_INDIFFERENT_GHOST)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INDIFFERENT_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_INDIFFERENT_SQUARE_SOLID (&sunny_img_MYNAUI_INDIFFERENT_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INDIFFERENT_SQUARE;
+#define SUNNY_IMG_MYNAUI_INDIFFERENT_SQUARE (&sunny_img_MYNAUI_INDIFFERENT_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFINITY_SOLID;
+#define SUNNY_IMG_MYNAUI_INFINITY_SOLID (&sunny_img_MYNAUI_INFINITY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFINITY;
+#define SUNNY_IMG_MYNAUI_INFINITY (&sunny_img_MYNAUI_INFINITY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_INFO_CIRCLE_SOLID (&sunny_img_MYNAUI_INFO_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_CIRCLE;
+#define SUNNY_IMG_MYNAUI_INFO_CIRCLE (&sunny_img_MYNAUI_INFO_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_INFO_DIAMOND_SOLID (&sunny_img_MYNAUI_INFO_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_DIAMOND;
+#define SUNNY_IMG_MYNAUI_INFO_DIAMOND (&sunny_img_MYNAUI_INFO_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_INFO_HEXAGON_SOLID (&sunny_img_MYNAUI_INFO_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_HEXAGON;
+#define SUNNY_IMG_MYNAUI_INFO_HEXAGON (&sunny_img_MYNAUI_INFO_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_INFO_OCTAGON_SOLID (&sunny_img_MYNAUI_INFO_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_OCTAGON;
+#define SUNNY_IMG_MYNAUI_INFO_OCTAGON (&sunny_img_MYNAUI_INFO_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_SOLID;
+#define SUNNY_IMG_MYNAUI_INFO_SOLID (&sunny_img_MYNAUI_INFO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_INFO_SQUARE_SOLID (&sunny_img_MYNAUI_INFO_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_SQUARE;
+#define SUNNY_IMG_MYNAUI_INFO_SQUARE (&sunny_img_MYNAUI_INFO_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_TRIANGLE_SOLID;
+#define SUNNY_IMG_MYNAUI_INFO_TRIANGLE_SOLID (&sunny_img_MYNAUI_INFO_TRIANGLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_TRIANGLE;
+#define SUNNY_IMG_MYNAUI_INFO_TRIANGLE (&sunny_img_MYNAUI_INFO_TRIANGLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_INFO_WAVES_SOLID (&sunny_img_MYNAUI_INFO_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO_WAVES;
+#define SUNNY_IMG_MYNAUI_INFO_WAVES (&sunny_img_MYNAUI_INFO_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INFO;
+#define SUNNY_IMG_MYNAUI_INFO (&sunny_img_MYNAUI_INFO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INTERSECT_SOLID;
+#define SUNNY_IMG_MYNAUI_INTERSECT_SOLID (&sunny_img_MYNAUI_INTERSECT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_INTERSECT;
+#define SUNNY_IMG_MYNAUI_INTERSECT (&sunny_img_MYNAUI_INTERSECT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_KANBAN_SOLID;
+#define SUNNY_IMG_MYNAUI_KANBAN_SOLID (&sunny_img_MYNAUI_KANBAN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_KANBAN;
+#define SUNNY_IMG_MYNAUI_KANBAN (&sunny_img_MYNAUI_KANBAN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_KEY_SOLID;
+#define SUNNY_IMG_MYNAUI_KEY_SOLID (&sunny_img_MYNAUI_KEY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_KEY;
+#define SUNNY_IMG_MYNAUI_KEY (&sunny_img_MYNAUI_KEY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_KEYBOARD_BRIGHTNESS_HIGH_SOLID;
+#define SUNNY_IMG_MYNAUI_KEYBOARD_BRIGHTNESS_HIGH_SOLID (&sunny_img_MYNAUI_KEYBOARD_BRIGHTNESS_HIGH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_KEYBOARD_BRIGHTNESS_HIGH;
+#define SUNNY_IMG_MYNAUI_KEYBOARD_BRIGHTNESS_HIGH (&sunny_img_MYNAUI_KEYBOARD_BRIGHTNESS_HIGH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_KEYBOARD_BRIGHTNESS_LOW_SOLID;
+#define SUNNY_IMG_MYNAUI_KEYBOARD_BRIGHTNESS_LOW_SOLID (&sunny_img_MYNAUI_KEYBOARD_BRIGHTNESS_LOW_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_KEYBOARD_BRIGHTNESS_LOW;
+#define SUNNY_IMG_MYNAUI_KEYBOARD_BRIGHTNESS_LOW (&sunny_img_MYNAUI_KEYBOARD_BRIGHTNESS_LOW)
+extern const lv_img_dsc_t sunny_img_MYNAUI_KEYBOARD_SOLID;
+#define SUNNY_IMG_MYNAUI_KEYBOARD_SOLID (&sunny_img_MYNAUI_KEYBOARD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_KEYBOARD;
+#define SUNNY_IMG_MYNAUI_KEYBOARD (&sunny_img_MYNAUI_KEYBOARD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LABEL_SOLID;
+#define SUNNY_IMG_MYNAUI_LABEL_SOLID (&sunny_img_MYNAUI_LABEL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LABEL;
+#define SUNNY_IMG_MYNAUI_LABEL (&sunny_img_MYNAUI_LABEL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LAMP_SOLID;
+#define SUNNY_IMG_MYNAUI_LAMP_SOLID (&sunny_img_MYNAUI_LAMP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LAMP;
+#define SUNNY_IMG_MYNAUI_LAMP (&sunny_img_MYNAUI_LAMP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LAYERS_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_LAYERS_ONE_SOLID (&sunny_img_MYNAUI_LAYERS_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LAYERS_ONE;
+#define SUNNY_IMG_MYNAUI_LAYERS_ONE (&sunny_img_MYNAUI_LAYERS_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LAYERS_THREE_SOLID;
+#define SUNNY_IMG_MYNAUI_LAYERS_THREE_SOLID (&sunny_img_MYNAUI_LAYERS_THREE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LAYERS_THREE;
+#define SUNNY_IMG_MYNAUI_LAYERS_THREE (&sunny_img_MYNAUI_LAYERS_THREE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LAYERS_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_LAYERS_TWO_SOLID (&sunny_img_MYNAUI_LAYERS_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LAYERS_TWO;
+#define SUNNY_IMG_MYNAUI_LAYERS_TWO (&sunny_img_MYNAUI_LAYERS_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LAYOUT_SOLID;
+#define SUNNY_IMG_MYNAUI_LAYOUT_SOLID (&sunny_img_MYNAUI_LAYOUT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LAYOUT;
+#define SUNNY_IMG_MYNAUI_LAYOUT (&sunny_img_MYNAUI_LAYOUT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LEAF_SOLID;
+#define SUNNY_IMG_MYNAUI_LEAF_SOLID (&sunny_img_MYNAUI_LEAF_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LEAF;
+#define SUNNY_IMG_MYNAUI_LEAF (&sunny_img_MYNAUI_LEAF)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LEAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LEAVES_SOLID (&sunny_img_MYNAUI_LEAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LEAVES;
+#define SUNNY_IMG_MYNAUI_LEAVES (&sunny_img_MYNAUI_LEAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_A_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_A_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_A_CIRCLE (&sunny_img_MYNAUI_LETTER_A_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_A_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_A_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_A_DIAMOND (&sunny_img_MYNAUI_LETTER_A_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_A_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_A_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_A_HEXAGON (&sunny_img_MYNAUI_LETTER_A_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_A_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_A_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_A_OCTAGON (&sunny_img_MYNAUI_LETTER_A_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_A_SOLID (&sunny_img_MYNAUI_LETTER_A_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_A_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_A_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_A_SQUARE (&sunny_img_MYNAUI_LETTER_A_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_A_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_A_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_A_WAVES (&sunny_img_MYNAUI_LETTER_A_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_A;
+#define SUNNY_IMG_MYNAUI_LETTER_A (&sunny_img_MYNAUI_LETTER_A)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_B_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_B_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_B_CIRCLE (&sunny_img_MYNAUI_LETTER_B_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_B_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_B_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_B_DIAMOND (&sunny_img_MYNAUI_LETTER_B_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_B_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_B_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_B_HEXAGON (&sunny_img_MYNAUI_LETTER_B_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_B_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_B_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_B_OCTAGON (&sunny_img_MYNAUI_LETTER_B_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_B_SOLID (&sunny_img_MYNAUI_LETTER_B_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_B_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_B_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_B_SQUARE (&sunny_img_MYNAUI_LETTER_B_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_B_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_B_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_B_WAVES (&sunny_img_MYNAUI_LETTER_B_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_B;
+#define SUNNY_IMG_MYNAUI_LETTER_B (&sunny_img_MYNAUI_LETTER_B)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_C_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_C_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_C_CIRCLE (&sunny_img_MYNAUI_LETTER_C_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_C_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_C_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_C_DIAMOND (&sunny_img_MYNAUI_LETTER_C_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_C_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_C_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_C_HEXAGON (&sunny_img_MYNAUI_LETTER_C_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_C_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_C_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_C_OCTAGON (&sunny_img_MYNAUI_LETTER_C_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_C_SOLID (&sunny_img_MYNAUI_LETTER_C_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_C_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_C_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_C_SQUARE (&sunny_img_MYNAUI_LETTER_C_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_C_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_C_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_C_WAVES (&sunny_img_MYNAUI_LETTER_C_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_C;
+#define SUNNY_IMG_MYNAUI_LETTER_C (&sunny_img_MYNAUI_LETTER_C)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_D_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_D_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_D_CIRCLE (&sunny_img_MYNAUI_LETTER_D_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_D_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_D_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_D_DIAMOND (&sunny_img_MYNAUI_LETTER_D_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_D_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_D_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_D_HEXAGON (&sunny_img_MYNAUI_LETTER_D_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_D_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_D_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_D_OCTAGON (&sunny_img_MYNAUI_LETTER_D_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_D_SOLID (&sunny_img_MYNAUI_LETTER_D_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_D_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_D_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_D_SQUARE (&sunny_img_MYNAUI_LETTER_D_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_D_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_D_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_D_WAVES (&sunny_img_MYNAUI_LETTER_D_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_D;
+#define SUNNY_IMG_MYNAUI_LETTER_D (&sunny_img_MYNAUI_LETTER_D)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_E_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_E_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_E_CIRCLE (&sunny_img_MYNAUI_LETTER_E_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_E_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_E_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_E_DIAMOND (&sunny_img_MYNAUI_LETTER_E_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_E_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_E_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_E_HEXAGON (&sunny_img_MYNAUI_LETTER_E_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_E_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_E_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_E_OCTAGON (&sunny_img_MYNAUI_LETTER_E_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_E_SOLID (&sunny_img_MYNAUI_LETTER_E_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_E_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_E_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_E_SQUARE (&sunny_img_MYNAUI_LETTER_E_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_E_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_E_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_E_WAVES (&sunny_img_MYNAUI_LETTER_E_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_E;
+#define SUNNY_IMG_MYNAUI_LETTER_E (&sunny_img_MYNAUI_LETTER_E)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_F_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_F_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_F_CIRCLE (&sunny_img_MYNAUI_LETTER_F_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_F_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_F_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_F_DIAMOND (&sunny_img_MYNAUI_LETTER_F_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_F_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_F_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_F_HEXAGON (&sunny_img_MYNAUI_LETTER_F_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_F_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_F_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_F_OCTAGON (&sunny_img_MYNAUI_LETTER_F_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_F_SOLID (&sunny_img_MYNAUI_LETTER_F_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_F_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_F_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_F_SQUARE (&sunny_img_MYNAUI_LETTER_F_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_F_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_F_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_F_WAVES (&sunny_img_MYNAUI_LETTER_F_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_F;
+#define SUNNY_IMG_MYNAUI_LETTER_F (&sunny_img_MYNAUI_LETTER_F)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_G_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_G_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_G_CIRCLE (&sunny_img_MYNAUI_LETTER_G_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_G_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_G_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_G_DIAMOND (&sunny_img_MYNAUI_LETTER_G_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_G_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_G_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_G_HEXAGON (&sunny_img_MYNAUI_LETTER_G_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_G_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_G_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_G_OCTAGON (&sunny_img_MYNAUI_LETTER_G_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_G_SOLID (&sunny_img_MYNAUI_LETTER_G_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_G_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_G_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_G_SQUARE (&sunny_img_MYNAUI_LETTER_G_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_G_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_G_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_G_WAVES (&sunny_img_MYNAUI_LETTER_G_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_G;
+#define SUNNY_IMG_MYNAUI_LETTER_G (&sunny_img_MYNAUI_LETTER_G)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_H_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_H_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_H_CIRCLE (&sunny_img_MYNAUI_LETTER_H_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_H_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_H_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_H_DIAMOND (&sunny_img_MYNAUI_LETTER_H_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_H_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_H_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_H_HEXAGON (&sunny_img_MYNAUI_LETTER_H_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_H_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_H_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_H_OCTAGON (&sunny_img_MYNAUI_LETTER_H_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_H_SOLID (&sunny_img_MYNAUI_LETTER_H_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_H_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_H_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_H_SQUARE (&sunny_img_MYNAUI_LETTER_H_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_H_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_H_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_H_WAVES (&sunny_img_MYNAUI_LETTER_H_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_H;
+#define SUNNY_IMG_MYNAUI_LETTER_H (&sunny_img_MYNAUI_LETTER_H)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_I_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_I_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_I_CIRCLE (&sunny_img_MYNAUI_LETTER_I_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_I_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_I_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_I_DIAMOND (&sunny_img_MYNAUI_LETTER_I_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_I_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_I_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_I_HEXAGON (&sunny_img_MYNAUI_LETTER_I_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_I_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_I_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_I_OCTAGON (&sunny_img_MYNAUI_LETTER_I_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_I_SOLID (&sunny_img_MYNAUI_LETTER_I_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_I_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_I_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_I_SQUARE (&sunny_img_MYNAUI_LETTER_I_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_I_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_I_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_I_WAVES (&sunny_img_MYNAUI_LETTER_I_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_I;
+#define SUNNY_IMG_MYNAUI_LETTER_I (&sunny_img_MYNAUI_LETTER_I)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_J_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_J_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_J_CIRCLE (&sunny_img_MYNAUI_LETTER_J_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_J_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_J_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_J_DIAMOND (&sunny_img_MYNAUI_LETTER_J_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_J_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_J_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_J_HEXAGON (&sunny_img_MYNAUI_LETTER_J_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_J_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_J_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_J_OCTAGON (&sunny_img_MYNAUI_LETTER_J_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_J_SOLID (&sunny_img_MYNAUI_LETTER_J_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_J_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_J_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_J_SQUARE (&sunny_img_MYNAUI_LETTER_J_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_J_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_J_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_J_WAVES (&sunny_img_MYNAUI_LETTER_J_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_J;
+#define SUNNY_IMG_MYNAUI_LETTER_J (&sunny_img_MYNAUI_LETTER_J)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_K_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_K_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_K_CIRCLE (&sunny_img_MYNAUI_LETTER_K_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_K_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_K_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_K_DIAMOND (&sunny_img_MYNAUI_LETTER_K_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_K_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_K_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_K_HEXAGON (&sunny_img_MYNAUI_LETTER_K_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_K_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_K_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_K_OCTAGON (&sunny_img_MYNAUI_LETTER_K_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_K_SOLID (&sunny_img_MYNAUI_LETTER_K_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_K_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_K_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_K_SQUARE (&sunny_img_MYNAUI_LETTER_K_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_K_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_K_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_K_WAVES (&sunny_img_MYNAUI_LETTER_K_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_K;
+#define SUNNY_IMG_MYNAUI_LETTER_K (&sunny_img_MYNAUI_LETTER_K)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_L_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_L_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_L_CIRCLE (&sunny_img_MYNAUI_LETTER_L_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_L_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_L_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_L_DIAMOND (&sunny_img_MYNAUI_LETTER_L_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_L_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_L_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_L_HEXAGON (&sunny_img_MYNAUI_LETTER_L_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_L_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_L_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_L_OCTAGON (&sunny_img_MYNAUI_LETTER_L_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_L_SOLID (&sunny_img_MYNAUI_LETTER_L_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_L_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_L_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_L_SQUARE (&sunny_img_MYNAUI_LETTER_L_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_L_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_L_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_L_WAVES (&sunny_img_MYNAUI_LETTER_L_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_L;
+#define SUNNY_IMG_MYNAUI_LETTER_L (&sunny_img_MYNAUI_LETTER_L)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_M_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_M_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_M_CIRCLE (&sunny_img_MYNAUI_LETTER_M_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_M_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_M_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_M_DIAMOND (&sunny_img_MYNAUI_LETTER_M_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_M_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_M_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_M_HEXAGON (&sunny_img_MYNAUI_LETTER_M_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_M_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_M_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_M_OCTAGON (&sunny_img_MYNAUI_LETTER_M_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_M_SOLID (&sunny_img_MYNAUI_LETTER_M_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_M_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_M_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_M_SQUARE (&sunny_img_MYNAUI_LETTER_M_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_M_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_M_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_M_WAVES (&sunny_img_MYNAUI_LETTER_M_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_M;
+#define SUNNY_IMG_MYNAUI_LETTER_M (&sunny_img_MYNAUI_LETTER_M)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_N_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_N_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_N_CIRCLE (&sunny_img_MYNAUI_LETTER_N_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_N_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_N_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_N_DIAMOND (&sunny_img_MYNAUI_LETTER_N_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_N_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_N_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_N_HEXAGON (&sunny_img_MYNAUI_LETTER_N_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_N_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_N_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_N_OCTAGON (&sunny_img_MYNAUI_LETTER_N_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_N_SOLID (&sunny_img_MYNAUI_LETTER_N_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_N_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_N_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_N_SQUARE (&sunny_img_MYNAUI_LETTER_N_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_N_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_N_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_N_WAVES (&sunny_img_MYNAUI_LETTER_N_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_N;
+#define SUNNY_IMG_MYNAUI_LETTER_N (&sunny_img_MYNAUI_LETTER_N)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_O_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_O_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_O_CIRCLE (&sunny_img_MYNAUI_LETTER_O_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_O_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_O_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_O_DIAMOND (&sunny_img_MYNAUI_LETTER_O_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_O_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_O_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_O_HEXAGON (&sunny_img_MYNAUI_LETTER_O_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_O_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_O_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_O_OCTAGON (&sunny_img_MYNAUI_LETTER_O_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_O_SOLID (&sunny_img_MYNAUI_LETTER_O_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_O_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_O_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_O_SQUARE (&sunny_img_MYNAUI_LETTER_O_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_O_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_O_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_O_WAVES (&sunny_img_MYNAUI_LETTER_O_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_O;
+#define SUNNY_IMG_MYNAUI_LETTER_O (&sunny_img_MYNAUI_LETTER_O)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_P_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_P_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_P_CIRCLE (&sunny_img_MYNAUI_LETTER_P_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_P_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_P_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_P_DIAMOND (&sunny_img_MYNAUI_LETTER_P_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_P_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_P_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_P_HEXAGON (&sunny_img_MYNAUI_LETTER_P_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_P_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_P_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_P_OCTAGON (&sunny_img_MYNAUI_LETTER_P_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_P_SOLID (&sunny_img_MYNAUI_LETTER_P_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_P_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_P_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_P_SQUARE (&sunny_img_MYNAUI_LETTER_P_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_P_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_P_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_P_WAVES (&sunny_img_MYNAUI_LETTER_P_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_P;
+#define SUNNY_IMG_MYNAUI_LETTER_P (&sunny_img_MYNAUI_LETTER_P)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_Q_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_CIRCLE (&sunny_img_MYNAUI_LETTER_Q_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_Q_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_DIAMOND (&sunny_img_MYNAUI_LETTER_Q_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_Q_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_HEXAGON (&sunny_img_MYNAUI_LETTER_Q_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_Q_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_OCTAGON (&sunny_img_MYNAUI_LETTER_Q_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_SOLID (&sunny_img_MYNAUI_LETTER_Q_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_Q_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_SQUARE (&sunny_img_MYNAUI_LETTER_Q_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_Q_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_Q_WAVES (&sunny_img_MYNAUI_LETTER_Q_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Q;
+#define SUNNY_IMG_MYNAUI_LETTER_Q (&sunny_img_MYNAUI_LETTER_Q)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_R_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_R_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_R_CIRCLE (&sunny_img_MYNAUI_LETTER_R_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_R_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_R_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_R_DIAMOND (&sunny_img_MYNAUI_LETTER_R_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_R_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_R_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_R_HEXAGON (&sunny_img_MYNAUI_LETTER_R_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_R_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_R_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_R_OCTAGON (&sunny_img_MYNAUI_LETTER_R_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_R_SOLID (&sunny_img_MYNAUI_LETTER_R_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_R_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_R_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_R_SQUARE (&sunny_img_MYNAUI_LETTER_R_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_R_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_R_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_R_WAVES (&sunny_img_MYNAUI_LETTER_R_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_R;
+#define SUNNY_IMG_MYNAUI_LETTER_R (&sunny_img_MYNAUI_LETTER_R)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_S_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_S_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_S_CIRCLE (&sunny_img_MYNAUI_LETTER_S_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_S_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_S_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_S_DIAMOND (&sunny_img_MYNAUI_LETTER_S_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_S_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_S_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_S_HEXAGON (&sunny_img_MYNAUI_LETTER_S_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_S_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_S_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_S_OCTAGON (&sunny_img_MYNAUI_LETTER_S_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_S_SOLID (&sunny_img_MYNAUI_LETTER_S_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_S_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_S_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_S_SQUARE (&sunny_img_MYNAUI_LETTER_S_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_S_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_S_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_S_WAVES (&sunny_img_MYNAUI_LETTER_S_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_S;
+#define SUNNY_IMG_MYNAUI_LETTER_S (&sunny_img_MYNAUI_LETTER_S)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_T_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_T_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_T_CIRCLE (&sunny_img_MYNAUI_LETTER_T_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_T_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_T_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_T_DIAMOND (&sunny_img_MYNAUI_LETTER_T_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_T_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_T_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_T_HEXAGON (&sunny_img_MYNAUI_LETTER_T_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_T_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_T_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_T_OCTAGON (&sunny_img_MYNAUI_LETTER_T_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_T_SOLID (&sunny_img_MYNAUI_LETTER_T_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_T_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_T_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_T_SQUARE (&sunny_img_MYNAUI_LETTER_T_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_T_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_T_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_T_WAVES (&sunny_img_MYNAUI_LETTER_T_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_T;
+#define SUNNY_IMG_MYNAUI_LETTER_T (&sunny_img_MYNAUI_LETTER_T)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_U_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_U_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_U_CIRCLE (&sunny_img_MYNAUI_LETTER_U_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_U_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_U_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_U_DIAMOND (&sunny_img_MYNAUI_LETTER_U_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_U_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_U_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_U_HEXAGON (&sunny_img_MYNAUI_LETTER_U_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_U_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_U_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_U_OCTAGON (&sunny_img_MYNAUI_LETTER_U_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_U_SOLID (&sunny_img_MYNAUI_LETTER_U_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_U_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_U_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_U_SQUARE (&sunny_img_MYNAUI_LETTER_U_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_U_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_U_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_U_WAVES (&sunny_img_MYNAUI_LETTER_U_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_U;
+#define SUNNY_IMG_MYNAUI_LETTER_U (&sunny_img_MYNAUI_LETTER_U)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_V_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_V_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_V_CIRCLE (&sunny_img_MYNAUI_LETTER_V_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_V_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_V_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_V_DIAMOND (&sunny_img_MYNAUI_LETTER_V_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_V_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_V_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_V_HEXAGON (&sunny_img_MYNAUI_LETTER_V_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_V_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_V_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_V_OCTAGON (&sunny_img_MYNAUI_LETTER_V_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_V_SOLID (&sunny_img_MYNAUI_LETTER_V_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_V_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_V_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_V_SQUARE (&sunny_img_MYNAUI_LETTER_V_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_V_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_V_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_V_WAVES (&sunny_img_MYNAUI_LETTER_V_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_V;
+#define SUNNY_IMG_MYNAUI_LETTER_V (&sunny_img_MYNAUI_LETTER_V)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_W_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_W_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_W_CIRCLE (&sunny_img_MYNAUI_LETTER_W_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_W_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_W_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_W_DIAMOND (&sunny_img_MYNAUI_LETTER_W_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_W_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_W_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_W_HEXAGON (&sunny_img_MYNAUI_LETTER_W_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_W_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_W_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_W_OCTAGON (&sunny_img_MYNAUI_LETTER_W_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_W_SOLID (&sunny_img_MYNAUI_LETTER_W_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_W_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_W_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_W_SQUARE (&sunny_img_MYNAUI_LETTER_W_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_W_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_W_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_W_WAVES (&sunny_img_MYNAUI_LETTER_W_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_W;
+#define SUNNY_IMG_MYNAUI_LETTER_W (&sunny_img_MYNAUI_LETTER_W)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_X_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_X_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_X_CIRCLE (&sunny_img_MYNAUI_LETTER_X_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_X_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_X_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_X_DIAMOND (&sunny_img_MYNAUI_LETTER_X_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_X_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_X_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_X_HEXAGON (&sunny_img_MYNAUI_LETTER_X_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_X_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_X_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_X_OCTAGON (&sunny_img_MYNAUI_LETTER_X_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_X_SOLID (&sunny_img_MYNAUI_LETTER_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_X_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_X_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_X_SQUARE (&sunny_img_MYNAUI_LETTER_X_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_X_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_X_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_X_WAVES (&sunny_img_MYNAUI_LETTER_X_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_X;
+#define SUNNY_IMG_MYNAUI_LETTER_X (&sunny_img_MYNAUI_LETTER_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_Y_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_CIRCLE (&sunny_img_MYNAUI_LETTER_Y_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_Y_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_DIAMOND (&sunny_img_MYNAUI_LETTER_Y_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_Y_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_HEXAGON (&sunny_img_MYNAUI_LETTER_Y_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_Y_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_OCTAGON (&sunny_img_MYNAUI_LETTER_Y_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_SOLID (&sunny_img_MYNAUI_LETTER_Y_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_Y_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_SQUARE (&sunny_img_MYNAUI_LETTER_Y_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_Y_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_Y_WAVES (&sunny_img_MYNAUI_LETTER_Y_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Y;
+#define SUNNY_IMG_MYNAUI_LETTER_Y (&sunny_img_MYNAUI_LETTER_Y)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_CIRCLE_SOLID (&sunny_img_MYNAUI_LETTER_Z_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_CIRCLE (&sunny_img_MYNAUI_LETTER_Z_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_DIAMOND_SOLID (&sunny_img_MYNAUI_LETTER_Z_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_DIAMOND (&sunny_img_MYNAUI_LETTER_Z_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_HEXAGON_SOLID (&sunny_img_MYNAUI_LETTER_Z_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_HEXAGON (&sunny_img_MYNAUI_LETTER_Z_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_OCTAGON_SOLID (&sunny_img_MYNAUI_LETTER_Z_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_OCTAGON (&sunny_img_MYNAUI_LETTER_Z_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_SOLID (&sunny_img_MYNAUI_LETTER_Z_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_SQUARE_SOLID (&sunny_img_MYNAUI_LETTER_Z_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_SQUARE;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_SQUARE (&sunny_img_MYNAUI_LETTER_Z_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_WAVES_SOLID (&sunny_img_MYNAUI_LETTER_Z_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z_WAVES;
+#define SUNNY_IMG_MYNAUI_LETTER_Z_WAVES (&sunny_img_MYNAUI_LETTER_Z_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LETTER_Z;
+#define SUNNY_IMG_MYNAUI_LETTER_Z (&sunny_img_MYNAUI_LETTER_Z)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIGHTNING_OFF_SOLID;
+#define SUNNY_IMG_MYNAUI_LIGHTNING_OFF_SOLID (&sunny_img_MYNAUI_LIGHTNING_OFF_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIGHTNING_OFF;
+#define SUNNY_IMG_MYNAUI_LIGHTNING_OFF (&sunny_img_MYNAUI_LIGHTNING_OFF)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIGHTNING_SOLID;
+#define SUNNY_IMG_MYNAUI_LIGHTNING_SOLID (&sunny_img_MYNAUI_LIGHTNING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIGHTNING;
+#define SUNNY_IMG_MYNAUI_LIGHTNING (&sunny_img_MYNAUI_LIGHTNING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIKE_SOLID;
+#define SUNNY_IMG_MYNAUI_LIKE_SOLID (&sunny_img_MYNAUI_LIKE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIKE;
+#define SUNNY_IMG_MYNAUI_LIKE (&sunny_img_MYNAUI_LIKE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_CIRCLE_SOLID (&sunny_img_MYNAUI_LINE_CHART_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_CIRCLE (&sunny_img_MYNAUI_LINE_CHART_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_DIAMOND_SOLID (&sunny_img_MYNAUI_LINE_CHART_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_DIAMOND (&sunny_img_MYNAUI_LINE_CHART_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_HEXAGON_SOLID (&sunny_img_MYNAUI_LINE_CHART_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_HEXAGON (&sunny_img_MYNAUI_LINE_CHART_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_OCTAGON_SOLID (&sunny_img_MYNAUI_LINE_CHART_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_OCTAGON (&sunny_img_MYNAUI_LINE_CHART_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_SQUARE_SOLID (&sunny_img_MYNAUI_LINE_CHART_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_SQUARE;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_SQUARE (&sunny_img_MYNAUI_LINE_CHART_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_WAVES_SOLID (&sunny_img_MYNAUI_LINE_CHART_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINE_CHART_WAVES;
+#define SUNNY_IMG_MYNAUI_LINE_CHART_WAVES (&sunny_img_MYNAUI_LINE_CHART_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINK_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_LINK_ONE_SOLID (&sunny_img_MYNAUI_LINK_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINK_ONE;
+#define SUNNY_IMG_MYNAUI_LINK_ONE (&sunny_img_MYNAUI_LINK_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINK_SOLID;
+#define SUNNY_IMG_MYNAUI_LINK_SOLID (&sunny_img_MYNAUI_LINK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINK_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_LINK_TWO_SOLID (&sunny_img_MYNAUI_LINK_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINK_TWO;
+#define SUNNY_IMG_MYNAUI_LINK_TWO (&sunny_img_MYNAUI_LINK_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LINK;
+#define SUNNY_IMG_MYNAUI_LINK (&sunny_img_MYNAUI_LINK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIST_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_LIST_CHECK_SOLID (&sunny_img_MYNAUI_LIST_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIST_CHECK;
+#define SUNNY_IMG_MYNAUI_LIST_CHECK (&sunny_img_MYNAUI_LIST_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIST_NUMBER_SOLID;
+#define SUNNY_IMG_MYNAUI_LIST_NUMBER_SOLID (&sunny_img_MYNAUI_LIST_NUMBER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIST_NUMBER;
+#define SUNNY_IMG_MYNAUI_LIST_NUMBER (&sunny_img_MYNAUI_LIST_NUMBER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIST_SOLID;
+#define SUNNY_IMG_MYNAUI_LIST_SOLID (&sunny_img_MYNAUI_LIST_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LIST;
+#define SUNNY_IMG_MYNAUI_LIST (&sunny_img_MYNAUI_LIST)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCATION_CHECK_SOLID (&sunny_img_MYNAUI_LOCATION_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_CHECK;
+#define SUNNY_IMG_MYNAUI_LOCATION_CHECK (&sunny_img_MYNAUI_LOCATION_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_HOME_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCATION_HOME_SOLID (&sunny_img_MYNAUI_LOCATION_HOME_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_HOME;
+#define SUNNY_IMG_MYNAUI_LOCATION_HOME (&sunny_img_MYNAUI_LOCATION_HOME)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCATION_MINUS_SOLID (&sunny_img_MYNAUI_LOCATION_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_MINUS;
+#define SUNNY_IMG_MYNAUI_LOCATION_MINUS (&sunny_img_MYNAUI_LOCATION_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCATION_PLUS_SOLID (&sunny_img_MYNAUI_LOCATION_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_PLUS;
+#define SUNNY_IMG_MYNAUI_LOCATION_PLUS (&sunny_img_MYNAUI_LOCATION_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_SELECTED_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCATION_SELECTED_SOLID (&sunny_img_MYNAUI_LOCATION_SELECTED_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_SELECTED;
+#define SUNNY_IMG_MYNAUI_LOCATION_SELECTED (&sunny_img_MYNAUI_LOCATION_SELECTED)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCATION_SLASH_SOLID (&sunny_img_MYNAUI_LOCATION_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_SLASH;
+#define SUNNY_IMG_MYNAUI_LOCATION_SLASH (&sunny_img_MYNAUI_LOCATION_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_SNOOZE_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCATION_SNOOZE_SOLID (&sunny_img_MYNAUI_LOCATION_SNOOZE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_SNOOZE;
+#define SUNNY_IMG_MYNAUI_LOCATION_SNOOZE (&sunny_img_MYNAUI_LOCATION_SNOOZE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCATION_SOLID (&sunny_img_MYNAUI_LOCATION_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_USER_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCATION_USER_SOLID (&sunny_img_MYNAUI_LOCATION_USER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_USER;
+#define SUNNY_IMG_MYNAUI_LOCATION_USER (&sunny_img_MYNAUI_LOCATION_USER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_X_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCATION_X_SOLID (&sunny_img_MYNAUI_LOCATION_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION_X;
+#define SUNNY_IMG_MYNAUI_LOCATION_X (&sunny_img_MYNAUI_LOCATION_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCATION;
+#define SUNNY_IMG_MYNAUI_LOCATION (&sunny_img_MYNAUI_LOCATION)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_CIRCLE_SOLID (&sunny_img_MYNAUI_LOCK_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_CIRCLE;
+#define SUNNY_IMG_MYNAUI_LOCK_CIRCLE (&sunny_img_MYNAUI_LOCK_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_DIAMOND_SOLID (&sunny_img_MYNAUI_LOCK_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_DIAMOND;
+#define SUNNY_IMG_MYNAUI_LOCK_DIAMOND (&sunny_img_MYNAUI_LOCK_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_HEXAGON_SOLID (&sunny_img_MYNAUI_LOCK_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_HEXAGON;
+#define SUNNY_IMG_MYNAUI_LOCK_HEXAGON (&sunny_img_MYNAUI_LOCK_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_KEYHOLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_KEYHOLE_SOLID (&sunny_img_MYNAUI_LOCK_KEYHOLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_KEYHOLE;
+#define SUNNY_IMG_MYNAUI_LOCK_KEYHOLE (&sunny_img_MYNAUI_LOCK_KEYHOLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_OCTAGON_SOLID (&sunny_img_MYNAUI_LOCK_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_OCTAGON;
+#define SUNNY_IMG_MYNAUI_LOCK_OCTAGON (&sunny_img_MYNAUI_LOCK_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_OPEN_KEYHOLE_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_OPEN_KEYHOLE_SOLID (&sunny_img_MYNAUI_LOCK_OPEN_KEYHOLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_OPEN_KEYHOLE;
+#define SUNNY_IMG_MYNAUI_LOCK_OPEN_KEYHOLE (&sunny_img_MYNAUI_LOCK_OPEN_KEYHOLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_OPEN_PASSWORD_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_OPEN_PASSWORD_SOLID (&sunny_img_MYNAUI_LOCK_OPEN_PASSWORD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_OPEN_PASSWORD;
+#define SUNNY_IMG_MYNAUI_LOCK_OPEN_PASSWORD (&sunny_img_MYNAUI_LOCK_OPEN_PASSWORD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_OPEN_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_OPEN_SOLID (&sunny_img_MYNAUI_LOCK_OPEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_OPEN;
+#define SUNNY_IMG_MYNAUI_LOCK_OPEN (&sunny_img_MYNAUI_LOCK_OPEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_PASSWORD_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_PASSWORD_SOLID (&sunny_img_MYNAUI_LOCK_PASSWORD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_PASSWORD;
+#define SUNNY_IMG_MYNAUI_LOCK_PASSWORD (&sunny_img_MYNAUI_LOCK_PASSWORD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_SOLID (&sunny_img_MYNAUI_LOCK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_SQUARE_SOLID (&sunny_img_MYNAUI_LOCK_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_SQUARE;
+#define SUNNY_IMG_MYNAUI_LOCK_SQUARE (&sunny_img_MYNAUI_LOCK_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_LOCK_WAVES_SOLID (&sunny_img_MYNAUI_LOCK_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK_WAVES;
+#define SUNNY_IMG_MYNAUI_LOCK_WAVES (&sunny_img_MYNAUI_LOCK_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOCK;
+#define SUNNY_IMG_MYNAUI_LOCK (&sunny_img_MYNAUI_LOCK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOGIN_SOLID;
+#define SUNNY_IMG_MYNAUI_LOGIN_SOLID (&sunny_img_MYNAUI_LOGIN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOGIN;
+#define SUNNY_IMG_MYNAUI_LOGIN (&sunny_img_MYNAUI_LOGIN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOGOUT_SOLID;
+#define SUNNY_IMG_MYNAUI_LOGOUT_SOLID (&sunny_img_MYNAUI_LOGOUT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_LOGOUT;
+#define SUNNY_IMG_MYNAUI_LOGOUT (&sunny_img_MYNAUI_LOGOUT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MAGNET_SOLID;
+#define SUNNY_IMG_MYNAUI_MAGNET_SOLID (&sunny_img_MYNAUI_MAGNET_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MAGNET;
+#define SUNNY_IMG_MYNAUI_MAGNET (&sunny_img_MYNAUI_MAGNET)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MALE_SOLID;
+#define SUNNY_IMG_MYNAUI_MALE_SOLID (&sunny_img_MYNAUI_MALE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MALE;
+#define SUNNY_IMG_MYNAUI_MALE (&sunny_img_MYNAUI_MALE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MAP_SOLID;
+#define SUNNY_IMG_MYNAUI_MAP_SOLID (&sunny_img_MYNAUI_MAP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MAP;
+#define SUNNY_IMG_MYNAUI_MAP (&sunny_img_MYNAUI_MAP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MASK_SOLID;
+#define SUNNY_IMG_MYNAUI_MASK_SOLID (&sunny_img_MYNAUI_MASK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MASK;
+#define SUNNY_IMG_MYNAUI_MASK (&sunny_img_MYNAUI_MASK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MATH_SOLID;
+#define SUNNY_IMG_MYNAUI_MATH_SOLID (&sunny_img_MYNAUI_MATH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MATH_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_MATH_SQUARE_SOLID (&sunny_img_MYNAUI_MATH_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MATH_SQUARE;
+#define SUNNY_IMG_MYNAUI_MATH_SQUARE (&sunny_img_MYNAUI_MATH_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MATH;
+#define SUNNY_IMG_MYNAUI_MATH (&sunny_img_MYNAUI_MATH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MAXIMIZE_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_MAXIMIZE_ONE_SOLID (&sunny_img_MYNAUI_MAXIMIZE_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MAXIMIZE_ONE;
+#define SUNNY_IMG_MYNAUI_MAXIMIZE_ONE (&sunny_img_MYNAUI_MAXIMIZE_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MAXIMIZE_SOLID;
+#define SUNNY_IMG_MYNAUI_MAXIMIZE_SOLID (&sunny_img_MYNAUI_MAXIMIZE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MAXIMIZE;
+#define SUNNY_IMG_MYNAUI_MAXIMIZE (&sunny_img_MYNAUI_MAXIMIZE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MENU_SOLID;
+#define SUNNY_IMG_MYNAUI_MENU_SOLID (&sunny_img_MYNAUI_MENU_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MENU;
+#define SUNNY_IMG_MYNAUI_MENU (&sunny_img_MYNAUI_MENU)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_MESSAGE_CHECK_SOLID (&sunny_img_MYNAUI_MESSAGE_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_CHECK;
+#define SUNNY_IMG_MYNAUI_MESSAGE_CHECK (&sunny_img_MYNAUI_MESSAGE_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_DOTS_SOLID;
+#define SUNNY_IMG_MYNAUI_MESSAGE_DOTS_SOLID (&sunny_img_MYNAUI_MESSAGE_DOTS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_DOTS;
+#define SUNNY_IMG_MYNAUI_MESSAGE_DOTS (&sunny_img_MYNAUI_MESSAGE_DOTS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_MESSAGE_MINUS_SOLID (&sunny_img_MYNAUI_MESSAGE_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_MINUS;
+#define SUNNY_IMG_MYNAUI_MESSAGE_MINUS (&sunny_img_MYNAUI_MESSAGE_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_MESSAGE_PLUS_SOLID (&sunny_img_MYNAUI_MESSAGE_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_PLUS;
+#define SUNNY_IMG_MYNAUI_MESSAGE_PLUS (&sunny_img_MYNAUI_MESSAGE_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_REPLY_SOLID;
+#define SUNNY_IMG_MYNAUI_MESSAGE_REPLY_SOLID (&sunny_img_MYNAUI_MESSAGE_REPLY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_REPLY;
+#define SUNNY_IMG_MYNAUI_MESSAGE_REPLY (&sunny_img_MYNAUI_MESSAGE_REPLY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_SOLID;
+#define SUNNY_IMG_MYNAUI_MESSAGE_SOLID (&sunny_img_MYNAUI_MESSAGE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_X_SOLID;
+#define SUNNY_IMG_MYNAUI_MESSAGE_X_SOLID (&sunny_img_MYNAUI_MESSAGE_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE_X;
+#define SUNNY_IMG_MYNAUI_MESSAGE_X (&sunny_img_MYNAUI_MESSAGE_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MESSAGE;
+#define SUNNY_IMG_MYNAUI_MESSAGE (&sunny_img_MYNAUI_MESSAGE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MICROPHONE_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_MICROPHONE_SLASH_SOLID (&sunny_img_MYNAUI_MICROPHONE_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MICROPHONE_SLASH;
+#define SUNNY_IMG_MYNAUI_MICROPHONE_SLASH (&sunny_img_MYNAUI_MICROPHONE_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MICROPHONE_SOLID;
+#define SUNNY_IMG_MYNAUI_MICROPHONE_SOLID (&sunny_img_MYNAUI_MICROPHONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MICROPHONE;
+#define SUNNY_IMG_MYNAUI_MICROPHONE (&sunny_img_MYNAUI_MICROPHONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINIMIZE_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_MINIMIZE_ONE_SOLID (&sunny_img_MYNAUI_MINIMIZE_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINIMIZE_ONE;
+#define SUNNY_IMG_MYNAUI_MINIMIZE_ONE (&sunny_img_MYNAUI_MINIMIZE_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINIMIZE_SOLID;
+#define SUNNY_IMG_MYNAUI_MINIMIZE_SOLID (&sunny_img_MYNAUI_MINIMIZE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINIMIZE;
+#define SUNNY_IMG_MYNAUI_MINIMIZE (&sunny_img_MYNAUI_MINIMIZE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_MINUS_CIRCLE_SOLID (&sunny_img_MYNAUI_MINUS_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_CIRCLE;
+#define SUNNY_IMG_MYNAUI_MINUS_CIRCLE (&sunny_img_MYNAUI_MINUS_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_MINUS_DIAMOND_SOLID (&sunny_img_MYNAUI_MINUS_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_DIAMOND;
+#define SUNNY_IMG_MYNAUI_MINUS_DIAMOND (&sunny_img_MYNAUI_MINUS_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_MINUS_HEXAGON_SOLID (&sunny_img_MYNAUI_MINUS_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_HEXAGON;
+#define SUNNY_IMG_MYNAUI_MINUS_HEXAGON (&sunny_img_MYNAUI_MINUS_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_MINUS_OCTAGON_SOLID (&sunny_img_MYNAUI_MINUS_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_OCTAGON;
+#define SUNNY_IMG_MYNAUI_MINUS_OCTAGON (&sunny_img_MYNAUI_MINUS_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_MINUS_SOLID (&sunny_img_MYNAUI_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_MINUS_SQUARE_SOLID (&sunny_img_MYNAUI_MINUS_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_SQUARE;
+#define SUNNY_IMG_MYNAUI_MINUS_SQUARE (&sunny_img_MYNAUI_MINUS_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_MINUS_WAVES_SOLID (&sunny_img_MYNAUI_MINUS_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS_WAVES;
+#define SUNNY_IMG_MYNAUI_MINUS_WAVES (&sunny_img_MYNAUI_MINUS_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MINUS;
+#define SUNNY_IMG_MYNAUI_MINUS (&sunny_img_MYNAUI_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE_SIGNAL_FIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_MOBILE_SIGNAL_FIVE_SOLID (&sunny_img_MYNAUI_MOBILE_SIGNAL_FIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE_SIGNAL_FIVE;
+#define SUNNY_IMG_MYNAUI_MOBILE_SIGNAL_FIVE (&sunny_img_MYNAUI_MOBILE_SIGNAL_FIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE_SIGNAL_FOUR_SOLID;
+#define SUNNY_IMG_MYNAUI_MOBILE_SIGNAL_FOUR_SOLID (&sunny_img_MYNAUI_MOBILE_SIGNAL_FOUR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE_SIGNAL_FOUR;
+#define SUNNY_IMG_MYNAUI_MOBILE_SIGNAL_FOUR (&sunny_img_MYNAUI_MOBILE_SIGNAL_FOUR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE_SIGNAL_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_MOBILE_SIGNAL_ONE_SOLID (&sunny_img_MYNAUI_MOBILE_SIGNAL_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE_SIGNAL_ONE;
+#define SUNNY_IMG_MYNAUI_MOBILE_SIGNAL_ONE (&sunny_img_MYNAUI_MOBILE_SIGNAL_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE_SIGNAL_THREE_SOLID;
+#define SUNNY_IMG_MYNAUI_MOBILE_SIGNAL_THREE_SOLID (&sunny_img_MYNAUI_MOBILE_SIGNAL_THREE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE_SIGNAL_THREE;
+#define SUNNY_IMG_MYNAUI_MOBILE_SIGNAL_THREE (&sunny_img_MYNAUI_MOBILE_SIGNAL_THREE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE_SIGNAL_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_MOBILE_SIGNAL_TWO_SOLID (&sunny_img_MYNAUI_MOBILE_SIGNAL_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE_SIGNAL_TWO;
+#define SUNNY_IMG_MYNAUI_MOBILE_SIGNAL_TWO (&sunny_img_MYNAUI_MOBILE_SIGNAL_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE_SOLID;
+#define SUNNY_IMG_MYNAUI_MOBILE_SOLID (&sunny_img_MYNAUI_MOBILE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOBILE;
+#define SUNNY_IMG_MYNAUI_MOBILE (&sunny_img_MYNAUI_MOBILE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOON_SOLID;
+#define SUNNY_IMG_MYNAUI_MOON_SOLID (&sunny_img_MYNAUI_MOON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOON_STAR_SOLID;
+#define SUNNY_IMG_MYNAUI_MOON_STAR_SOLID (&sunny_img_MYNAUI_MOON_STAR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOON_STAR;
+#define SUNNY_IMG_MYNAUI_MOON_STAR (&sunny_img_MYNAUI_MOON_STAR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOON;
+#define SUNNY_IMG_MYNAUI_MOON (&sunny_img_MYNAUI_MOON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOUNTAIN_SNOW_SOLID;
+#define SUNNY_IMG_MYNAUI_MOUNTAIN_SNOW_SOLID (&sunny_img_MYNAUI_MOUNTAIN_SNOW_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOUNTAIN_SNOW;
+#define SUNNY_IMG_MYNAUI_MOUNTAIN_SNOW (&sunny_img_MYNAUI_MOUNTAIN_SNOW)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOUNTAIN_SOLID;
+#define SUNNY_IMG_MYNAUI_MOUNTAIN_SOLID (&sunny_img_MYNAUI_MOUNTAIN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOUNTAIN;
+#define SUNNY_IMG_MYNAUI_MOUNTAIN (&sunny_img_MYNAUI_MOUNTAIN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOUSE_POINTER_SOLID;
+#define SUNNY_IMG_MYNAUI_MOUSE_POINTER_SOLID (&sunny_img_MYNAUI_MOUSE_POINTER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOUSE_POINTER;
+#define SUNNY_IMG_MYNAUI_MOUSE_POINTER (&sunny_img_MYNAUI_MOUSE_POINTER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOVE_DIAGONAL_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_MOVE_DIAGONAL_ONE_SOLID (&sunny_img_MYNAUI_MOVE_DIAGONAL_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOVE_DIAGONAL_ONE;
+#define SUNNY_IMG_MYNAUI_MOVE_DIAGONAL_ONE (&sunny_img_MYNAUI_MOVE_DIAGONAL_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOVE_DIAGONAL_SOLID;
+#define SUNNY_IMG_MYNAUI_MOVE_DIAGONAL_SOLID (&sunny_img_MYNAUI_MOVE_DIAGONAL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOVE_DIAGONAL;
+#define SUNNY_IMG_MYNAUI_MOVE_DIAGONAL (&sunny_img_MYNAUI_MOVE_DIAGONAL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOVE_HORIZONTAL_SOLID;
+#define SUNNY_IMG_MYNAUI_MOVE_HORIZONTAL_SOLID (&sunny_img_MYNAUI_MOVE_HORIZONTAL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOVE_HORIZONTAL;
+#define SUNNY_IMG_MYNAUI_MOVE_HORIZONTAL (&sunny_img_MYNAUI_MOVE_HORIZONTAL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOVE_SOLID;
+#define SUNNY_IMG_MYNAUI_MOVE_SOLID (&sunny_img_MYNAUI_MOVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOVE_VERTICAL_SOLID;
+#define SUNNY_IMG_MYNAUI_MOVE_VERTICAL_SOLID (&sunny_img_MYNAUI_MOVE_VERTICAL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOVE_VERTICAL;
+#define SUNNY_IMG_MYNAUI_MOVE_VERTICAL (&sunny_img_MYNAUI_MOVE_VERTICAL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MOVE;
+#define SUNNY_IMG_MYNAUI_MOVE (&sunny_img_MYNAUI_MOVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_MUSIC_CIRCLE_SOLID (&sunny_img_MYNAUI_MUSIC_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_CIRCLE;
+#define SUNNY_IMG_MYNAUI_MUSIC_CIRCLE (&sunny_img_MYNAUI_MUSIC_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_MUSIC_DIAMOND_SOLID (&sunny_img_MYNAUI_MUSIC_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_DIAMOND;
+#define SUNNY_IMG_MYNAUI_MUSIC_DIAMOND (&sunny_img_MYNAUI_MUSIC_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_MUSIC_HEXAGON_SOLID (&sunny_img_MYNAUI_MUSIC_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_HEXAGON;
+#define SUNNY_IMG_MYNAUI_MUSIC_HEXAGON (&sunny_img_MYNAUI_MUSIC_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_MUSIC_OCTAGON_SOLID (&sunny_img_MYNAUI_MUSIC_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_OCTAGON;
+#define SUNNY_IMG_MYNAUI_MUSIC_OCTAGON (&sunny_img_MYNAUI_MUSIC_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_SOLID;
+#define SUNNY_IMG_MYNAUI_MUSIC_SOLID (&sunny_img_MYNAUI_MUSIC_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_MUSIC_SQUARE_SOLID (&sunny_img_MYNAUI_MUSIC_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_SQUARE;
+#define SUNNY_IMG_MYNAUI_MUSIC_SQUARE (&sunny_img_MYNAUI_MUSIC_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_MUSIC_WAVES_SOLID (&sunny_img_MYNAUI_MUSIC_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC_WAVES;
+#define SUNNY_IMG_MYNAUI_MUSIC_WAVES (&sunny_img_MYNAUI_MUSIC_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MUSIC;
+#define SUNNY_IMG_MYNAUI_MUSIC (&sunny_img_MYNAUI_MUSIC)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MYNA_SOLID;
+#define SUNNY_IMG_MYNAUI_MYNA_SOLID (&sunny_img_MYNAUI_MYNA_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_MYNA;
+#define SUNNY_IMG_MYNAUI_MYNA (&sunny_img_MYNAUI_MYNA)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NAVIGATION_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_NAVIGATION_ONE_SOLID (&sunny_img_MYNAUI_NAVIGATION_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NAVIGATION_ONE;
+#define SUNNY_IMG_MYNAUI_NAVIGATION_ONE (&sunny_img_MYNAUI_NAVIGATION_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NAVIGATION_SOLID;
+#define SUNNY_IMG_MYNAUI_NAVIGATION_SOLID (&sunny_img_MYNAUI_NAVIGATION_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NAVIGATION;
+#define SUNNY_IMG_MYNAUI_NAVIGATION (&sunny_img_MYNAUI_NAVIGATION)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_NINE_CIRCLE_SOLID (&sunny_img_MYNAUI_NINE_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_CIRCLE;
+#define SUNNY_IMG_MYNAUI_NINE_CIRCLE (&sunny_img_MYNAUI_NINE_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_NINE_DIAMOND_SOLID (&sunny_img_MYNAUI_NINE_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_DIAMOND;
+#define SUNNY_IMG_MYNAUI_NINE_DIAMOND (&sunny_img_MYNAUI_NINE_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_NINE_HEXAGON_SOLID (&sunny_img_MYNAUI_NINE_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_HEXAGON;
+#define SUNNY_IMG_MYNAUI_NINE_HEXAGON (&sunny_img_MYNAUI_NINE_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_NINE_OCTAGON_SOLID (&sunny_img_MYNAUI_NINE_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_OCTAGON;
+#define SUNNY_IMG_MYNAUI_NINE_OCTAGON (&sunny_img_MYNAUI_NINE_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_SOLID;
+#define SUNNY_IMG_MYNAUI_NINE_SOLID (&sunny_img_MYNAUI_NINE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_NINE_SQUARE_SOLID (&sunny_img_MYNAUI_NINE_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_SQUARE;
+#define SUNNY_IMG_MYNAUI_NINE_SQUARE (&sunny_img_MYNAUI_NINE_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_NINE_WAVES_SOLID (&sunny_img_MYNAUI_NINE_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE_WAVES;
+#define SUNNY_IMG_MYNAUI_NINE_WAVES (&sunny_img_MYNAUI_NINE_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NINE;
+#define SUNNY_IMG_MYNAUI_NINE (&sunny_img_MYNAUI_NINE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NOTIFICATION_SOLID;
+#define SUNNY_IMG_MYNAUI_NOTIFICATION_SOLID (&sunny_img_MYNAUI_NOTIFICATION_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_NOTIFICATION;
+#define SUNNY_IMG_MYNAUI_NOTIFICATION (&sunny_img_MYNAUI_NOTIFICATION)
+extern const lv_img_dsc_t sunny_img_MYNAUI_OCTAGON_CHECK;
+#define SUNNY_IMG_MYNAUI_OCTAGON_CHECK (&sunny_img_MYNAUI_OCTAGON_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_OCTAGON_DANGER;
+#define SUNNY_IMG_MYNAUI_OCTAGON_DANGER (&sunny_img_MYNAUI_OCTAGON_DANGER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_OCTAGON_INFO;
+#define SUNNY_IMG_MYNAUI_OCTAGON_INFO (&sunny_img_MYNAUI_OCTAGON_INFO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_OCTAGON_MINUS;
+#define SUNNY_IMG_MYNAUI_OCTAGON_MINUS (&sunny_img_MYNAUI_OCTAGON_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_OCTAGON_PLUS;
+#define SUNNY_IMG_MYNAUI_OCTAGON_PLUS (&sunny_img_MYNAUI_OCTAGON_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_OCTAGON_SLASH;
+#define SUNNY_IMG_MYNAUI_OCTAGON_SLASH (&sunny_img_MYNAUI_OCTAGON_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_OCTAGON_SOLID (&sunny_img_MYNAUI_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_OCTAGON_X;
+#define SUNNY_IMG_MYNAUI_OCTAGON_X (&sunny_img_MYNAUI_OCTAGON_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_OCTAGON;
+#define SUNNY_IMG_MYNAUI_OCTAGON (&sunny_img_MYNAUI_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ONE_CIRCLE_SOLID (&sunny_img_MYNAUI_ONE_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ONE_CIRCLE (&sunny_img_MYNAUI_ONE_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_ONE_DIAMOND_SOLID (&sunny_img_MYNAUI_ONE_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_DIAMOND;
+#define SUNNY_IMG_MYNAUI_ONE_DIAMOND (&sunny_img_MYNAUI_ONE_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_ONE_HEXAGON_SOLID (&sunny_img_MYNAUI_ONE_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_HEXAGON;
+#define SUNNY_IMG_MYNAUI_ONE_HEXAGON (&sunny_img_MYNAUI_ONE_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_ONE_OCTAGON_SOLID (&sunny_img_MYNAUI_ONE_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_OCTAGON;
+#define SUNNY_IMG_MYNAUI_ONE_OCTAGON (&sunny_img_MYNAUI_ONE_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_ONE_SOLID (&sunny_img_MYNAUI_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ONE_SQUARE_SOLID (&sunny_img_MYNAUI_ONE_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_SQUARE;
+#define SUNNY_IMG_MYNAUI_ONE_SQUARE (&sunny_img_MYNAUI_ONE_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_ONE_WAVES_SOLID (&sunny_img_MYNAUI_ONE_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE_WAVES;
+#define SUNNY_IMG_MYNAUI_ONE_WAVES (&sunny_img_MYNAUI_ONE_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ONE;
+#define SUNNY_IMG_MYNAUI_ONE (&sunny_img_MYNAUI_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_OPTION_SOLID;
+#define SUNNY_IMG_MYNAUI_OPTION_SOLID (&sunny_img_MYNAUI_OPTION_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_OPTION;
+#define SUNNY_IMG_MYNAUI_OPTION (&sunny_img_MYNAUI_OPTION)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PACKAGE_SOLID;
+#define SUNNY_IMG_MYNAUI_PACKAGE_SOLID (&sunny_img_MYNAUI_PACKAGE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PACKAGE;
+#define SUNNY_IMG_MYNAUI_PACKAGE (&sunny_img_MYNAUI_PACKAGE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAINT_SOLID;
+#define SUNNY_IMG_MYNAUI_PAINT_SOLID (&sunny_img_MYNAUI_PAINT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAINT;
+#define SUNNY_IMG_MYNAUI_PAINT (&sunny_img_MYNAUI_PAINT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_BOTTOM_CLOSE_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_BOTTOM_CLOSE_SOLID (&sunny_img_MYNAUI_PANEL_BOTTOM_CLOSE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_BOTTOM_CLOSE;
+#define SUNNY_IMG_MYNAUI_PANEL_BOTTOM_CLOSE (&sunny_img_MYNAUI_PANEL_BOTTOM_CLOSE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_BOTTOM_INACTIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_BOTTOM_INACTIVE_SOLID (&sunny_img_MYNAUI_PANEL_BOTTOM_INACTIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_BOTTOM_INACTIVE;
+#define SUNNY_IMG_MYNAUI_PANEL_BOTTOM_INACTIVE (&sunny_img_MYNAUI_PANEL_BOTTOM_INACTIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_BOTTOM_OPEN_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_BOTTOM_OPEN_SOLID (&sunny_img_MYNAUI_PANEL_BOTTOM_OPEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_BOTTOM_OPEN;
+#define SUNNY_IMG_MYNAUI_PANEL_BOTTOM_OPEN (&sunny_img_MYNAUI_PANEL_BOTTOM_OPEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_BOTTOM_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_BOTTOM_SOLID (&sunny_img_MYNAUI_PANEL_BOTTOM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_BOTTOM;
+#define SUNNY_IMG_MYNAUI_PANEL_BOTTOM (&sunny_img_MYNAUI_PANEL_BOTTOM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_LEFT_CLOSE_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_LEFT_CLOSE_SOLID (&sunny_img_MYNAUI_PANEL_LEFT_CLOSE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_LEFT_CLOSE;
+#define SUNNY_IMG_MYNAUI_PANEL_LEFT_CLOSE (&sunny_img_MYNAUI_PANEL_LEFT_CLOSE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_LEFT_INACTIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_LEFT_INACTIVE_SOLID (&sunny_img_MYNAUI_PANEL_LEFT_INACTIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_LEFT_INACTIVE;
+#define SUNNY_IMG_MYNAUI_PANEL_LEFT_INACTIVE (&sunny_img_MYNAUI_PANEL_LEFT_INACTIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_LEFT_OPEN_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_LEFT_OPEN_SOLID (&sunny_img_MYNAUI_PANEL_LEFT_OPEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_LEFT_OPEN;
+#define SUNNY_IMG_MYNAUI_PANEL_LEFT_OPEN (&sunny_img_MYNAUI_PANEL_LEFT_OPEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_LEFT_SOLID (&sunny_img_MYNAUI_PANEL_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_LEFT;
+#define SUNNY_IMG_MYNAUI_PANEL_LEFT (&sunny_img_MYNAUI_PANEL_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_RIGHT_CLOSE_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_RIGHT_CLOSE_SOLID (&sunny_img_MYNAUI_PANEL_RIGHT_CLOSE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_RIGHT_CLOSE;
+#define SUNNY_IMG_MYNAUI_PANEL_RIGHT_CLOSE (&sunny_img_MYNAUI_PANEL_RIGHT_CLOSE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_RIGHT_INACTIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_RIGHT_INACTIVE_SOLID (&sunny_img_MYNAUI_PANEL_RIGHT_INACTIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_RIGHT_INACTIVE;
+#define SUNNY_IMG_MYNAUI_PANEL_RIGHT_INACTIVE (&sunny_img_MYNAUI_PANEL_RIGHT_INACTIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_RIGHT_OPEN_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_RIGHT_OPEN_SOLID (&sunny_img_MYNAUI_PANEL_RIGHT_OPEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_RIGHT_OPEN;
+#define SUNNY_IMG_MYNAUI_PANEL_RIGHT_OPEN (&sunny_img_MYNAUI_PANEL_RIGHT_OPEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_RIGHT_SOLID (&sunny_img_MYNAUI_PANEL_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_RIGHT;
+#define SUNNY_IMG_MYNAUI_PANEL_RIGHT (&sunny_img_MYNAUI_PANEL_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_TOP_CLOSE_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_TOP_CLOSE_SOLID (&sunny_img_MYNAUI_PANEL_TOP_CLOSE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_TOP_CLOSE;
+#define SUNNY_IMG_MYNAUI_PANEL_TOP_CLOSE (&sunny_img_MYNAUI_PANEL_TOP_CLOSE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_TOP_INACTIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_TOP_INACTIVE_SOLID (&sunny_img_MYNAUI_PANEL_TOP_INACTIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_TOP_INACTIVE;
+#define SUNNY_IMG_MYNAUI_PANEL_TOP_INACTIVE (&sunny_img_MYNAUI_PANEL_TOP_INACTIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_TOP_OPEN_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_TOP_OPEN_SOLID (&sunny_img_MYNAUI_PANEL_TOP_OPEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_TOP_OPEN;
+#define SUNNY_IMG_MYNAUI_PANEL_TOP_OPEN (&sunny_img_MYNAUI_PANEL_TOP_OPEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_TOP_SOLID;
+#define SUNNY_IMG_MYNAUI_PANEL_TOP_SOLID (&sunny_img_MYNAUI_PANEL_TOP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PANEL_TOP;
+#define SUNNY_IMG_MYNAUI_PANEL_TOP (&sunny_img_MYNAUI_PANEL_TOP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAPERCLIP_SOLID;
+#define SUNNY_IMG_MYNAUI_PAPERCLIP_SOLID (&sunny_img_MYNAUI_PAPERCLIP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAPERCLIP;
+#define SUNNY_IMG_MYNAUI_PAPERCLIP (&sunny_img_MYNAUI_PAPERCLIP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PARKING_SOLID;
+#define SUNNY_IMG_MYNAUI_PARKING_SOLID (&sunny_img_MYNAUI_PARKING_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PARKING;
+#define SUNNY_IMG_MYNAUI_PARKING (&sunny_img_MYNAUI_PARKING)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PASSWORD_SOLID;
+#define SUNNY_IMG_MYNAUI_PASSWORD_SOLID (&sunny_img_MYNAUI_PASSWORD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PASSWORD;
+#define SUNNY_IMG_MYNAUI_PASSWORD (&sunny_img_MYNAUI_PASSWORD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PATH_SOLID;
+#define SUNNY_IMG_MYNAUI_PATH_SOLID (&sunny_img_MYNAUI_PATH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PATH;
+#define SUNNY_IMG_MYNAUI_PATH (&sunny_img_MYNAUI_PATH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_PAUSE_CIRCLE_SOLID (&sunny_img_MYNAUI_PAUSE_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_CIRCLE;
+#define SUNNY_IMG_MYNAUI_PAUSE_CIRCLE (&sunny_img_MYNAUI_PAUSE_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_PAUSE_DIAMOND_SOLID (&sunny_img_MYNAUI_PAUSE_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_DIAMOND;
+#define SUNNY_IMG_MYNAUI_PAUSE_DIAMOND (&sunny_img_MYNAUI_PAUSE_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_PAUSE_HEXAGON_SOLID (&sunny_img_MYNAUI_PAUSE_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_HEXAGON;
+#define SUNNY_IMG_MYNAUI_PAUSE_HEXAGON (&sunny_img_MYNAUI_PAUSE_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_PAUSE_OCTAGON_SOLID (&sunny_img_MYNAUI_PAUSE_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_OCTAGON;
+#define SUNNY_IMG_MYNAUI_PAUSE_OCTAGON (&sunny_img_MYNAUI_PAUSE_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_SOLID;
+#define SUNNY_IMG_MYNAUI_PAUSE_SOLID (&sunny_img_MYNAUI_PAUSE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_PAUSE_SQUARE_SOLID (&sunny_img_MYNAUI_PAUSE_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_SQUARE;
+#define SUNNY_IMG_MYNAUI_PAUSE_SQUARE (&sunny_img_MYNAUI_PAUSE_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_PAUSE_WAVES_SOLID (&sunny_img_MYNAUI_PAUSE_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE_WAVES;
+#define SUNNY_IMG_MYNAUI_PAUSE_WAVES (&sunny_img_MYNAUI_PAUSE_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PAUSE;
+#define SUNNY_IMG_MYNAUI_PAUSE (&sunny_img_MYNAUI_PAUSE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PEN_SOLID;
+#define SUNNY_IMG_MYNAUI_PEN_SOLID (&sunny_img_MYNAUI_PEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PEN;
+#define SUNNY_IMG_MYNAUI_PEN (&sunny_img_MYNAUI_PEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PENCIL_SOLID;
+#define SUNNY_IMG_MYNAUI_PENCIL_SOLID (&sunny_img_MYNAUI_PENCIL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PENCIL;
+#define SUNNY_IMG_MYNAUI_PENCIL (&sunny_img_MYNAUI_PENCIL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_CIRCLE_SOLID (&sunny_img_MYNAUI_PERCENTAGE_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_CIRCLE;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_CIRCLE (&sunny_img_MYNAUI_PERCENTAGE_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_DIAMOND_SOLID (&sunny_img_MYNAUI_PERCENTAGE_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_DIAMOND;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_DIAMOND (&sunny_img_MYNAUI_PERCENTAGE_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_HEXAGON_SOLID (&sunny_img_MYNAUI_PERCENTAGE_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_HEXAGON;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_HEXAGON (&sunny_img_MYNAUI_PERCENTAGE_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_OCTAGON_SOLID (&sunny_img_MYNAUI_PERCENTAGE_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_OCTAGON;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_OCTAGON (&sunny_img_MYNAUI_PERCENTAGE_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_SOLID;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_SOLID (&sunny_img_MYNAUI_PERCENTAGE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_SQUARE_SOLID (&sunny_img_MYNAUI_PERCENTAGE_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_SQUARE;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_SQUARE (&sunny_img_MYNAUI_PERCENTAGE_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_WAVES_SOLID (&sunny_img_MYNAUI_PERCENTAGE_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE_WAVES;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE_WAVES (&sunny_img_MYNAUI_PERCENTAGE_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PERCENTAGE;
+#define SUNNY_IMG_MYNAUI_PERCENTAGE (&sunny_img_MYNAUI_PERCENTAGE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PIN_SOLID;
+#define SUNNY_IMG_MYNAUI_PIN_SOLID (&sunny_img_MYNAUI_PIN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PIN;
+#define SUNNY_IMG_MYNAUI_PIN (&sunny_img_MYNAUI_PIN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PIZZA_SOLID;
+#define SUNNY_IMG_MYNAUI_PIZZA_SOLID (&sunny_img_MYNAUI_PIZZA_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PIZZA;
+#define SUNNY_IMG_MYNAUI_PIZZA (&sunny_img_MYNAUI_PIZZA)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLANET_SOLID;
+#define SUNNY_IMG_MYNAUI_PLANET_SOLID (&sunny_img_MYNAUI_PLANET_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLANET;
+#define SUNNY_IMG_MYNAUI_PLANET (&sunny_img_MYNAUI_PLANET)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_PLAY_CIRCLE_SOLID (&sunny_img_MYNAUI_PLAY_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_CIRCLE;
+#define SUNNY_IMG_MYNAUI_PLAY_CIRCLE (&sunny_img_MYNAUI_PLAY_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_PLAY_DIAMOND_SOLID (&sunny_img_MYNAUI_PLAY_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_DIAMOND;
+#define SUNNY_IMG_MYNAUI_PLAY_DIAMOND (&sunny_img_MYNAUI_PLAY_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_PLAY_HEXAGON_SOLID (&sunny_img_MYNAUI_PLAY_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_HEXAGON;
+#define SUNNY_IMG_MYNAUI_PLAY_HEXAGON (&sunny_img_MYNAUI_PLAY_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_PLAY_OCTAGON_SOLID (&sunny_img_MYNAUI_PLAY_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_OCTAGON;
+#define SUNNY_IMG_MYNAUI_PLAY_OCTAGON (&sunny_img_MYNAUI_PLAY_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_SOLID;
+#define SUNNY_IMG_MYNAUI_PLAY_SOLID (&sunny_img_MYNAUI_PLAY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_PLAY_SQUARE_SOLID (&sunny_img_MYNAUI_PLAY_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_SQUARE;
+#define SUNNY_IMG_MYNAUI_PLAY_SQUARE (&sunny_img_MYNAUI_PLAY_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_PLAY_WAVES_SOLID (&sunny_img_MYNAUI_PLAY_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY_WAVES;
+#define SUNNY_IMG_MYNAUI_PLAY_WAVES (&sunny_img_MYNAUI_PLAY_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLAY;
+#define SUNNY_IMG_MYNAUI_PLAY (&sunny_img_MYNAUI_PLAY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_PLUS_CIRCLE_SOLID (&sunny_img_MYNAUI_PLUS_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_CIRCLE;
+#define SUNNY_IMG_MYNAUI_PLUS_CIRCLE (&sunny_img_MYNAUI_PLUS_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_PLUS_DIAMOND_SOLID (&sunny_img_MYNAUI_PLUS_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_DIAMOND;
+#define SUNNY_IMG_MYNAUI_PLUS_DIAMOND (&sunny_img_MYNAUI_PLUS_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_PLUS_HEXAGON_SOLID (&sunny_img_MYNAUI_PLUS_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_HEXAGON;
+#define SUNNY_IMG_MYNAUI_PLUS_HEXAGON (&sunny_img_MYNAUI_PLUS_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_PLUS_OCTAGON_SOLID (&sunny_img_MYNAUI_PLUS_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_OCTAGON;
+#define SUNNY_IMG_MYNAUI_PLUS_OCTAGON (&sunny_img_MYNAUI_PLUS_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_PLUS_SOLID (&sunny_img_MYNAUI_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_PLUS_SQUARE_SOLID (&sunny_img_MYNAUI_PLUS_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_SQUARE;
+#define SUNNY_IMG_MYNAUI_PLUS_SQUARE (&sunny_img_MYNAUI_PLUS_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_PLUS_WAVES_SOLID (&sunny_img_MYNAUI_PLUS_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS_WAVES;
+#define SUNNY_IMG_MYNAUI_PLUS_WAVES (&sunny_img_MYNAUI_PLUS_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PLUS;
+#define SUNNY_IMG_MYNAUI_PLUS (&sunny_img_MYNAUI_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_POKEBALL_SOLID;
+#define SUNNY_IMG_MYNAUI_POKEBALL_SOLID (&sunny_img_MYNAUI_POKEBALL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_POKEBALL;
+#define SUNNY_IMG_MYNAUI_POKEBALL (&sunny_img_MYNAUI_POKEBALL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_POWER_SOLID;
+#define SUNNY_IMG_MYNAUI_POWER_SOLID (&sunny_img_MYNAUI_POWER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_POWER;
+#define SUNNY_IMG_MYNAUI_POWER (&sunny_img_MYNAUI_POWER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PRESENTATION_SOLID;
+#define SUNNY_IMG_MYNAUI_PRESENTATION_SOLID (&sunny_img_MYNAUI_PRESENTATION_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PRESENTATION;
+#define SUNNY_IMG_MYNAUI_PRESENTATION (&sunny_img_MYNAUI_PRESENTATION)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PRINTER_SOLID;
+#define SUNNY_IMG_MYNAUI_PRINTER_SOLID (&sunny_img_MYNAUI_PRINTER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PRINTER;
+#define SUNNY_IMG_MYNAUI_PRINTER (&sunny_img_MYNAUI_PRINTER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PUZZLE_SOLID;
+#define SUNNY_IMG_MYNAUI_PUZZLE_SOLID (&sunny_img_MYNAUI_PUZZLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_PUZZLE;
+#define SUNNY_IMG_MYNAUI_PUZZLE (&sunny_img_MYNAUI_PUZZLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_QUESTION_CIRCLE_SOLID (&sunny_img_MYNAUI_QUESTION_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_CIRCLE;
+#define SUNNY_IMG_MYNAUI_QUESTION_CIRCLE (&sunny_img_MYNAUI_QUESTION_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_QUESTION_DIAMOND_SOLID (&sunny_img_MYNAUI_QUESTION_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_DIAMOND;
+#define SUNNY_IMG_MYNAUI_QUESTION_DIAMOND (&sunny_img_MYNAUI_QUESTION_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_QUESTION_HEXAGON_SOLID (&sunny_img_MYNAUI_QUESTION_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_HEXAGON;
+#define SUNNY_IMG_MYNAUI_QUESTION_HEXAGON (&sunny_img_MYNAUI_QUESTION_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_QUESTION_OCTAGON_SOLID (&sunny_img_MYNAUI_QUESTION_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_OCTAGON;
+#define SUNNY_IMG_MYNAUI_QUESTION_OCTAGON (&sunny_img_MYNAUI_QUESTION_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_SOLID;
+#define SUNNY_IMG_MYNAUI_QUESTION_SOLID (&sunny_img_MYNAUI_QUESTION_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_QUESTION_SQUARE_SOLID (&sunny_img_MYNAUI_QUESTION_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_SQUARE;
+#define SUNNY_IMG_MYNAUI_QUESTION_SQUARE (&sunny_img_MYNAUI_QUESTION_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_QUESTION_WAVES_SOLID (&sunny_img_MYNAUI_QUESTION_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION_WAVES;
+#define SUNNY_IMG_MYNAUI_QUESTION_WAVES (&sunny_img_MYNAUI_QUESTION_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_QUESTION;
+#define SUNNY_IMG_MYNAUI_QUESTION (&sunny_img_MYNAUI_QUESTION)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RADIO_SOLID;
+#define SUNNY_IMG_MYNAUI_RADIO_SOLID (&sunny_img_MYNAUI_RADIO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RADIO;
+#define SUNNY_IMG_MYNAUI_RADIO (&sunny_img_MYNAUI_RADIO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RAINBOW_SOLID;
+#define SUNNY_IMG_MYNAUI_RAINBOW_SOLID (&sunny_img_MYNAUI_RAINBOW_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RAINBOW;
+#define SUNNY_IMG_MYNAUI_RAINBOW (&sunny_img_MYNAUI_RAINBOW)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RECEPTION_BELL_SOLID;
+#define SUNNY_IMG_MYNAUI_RECEPTION_BELL_SOLID (&sunny_img_MYNAUI_RECEPTION_BELL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RECEPTION_BELL;
+#define SUNNY_IMG_MYNAUI_RECEPTION_BELL (&sunny_img_MYNAUI_RECEPTION_BELL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RECORD_SOLID;
+#define SUNNY_IMG_MYNAUI_RECORD_SOLID (&sunny_img_MYNAUI_RECORD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RECORD;
+#define SUNNY_IMG_MYNAUI_RECORD (&sunny_img_MYNAUI_RECORD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RECTANGLE_SOLID;
+#define SUNNY_IMG_MYNAUI_RECTANGLE_SOLID (&sunny_img_MYNAUI_RECTANGLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RECTANGLE_VERTICAL_SOLID;
+#define SUNNY_IMG_MYNAUI_RECTANGLE_VERTICAL_SOLID (&sunny_img_MYNAUI_RECTANGLE_VERTICAL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RECTANGLE_VERTICAL;
+#define SUNNY_IMG_MYNAUI_RECTANGLE_VERTICAL (&sunny_img_MYNAUI_RECTANGLE_VERTICAL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RECTANGLE;
+#define SUNNY_IMG_MYNAUI_RECTANGLE (&sunny_img_MYNAUI_RECTANGLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REDO_SOLID;
+#define SUNNY_IMG_MYNAUI_REDO_SOLID (&sunny_img_MYNAUI_REDO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REDO;
+#define SUNNY_IMG_MYNAUI_REDO (&sunny_img_MYNAUI_REDO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REFRESH_ALT_SOLID;
+#define SUNNY_IMG_MYNAUI_REFRESH_ALT_SOLID (&sunny_img_MYNAUI_REFRESH_ALT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REFRESH_ALT;
+#define SUNNY_IMG_MYNAUI_REFRESH_ALT (&sunny_img_MYNAUI_REFRESH_ALT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REFRESH_SOLID;
+#define SUNNY_IMG_MYNAUI_REFRESH_SOLID (&sunny_img_MYNAUI_REFRESH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REFRESH;
+#define SUNNY_IMG_MYNAUI_REFRESH (&sunny_img_MYNAUI_REFRESH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REPEAT_SOLID;
+#define SUNNY_IMG_MYNAUI_REPEAT_SOLID (&sunny_img_MYNAUI_REPEAT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REPEAT;
+#define SUNNY_IMG_MYNAUI_REPEAT (&sunny_img_MYNAUI_REPEAT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_REWIND_CIRCLE_SOLID (&sunny_img_MYNAUI_REWIND_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_CIRCLE;
+#define SUNNY_IMG_MYNAUI_REWIND_CIRCLE (&sunny_img_MYNAUI_REWIND_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_REWIND_DIAMOND_SOLID (&sunny_img_MYNAUI_REWIND_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_DIAMOND;
+#define SUNNY_IMG_MYNAUI_REWIND_DIAMOND (&sunny_img_MYNAUI_REWIND_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_REWIND_HEXAGON_SOLID (&sunny_img_MYNAUI_REWIND_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_HEXAGON;
+#define SUNNY_IMG_MYNAUI_REWIND_HEXAGON (&sunny_img_MYNAUI_REWIND_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_REWIND_OCTAGON_SOLID (&sunny_img_MYNAUI_REWIND_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_OCTAGON;
+#define SUNNY_IMG_MYNAUI_REWIND_OCTAGON (&sunny_img_MYNAUI_REWIND_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_SOLID;
+#define SUNNY_IMG_MYNAUI_REWIND_SOLID (&sunny_img_MYNAUI_REWIND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_REWIND_SQUARE_SOLID (&sunny_img_MYNAUI_REWIND_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_SQUARE;
+#define SUNNY_IMG_MYNAUI_REWIND_SQUARE (&sunny_img_MYNAUI_REWIND_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_REWIND_WAVES_SOLID (&sunny_img_MYNAUI_REWIND_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND_WAVES;
+#define SUNNY_IMG_MYNAUI_REWIND_WAVES (&sunny_img_MYNAUI_REWIND_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_REWIND;
+#define SUNNY_IMG_MYNAUI_REWIND (&sunny_img_MYNAUI_REWIND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RHOMBUS_SOLID;
+#define SUNNY_IMG_MYNAUI_RHOMBUS_SOLID (&sunny_img_MYNAUI_RHOMBUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RHOMBUS;
+#define SUNNY_IMG_MYNAUI_RHOMBUS (&sunny_img_MYNAUI_RHOMBUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RIBBON_SOLID;
+#define SUNNY_IMG_MYNAUI_RIBBON_SOLID (&sunny_img_MYNAUI_RIBBON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RIBBON;
+#define SUNNY_IMG_MYNAUI_RIBBON (&sunny_img_MYNAUI_RIBBON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ROCKET_SOLID;
+#define SUNNY_IMG_MYNAUI_ROCKET_SOLID (&sunny_img_MYNAUI_ROCKET_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ROCKET;
+#define SUNNY_IMG_MYNAUI_ROCKET (&sunny_img_MYNAUI_ROCKET)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ROOM_SERVICE_SOLID;
+#define SUNNY_IMG_MYNAUI_ROOM_SERVICE_SOLID (&sunny_img_MYNAUI_ROOM_SERVICE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ROOM_SERVICE;
+#define SUNNY_IMG_MYNAUI_ROOM_SERVICE (&sunny_img_MYNAUI_ROOM_SERVICE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ROWS_SOLID;
+#define SUNNY_IMG_MYNAUI_ROWS_SOLID (&sunny_img_MYNAUI_ROWS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ROWS;
+#define SUNNY_IMG_MYNAUI_ROWS (&sunny_img_MYNAUI_ROWS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RSS_SOLID;
+#define SUNNY_IMG_MYNAUI_RSS_SOLID (&sunny_img_MYNAUI_RSS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RSS;
+#define SUNNY_IMG_MYNAUI_RSS (&sunny_img_MYNAUI_RSS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RULER_SOLID;
+#define SUNNY_IMG_MYNAUI_RULER_SOLID (&sunny_img_MYNAUI_RULER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RULER;
+#define SUNNY_IMG_MYNAUI_RULER (&sunny_img_MYNAUI_RULER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_RUPEE_CIRCLE_SOLID (&sunny_img_MYNAUI_RUPEE_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_CIRCLE;
+#define SUNNY_IMG_MYNAUI_RUPEE_CIRCLE (&sunny_img_MYNAUI_RUPEE_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_RUPEE_DIAMOND_SOLID (&sunny_img_MYNAUI_RUPEE_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_DIAMOND;
+#define SUNNY_IMG_MYNAUI_RUPEE_DIAMOND (&sunny_img_MYNAUI_RUPEE_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_RUPEE_HEXAGON_SOLID (&sunny_img_MYNAUI_RUPEE_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_HEXAGON;
+#define SUNNY_IMG_MYNAUI_RUPEE_HEXAGON (&sunny_img_MYNAUI_RUPEE_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_RUPEE_OCTAGON_SOLID (&sunny_img_MYNAUI_RUPEE_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_OCTAGON;
+#define SUNNY_IMG_MYNAUI_RUPEE_OCTAGON (&sunny_img_MYNAUI_RUPEE_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_SOLID;
+#define SUNNY_IMG_MYNAUI_RUPEE_SOLID (&sunny_img_MYNAUI_RUPEE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_RUPEE_SQUARE_SOLID (&sunny_img_MYNAUI_RUPEE_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_SQUARE;
+#define SUNNY_IMG_MYNAUI_RUPEE_SQUARE (&sunny_img_MYNAUI_RUPEE_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_RUPEE_WAVES_SOLID (&sunny_img_MYNAUI_RUPEE_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE_WAVES;
+#define SUNNY_IMG_MYNAUI_RUPEE_WAVES (&sunny_img_MYNAUI_RUPEE_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_RUPEE;
+#define SUNNY_IMG_MYNAUI_RUPEE (&sunny_img_MYNAUI_RUPEE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SAD_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_SAD_CIRCLE_SOLID (&sunny_img_MYNAUI_SAD_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SAD_CIRCLE;
+#define SUNNY_IMG_MYNAUI_SAD_CIRCLE (&sunny_img_MYNAUI_SAD_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SAD_GHOST_SOLID;
+#define SUNNY_IMG_MYNAUI_SAD_GHOST_SOLID (&sunny_img_MYNAUI_SAD_GHOST_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SAD_GHOST;
+#define SUNNY_IMG_MYNAUI_SAD_GHOST (&sunny_img_MYNAUI_SAD_GHOST)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SAD_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_SAD_SQUARE_SOLID (&sunny_img_MYNAUI_SAD_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SAD_SQUARE;
+#define SUNNY_IMG_MYNAUI_SAD_SQUARE (&sunny_img_MYNAUI_SAD_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SAVE_SOLID;
+#define SUNNY_IMG_MYNAUI_SAVE_SOLID (&sunny_img_MYNAUI_SAVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SAVE;
+#define SUNNY_IMG_MYNAUI_SAVE (&sunny_img_MYNAUI_SAVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SCAN_SOLID;
+#define SUNNY_IMG_MYNAUI_SCAN_SOLID (&sunny_img_MYNAUI_SCAN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SCAN;
+#define SUNNY_IMG_MYNAUI_SCAN (&sunny_img_MYNAUI_SCAN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SCISSORS_SOLID;
+#define SUNNY_IMG_MYNAUI_SCISSORS_SOLID (&sunny_img_MYNAUI_SCISSORS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SCISSORS;
+#define SUNNY_IMG_MYNAUI_SCISSORS (&sunny_img_MYNAUI_SCISSORS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEA_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_SEA_WAVES_SOLID (&sunny_img_MYNAUI_SEA_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEA_WAVES;
+#define SUNNY_IMG_MYNAUI_SEA_WAVES (&sunny_img_MYNAUI_SEA_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_CHECK_SOLID (&sunny_img_MYNAUI_SEARCH_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_CHECK;
+#define SUNNY_IMG_MYNAUI_SEARCH_CHECK (&sunny_img_MYNAUI_SEARCH_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_CIRCLE_SOLID (&sunny_img_MYNAUI_SEARCH_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_CIRCLE;
+#define SUNNY_IMG_MYNAUI_SEARCH_CIRCLE (&sunny_img_MYNAUI_SEARCH_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_DIAMOND_SOLID (&sunny_img_MYNAUI_SEARCH_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_DIAMOND;
+#define SUNNY_IMG_MYNAUI_SEARCH_DIAMOND (&sunny_img_MYNAUI_SEARCH_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_DOT_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_DOT_SOLID (&sunny_img_MYNAUI_SEARCH_DOT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_DOT;
+#define SUNNY_IMG_MYNAUI_SEARCH_DOT (&sunny_img_MYNAUI_SEARCH_DOT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_HEXAGON_SOLID (&sunny_img_MYNAUI_SEARCH_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_HEXAGON;
+#define SUNNY_IMG_MYNAUI_SEARCH_HEXAGON (&sunny_img_MYNAUI_SEARCH_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_HOME_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_HOME_SOLID (&sunny_img_MYNAUI_SEARCH_HOME_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_HOME;
+#define SUNNY_IMG_MYNAUI_SEARCH_HOME (&sunny_img_MYNAUI_SEARCH_HOME)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_MINUS_SOLID (&sunny_img_MYNAUI_SEARCH_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_MINUS;
+#define SUNNY_IMG_MYNAUI_SEARCH_MINUS (&sunny_img_MYNAUI_SEARCH_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_OCTAGON_SOLID (&sunny_img_MYNAUI_SEARCH_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_OCTAGON;
+#define SUNNY_IMG_MYNAUI_SEARCH_OCTAGON (&sunny_img_MYNAUI_SEARCH_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_PLUS_SOLID (&sunny_img_MYNAUI_SEARCH_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_PLUS;
+#define SUNNY_IMG_MYNAUI_SEARCH_PLUS (&sunny_img_MYNAUI_SEARCH_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_SLASH_SOLID (&sunny_img_MYNAUI_SEARCH_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_SLASH;
+#define SUNNY_IMG_MYNAUI_SEARCH_SLASH (&sunny_img_MYNAUI_SEARCH_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_SNOOZE_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_SNOOZE_SOLID (&sunny_img_MYNAUI_SEARCH_SNOOZE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_SNOOZE;
+#define SUNNY_IMG_MYNAUI_SEARCH_SNOOZE (&sunny_img_MYNAUI_SEARCH_SNOOZE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_SOLID (&sunny_img_MYNAUI_SEARCH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_SQUARE_SOLID (&sunny_img_MYNAUI_SEARCH_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_SQUARE;
+#define SUNNY_IMG_MYNAUI_SEARCH_SQUARE (&sunny_img_MYNAUI_SEARCH_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_USER_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_USER_SOLID (&sunny_img_MYNAUI_SEARCH_USER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_USER;
+#define SUNNY_IMG_MYNAUI_SEARCH_USER (&sunny_img_MYNAUI_SEARCH_USER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_WAVES_SOLID (&sunny_img_MYNAUI_SEARCH_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_WAVES;
+#define SUNNY_IMG_MYNAUI_SEARCH_WAVES (&sunny_img_MYNAUI_SEARCH_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_X_SOLID;
+#define SUNNY_IMG_MYNAUI_SEARCH_X_SOLID (&sunny_img_MYNAUI_SEARCH_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH_X;
+#define SUNNY_IMG_MYNAUI_SEARCH_X (&sunny_img_MYNAUI_SEARCH_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEARCH;
+#define SUNNY_IMG_MYNAUI_SEARCH (&sunny_img_MYNAUI_SEARCH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SELECT_MULTIPLE_SOLID;
+#define SUNNY_IMG_MYNAUI_SELECT_MULTIPLE_SOLID (&sunny_img_MYNAUI_SELECT_MULTIPLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SELECT_MULTIPLE;
+#define SUNNY_IMG_MYNAUI_SELECT_MULTIPLE (&sunny_img_MYNAUI_SELECT_MULTIPLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEND_SOLID;
+#define SUNNY_IMG_MYNAUI_SEND_SOLID (&sunny_img_MYNAUI_SEND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEND;
+#define SUNNY_IMG_MYNAUI_SEND (&sunny_img_MYNAUI_SEND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SERVERS_SOLID;
+#define SUNNY_IMG_MYNAUI_SERVERS_SOLID (&sunny_img_MYNAUI_SERVERS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SERVERS;
+#define SUNNY_IMG_MYNAUI_SERVERS (&sunny_img_MYNAUI_SERVERS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_SEVEN_CIRCLE_SOLID (&sunny_img_MYNAUI_SEVEN_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_CIRCLE;
+#define SUNNY_IMG_MYNAUI_SEVEN_CIRCLE (&sunny_img_MYNAUI_SEVEN_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_SEVEN_DIAMOND_SOLID (&sunny_img_MYNAUI_SEVEN_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_DIAMOND;
+#define SUNNY_IMG_MYNAUI_SEVEN_DIAMOND (&sunny_img_MYNAUI_SEVEN_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_SEVEN_HEXAGON_SOLID (&sunny_img_MYNAUI_SEVEN_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_HEXAGON;
+#define SUNNY_IMG_MYNAUI_SEVEN_HEXAGON (&sunny_img_MYNAUI_SEVEN_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_SEVEN_OCTAGON_SOLID (&sunny_img_MYNAUI_SEVEN_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_OCTAGON;
+#define SUNNY_IMG_MYNAUI_SEVEN_OCTAGON (&sunny_img_MYNAUI_SEVEN_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_SOLID;
+#define SUNNY_IMG_MYNAUI_SEVEN_SOLID (&sunny_img_MYNAUI_SEVEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_SEVEN_SQUARE_SOLID (&sunny_img_MYNAUI_SEVEN_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_SQUARE;
+#define SUNNY_IMG_MYNAUI_SEVEN_SQUARE (&sunny_img_MYNAUI_SEVEN_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_SEVEN_WAVES_SOLID (&sunny_img_MYNAUI_SEVEN_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN_WAVES;
+#define SUNNY_IMG_MYNAUI_SEVEN_WAVES (&sunny_img_MYNAUI_SEVEN_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SEVEN;
+#define SUNNY_IMG_MYNAUI_SEVEN (&sunny_img_MYNAUI_SEVEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHARE_SOLID;
+#define SUNNY_IMG_MYNAUI_SHARE_SOLID (&sunny_img_MYNAUI_SHARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHARE;
+#define SUNNY_IMG_MYNAUI_SHARE (&sunny_img_MYNAUI_SHARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHELL_SOLID;
+#define SUNNY_IMG_MYNAUI_SHELL_SOLID (&sunny_img_MYNAUI_SHELL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHELL;
+#define SUNNY_IMG_MYNAUI_SHELL (&sunny_img_MYNAUI_SHELL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_SHIELD_CHECK_SOLID (&sunny_img_MYNAUI_SHIELD_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_CHECK;
+#define SUNNY_IMG_MYNAUI_SHIELD_CHECK (&sunny_img_MYNAUI_SHIELD_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_CROSSED_SOLID;
+#define SUNNY_IMG_MYNAUI_SHIELD_CROSSED_SOLID (&sunny_img_MYNAUI_SHIELD_CROSSED_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_CROSSED;
+#define SUNNY_IMG_MYNAUI_SHIELD_CROSSED (&sunny_img_MYNAUI_SHIELD_CROSSED)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_SHIELD_MINUS_SOLID (&sunny_img_MYNAUI_SHIELD_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_MINUS;
+#define SUNNY_IMG_MYNAUI_SHIELD_MINUS (&sunny_img_MYNAUI_SHIELD_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_SHIELD_ONE_SOLID (&sunny_img_MYNAUI_SHIELD_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_ONE;
+#define SUNNY_IMG_MYNAUI_SHIELD_ONE (&sunny_img_MYNAUI_SHIELD_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_SHIELD_PLUS_SOLID (&sunny_img_MYNAUI_SHIELD_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_PLUS;
+#define SUNNY_IMG_MYNAUI_SHIELD_PLUS (&sunny_img_MYNAUI_SHIELD_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_SHIELD_SLASH_SOLID (&sunny_img_MYNAUI_SHIELD_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_SLASH;
+#define SUNNY_IMG_MYNAUI_SHIELD_SLASH (&sunny_img_MYNAUI_SHIELD_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_SOLID;
+#define SUNNY_IMG_MYNAUI_SHIELD_SOLID (&sunny_img_MYNAUI_SHIELD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_SHIELD_TWO_SOLID (&sunny_img_MYNAUI_SHIELD_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_TWO;
+#define SUNNY_IMG_MYNAUI_SHIELD_TWO (&sunny_img_MYNAUI_SHIELD_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_X_SOLID;
+#define SUNNY_IMG_MYNAUI_SHIELD_X_SOLID (&sunny_img_MYNAUI_SHIELD_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD_X;
+#define SUNNY_IMG_MYNAUI_SHIELD_X (&sunny_img_MYNAUI_SHIELD_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHIELD;
+#define SUNNY_IMG_MYNAUI_SHIELD (&sunny_img_MYNAUI_SHIELD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHOOTING_STAR_SOLID;
+#define SUNNY_IMG_MYNAUI_SHOOTING_STAR_SOLID (&sunny_img_MYNAUI_SHOOTING_STAR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHOOTING_STAR;
+#define SUNNY_IMG_MYNAUI_SHOOTING_STAR (&sunny_img_MYNAUI_SHOOTING_STAR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHOPPING_BAG_SOLID;
+#define SUNNY_IMG_MYNAUI_SHOPPING_BAG_SOLID (&sunny_img_MYNAUI_SHOPPING_BAG_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHOPPING_BAG;
+#define SUNNY_IMG_MYNAUI_SHOPPING_BAG (&sunny_img_MYNAUI_SHOPPING_BAG)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHOVEL_SOLID;
+#define SUNNY_IMG_MYNAUI_SHOVEL_SOLID (&sunny_img_MYNAUI_SHOVEL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHOVEL;
+#define SUNNY_IMG_MYNAUI_SHOVEL (&sunny_img_MYNAUI_SHOVEL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHRUB_SOLID;
+#define SUNNY_IMG_MYNAUI_SHRUB_SOLID (&sunny_img_MYNAUI_SHRUB_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHRUB;
+#define SUNNY_IMG_MYNAUI_SHRUB (&sunny_img_MYNAUI_SHRUB)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHUFFLE_ALT_SOLID;
+#define SUNNY_IMG_MYNAUI_SHUFFLE_ALT_SOLID (&sunny_img_MYNAUI_SHUFFLE_ALT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHUFFLE_ALT;
+#define SUNNY_IMG_MYNAUI_SHUFFLE_ALT (&sunny_img_MYNAUI_SHUFFLE_ALT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHUFFLE_SOLID;
+#define SUNNY_IMG_MYNAUI_SHUFFLE_SOLID (&sunny_img_MYNAUI_SHUFFLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SHUFFLE;
+#define SUNNY_IMG_MYNAUI_SHUFFLE (&sunny_img_MYNAUI_SHUFFLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIDEBAR_ALT_SOLID;
+#define SUNNY_IMG_MYNAUI_SIDEBAR_ALT_SOLID (&sunny_img_MYNAUI_SIDEBAR_ALT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIDEBAR_ALT;
+#define SUNNY_IMG_MYNAUI_SIDEBAR_ALT (&sunny_img_MYNAUI_SIDEBAR_ALT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIDEBAR_SOLID;
+#define SUNNY_IMG_MYNAUI_SIDEBAR_SOLID (&sunny_img_MYNAUI_SIDEBAR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIDEBAR;
+#define SUNNY_IMG_MYNAUI_SIDEBAR (&sunny_img_MYNAUI_SIDEBAR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_SIGNAL_CIRCLE_SOLID (&sunny_img_MYNAUI_SIGNAL_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_CIRCLE;
+#define SUNNY_IMG_MYNAUI_SIGNAL_CIRCLE (&sunny_img_MYNAUI_SIGNAL_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_SIGNAL_DIAMOND_SOLID (&sunny_img_MYNAUI_SIGNAL_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_DIAMOND;
+#define SUNNY_IMG_MYNAUI_SIGNAL_DIAMOND (&sunny_img_MYNAUI_SIGNAL_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_SIGNAL_HEXAGON_SOLID (&sunny_img_MYNAUI_SIGNAL_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_HEXAGON;
+#define SUNNY_IMG_MYNAUI_SIGNAL_HEXAGON (&sunny_img_MYNAUI_SIGNAL_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_SIGNAL_OCTAGON_SOLID (&sunny_img_MYNAUI_SIGNAL_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_OCTAGON;
+#define SUNNY_IMG_MYNAUI_SIGNAL_OCTAGON (&sunny_img_MYNAUI_SIGNAL_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_SOLID;
+#define SUNNY_IMG_MYNAUI_SIGNAL_SOLID (&sunny_img_MYNAUI_SIGNAL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_SIGNAL_SQUARE_SOLID (&sunny_img_MYNAUI_SIGNAL_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_SQUARE;
+#define SUNNY_IMG_MYNAUI_SIGNAL_SQUARE (&sunny_img_MYNAUI_SIGNAL_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_SIGNAL_WAVES_SOLID (&sunny_img_MYNAUI_SIGNAL_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL_WAVES;
+#define SUNNY_IMG_MYNAUI_SIGNAL_WAVES (&sunny_img_MYNAUI_SIGNAL_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIGNAL;
+#define SUNNY_IMG_MYNAUI_SIGNAL (&sunny_img_MYNAUI_SIGNAL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_SIX_CIRCLE_SOLID (&sunny_img_MYNAUI_SIX_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_CIRCLE;
+#define SUNNY_IMG_MYNAUI_SIX_CIRCLE (&sunny_img_MYNAUI_SIX_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_SIX_DIAMOND_SOLID (&sunny_img_MYNAUI_SIX_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_DIAMOND;
+#define SUNNY_IMG_MYNAUI_SIX_DIAMOND (&sunny_img_MYNAUI_SIX_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_SIX_HEXAGON_SOLID (&sunny_img_MYNAUI_SIX_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_HEXAGON;
+#define SUNNY_IMG_MYNAUI_SIX_HEXAGON (&sunny_img_MYNAUI_SIX_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_SIX_OCTAGON_SOLID (&sunny_img_MYNAUI_SIX_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_OCTAGON;
+#define SUNNY_IMG_MYNAUI_SIX_OCTAGON (&sunny_img_MYNAUI_SIX_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_SOLID;
+#define SUNNY_IMG_MYNAUI_SIX_SOLID (&sunny_img_MYNAUI_SIX_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_SIX_SQUARE_SOLID (&sunny_img_MYNAUI_SIX_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_SQUARE;
+#define SUNNY_IMG_MYNAUI_SIX_SQUARE (&sunny_img_MYNAUI_SIX_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_SIX_WAVES_SOLID (&sunny_img_MYNAUI_SIX_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX_WAVES;
+#define SUNNY_IMG_MYNAUI_SIX_WAVES (&sunny_img_MYNAUI_SIX_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SIX;
+#define SUNNY_IMG_MYNAUI_SIX (&sunny_img_MYNAUI_SIX)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SKIP_BACK_SOLID;
+#define SUNNY_IMG_MYNAUI_SKIP_BACK_SOLID (&sunny_img_MYNAUI_SKIP_BACK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SKIP_BACK;
+#define SUNNY_IMG_MYNAUI_SKIP_BACK (&sunny_img_MYNAUI_SKIP_BACK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SKIP_FORWARD_SOLID;
+#define SUNNY_IMG_MYNAUI_SKIP_FORWARD_SOLID (&sunny_img_MYNAUI_SKIP_FORWARD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SKIP_FORWARD;
+#define SUNNY_IMG_MYNAUI_SKIP_FORWARD (&sunny_img_MYNAUI_SKIP_FORWARD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_SLASH_CIRCLE_SOLID (&sunny_img_MYNAUI_SLASH_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_CIRCLE;
+#define SUNNY_IMG_MYNAUI_SLASH_CIRCLE (&sunny_img_MYNAUI_SLASH_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_SLASH_DIAMOND_SOLID (&sunny_img_MYNAUI_SLASH_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_DIAMOND;
+#define SUNNY_IMG_MYNAUI_SLASH_DIAMOND (&sunny_img_MYNAUI_SLASH_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_SLASH_HEXAGON_SOLID (&sunny_img_MYNAUI_SLASH_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_HEXAGON;
+#define SUNNY_IMG_MYNAUI_SLASH_HEXAGON (&sunny_img_MYNAUI_SLASH_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_SLASH_OCTAGON_SOLID (&sunny_img_MYNAUI_SLASH_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_OCTAGON;
+#define SUNNY_IMG_MYNAUI_SLASH_OCTAGON (&sunny_img_MYNAUI_SLASH_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_SLASH_SQUARE_SOLID (&sunny_img_MYNAUI_SLASH_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_SQUARE;
+#define SUNNY_IMG_MYNAUI_SLASH_SQUARE (&sunny_img_MYNAUI_SLASH_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_SLASH_WAVES_SOLID (&sunny_img_MYNAUI_SLASH_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH_WAVES;
+#define SUNNY_IMG_MYNAUI_SLASH_WAVES (&sunny_img_MYNAUI_SLASH_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SLASH;
+#define SUNNY_IMG_MYNAUI_SLASH (&sunny_img_MYNAUI_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SMILE_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_SMILE_CIRCLE_SOLID (&sunny_img_MYNAUI_SMILE_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SMILE_CIRCLE;
+#define SUNNY_IMG_MYNAUI_SMILE_CIRCLE (&sunny_img_MYNAUI_SMILE_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SMILE_GHOST_SOLID;
+#define SUNNY_IMG_MYNAUI_SMILE_GHOST_SOLID (&sunny_img_MYNAUI_SMILE_GHOST_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SMILE_GHOST;
+#define SUNNY_IMG_MYNAUI_SMILE_GHOST (&sunny_img_MYNAUI_SMILE_GHOST)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SMILE_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_SMILE_SQUARE_SOLID (&sunny_img_MYNAUI_SMILE_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SMILE_SQUARE;
+#define SUNNY_IMG_MYNAUI_SMILE_SQUARE (&sunny_img_MYNAUI_SMILE_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SMOKE_DETECTOR_SOLID;
+#define SUNNY_IMG_MYNAUI_SMOKE_DETECTOR_SOLID (&sunny_img_MYNAUI_SMOKE_DETECTOR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SMOKE_DETECTOR;
+#define SUNNY_IMG_MYNAUI_SMOKE_DETECTOR (&sunny_img_MYNAUI_SMOKE_DETECTOR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SNOW_SOLID;
+#define SUNNY_IMG_MYNAUI_SNOW_SOLID (&sunny_img_MYNAUI_SNOW_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SNOW;
+#define SUNNY_IMG_MYNAUI_SNOW (&sunny_img_MYNAUI_SNOW)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SNOWFLAKE_SOLID;
+#define SUNNY_IMG_MYNAUI_SNOWFLAKE_SOLID (&sunny_img_MYNAUI_SNOWFLAKE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SNOWFLAKE;
+#define SUNNY_IMG_MYNAUI_SNOWFLAKE (&sunny_img_MYNAUI_SNOWFLAKE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SOFA_SOLID;
+#define SUNNY_IMG_MYNAUI_SOFA_SOLID (&sunny_img_MYNAUI_SOFA_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SOFA;
+#define SUNNY_IMG_MYNAUI_SOFA (&sunny_img_MYNAUI_SOFA)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SORT_SOLID;
+#define SUNNY_IMG_MYNAUI_SORT_SOLID (&sunny_img_MYNAUI_SORT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SORT;
+#define SUNNY_IMG_MYNAUI_SORT (&sunny_img_MYNAUI_SORT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SPARKLES_SOLID;
+#define SUNNY_IMG_MYNAUI_SPARKLES_SOLID (&sunny_img_MYNAUI_SPARKLES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SPARKLES;
+#define SUNNY_IMG_MYNAUI_SPARKLES (&sunny_img_MYNAUI_SPARKLES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SPEAKER_SOLID;
+#define SUNNY_IMG_MYNAUI_SPEAKER_SOLID (&sunny_img_MYNAUI_SPEAKER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SPEAKER;
+#define SUNNY_IMG_MYNAUI_SPEAKER (&sunny_img_MYNAUI_SPEAKER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SPINNER_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_SPINNER_ONE_SOLID (&sunny_img_MYNAUI_SPINNER_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SPINNER_ONE;
+#define SUNNY_IMG_MYNAUI_SPINNER_ONE (&sunny_img_MYNAUI_SPINNER_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SPINNER_SOLID;
+#define SUNNY_IMG_MYNAUI_SPINNER_SOLID (&sunny_img_MYNAUI_SPINNER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SPINNER;
+#define SUNNY_IMG_MYNAUI_SPINNER (&sunny_img_MYNAUI_SPINNER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SPROUT_SOLID;
+#define SUNNY_IMG_MYNAUI_SPROUT_SOLID (&sunny_img_MYNAUI_SPROUT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SPROUT;
+#define SUNNY_IMG_MYNAUI_SPROUT (&sunny_img_MYNAUI_SPROUT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE_CHART_GANTT_SOLID;
+#define SUNNY_IMG_MYNAUI_SQUARE_CHART_GANTT_SOLID (&sunny_img_MYNAUI_SQUARE_CHART_GANTT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE_CHART_GANTT;
+#define SUNNY_IMG_MYNAUI_SQUARE_CHART_GANTT (&sunny_img_MYNAUI_SQUARE_CHART_GANTT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE_DASHED_KANBAN_SOLID;
+#define SUNNY_IMG_MYNAUI_SQUARE_DASHED_KANBAN_SOLID (&sunny_img_MYNAUI_SQUARE_DASHED_KANBAN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE_DASHED_KANBAN;
+#define SUNNY_IMG_MYNAUI_SQUARE_DASHED_KANBAN (&sunny_img_MYNAUI_SQUARE_DASHED_KANBAN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE_DASHED_SOLID;
+#define SUNNY_IMG_MYNAUI_SQUARE_DASHED_SOLID (&sunny_img_MYNAUI_SQUARE_DASHED_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE_DASHED;
+#define SUNNY_IMG_MYNAUI_SQUARE_DASHED (&sunny_img_MYNAUI_SQUARE_DASHED)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE_HALF_SOLID;
+#define SUNNY_IMG_MYNAUI_SQUARE_HALF_SOLID (&sunny_img_MYNAUI_SQUARE_HALF_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE_HALF;
+#define SUNNY_IMG_MYNAUI_SQUARE_HALF (&sunny_img_MYNAUI_SQUARE_HALF)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE_KANBAN_SOLID;
+#define SUNNY_IMG_MYNAUI_SQUARE_KANBAN_SOLID (&sunny_img_MYNAUI_SQUARE_KANBAN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE_KANBAN;
+#define SUNNY_IMG_MYNAUI_SQUARE_KANBAN (&sunny_img_MYNAUI_SQUARE_KANBAN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_SQUARE_SOLID (&sunny_img_MYNAUI_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SQUARE;
+#define SUNNY_IMG_MYNAUI_SQUARE (&sunny_img_MYNAUI_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STAR_SOLID;
+#define SUNNY_IMG_MYNAUI_STAR_SOLID (&sunny_img_MYNAUI_STAR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STAR;
+#define SUNNY_IMG_MYNAUI_STAR (&sunny_img_MYNAUI_STAR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_STOP_CIRCLE_SOLID (&sunny_img_MYNAUI_STOP_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_CIRCLE;
+#define SUNNY_IMG_MYNAUI_STOP_CIRCLE (&sunny_img_MYNAUI_STOP_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_STOP_DIAMOND_SOLID (&sunny_img_MYNAUI_STOP_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_DIAMOND;
+#define SUNNY_IMG_MYNAUI_STOP_DIAMOND (&sunny_img_MYNAUI_STOP_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_STOP_HEXAGON_SOLID (&sunny_img_MYNAUI_STOP_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_HEXAGON;
+#define SUNNY_IMG_MYNAUI_STOP_HEXAGON (&sunny_img_MYNAUI_STOP_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_STOP_OCTAGON_SOLID (&sunny_img_MYNAUI_STOP_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_OCTAGON;
+#define SUNNY_IMG_MYNAUI_STOP_OCTAGON (&sunny_img_MYNAUI_STOP_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_SOLID;
+#define SUNNY_IMG_MYNAUI_STOP_SOLID (&sunny_img_MYNAUI_STOP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_STOP_SQUARE_SOLID (&sunny_img_MYNAUI_STOP_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_SQUARE;
+#define SUNNY_IMG_MYNAUI_STOP_SQUARE (&sunny_img_MYNAUI_STOP_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_STOP_WAVES_SOLID (&sunny_img_MYNAUI_STOP_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP_WAVES;
+#define SUNNY_IMG_MYNAUI_STOP_WAVES (&sunny_img_MYNAUI_STOP_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STOP;
+#define SUNNY_IMG_MYNAUI_STOP (&sunny_img_MYNAUI_STOP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STORE_SOLID;
+#define SUNNY_IMG_MYNAUI_STORE_SOLID (&sunny_img_MYNAUI_STORE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_STORE;
+#define SUNNY_IMG_MYNAUI_STORE (&sunny_img_MYNAUI_STORE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUBTRACT_SOLID;
+#define SUNNY_IMG_MYNAUI_SUBTRACT_SOLID (&sunny_img_MYNAUI_SUBTRACT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUBTRACT;
+#define SUNNY_IMG_MYNAUI_SUBTRACT (&sunny_img_MYNAUI_SUBTRACT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUN_DIM_SOLID;
+#define SUNNY_IMG_MYNAUI_SUN_DIM_SOLID (&sunny_img_MYNAUI_SUN_DIM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUN_DIM;
+#define SUNNY_IMG_MYNAUI_SUN_DIM (&sunny_img_MYNAUI_SUN_DIM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUN_MEDIUM_SOLID;
+#define SUNNY_IMG_MYNAUI_SUN_MEDIUM_SOLID (&sunny_img_MYNAUI_SUN_MEDIUM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUN_MEDIUM;
+#define SUNNY_IMG_MYNAUI_SUN_MEDIUM (&sunny_img_MYNAUI_SUN_MEDIUM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUN_SNOW_SOLID;
+#define SUNNY_IMG_MYNAUI_SUN_SNOW_SOLID (&sunny_img_MYNAUI_SUN_SNOW_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUN_SNOW;
+#define SUNNY_IMG_MYNAUI_SUN_SNOW (&sunny_img_MYNAUI_SUN_SNOW)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUN_SOLID;
+#define SUNNY_IMG_MYNAUI_SUN_SOLID (&sunny_img_MYNAUI_SUN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUN;
+#define SUNNY_IMG_MYNAUI_SUN (&sunny_img_MYNAUI_SUN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUNRISE_SOLID;
+#define SUNNY_IMG_MYNAUI_SUNRISE_SOLID (&sunny_img_MYNAUI_SUNRISE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUNRISE;
+#define SUNNY_IMG_MYNAUI_SUNRISE (&sunny_img_MYNAUI_SUNRISE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUNSET_SOLID;
+#define SUNNY_IMG_MYNAUI_SUNSET_SOLID (&sunny_img_MYNAUI_SUNSET_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUNSET;
+#define SUNNY_IMG_MYNAUI_SUNSET (&sunny_img_MYNAUI_SUNSET)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUPPORT_SOLID;
+#define SUNNY_IMG_MYNAUI_SUPPORT_SOLID (&sunny_img_MYNAUI_SUPPORT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SUPPORT;
+#define SUNNY_IMG_MYNAUI_SUPPORT (&sunny_img_MYNAUI_SUPPORT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SWATCHES_SOLID;
+#define SUNNY_IMG_MYNAUI_SWATCHES_SOLID (&sunny_img_MYNAUI_SWATCHES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_SWATCHES;
+#define SUNNY_IMG_MYNAUI_SWATCHES (&sunny_img_MYNAUI_SWATCHES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TABLE_SOLID;
+#define SUNNY_IMG_MYNAUI_TABLE_SOLID (&sunny_img_MYNAUI_TABLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TABLE;
+#define SUNNY_IMG_MYNAUI_TABLE (&sunny_img_MYNAUI_TABLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TABLET_SOLID;
+#define SUNNY_IMG_MYNAUI_TABLET_SOLID (&sunny_img_MYNAUI_TABLET_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TABLET;
+#define SUNNY_IMG_MYNAUI_TABLET (&sunny_img_MYNAUI_TABLET)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TAG_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_TAG_PLUS_SOLID (&sunny_img_MYNAUI_TAG_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TAG_PLUS;
+#define SUNNY_IMG_MYNAUI_TAG_PLUS (&sunny_img_MYNAUI_TAG_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TAG_SOLID;
+#define SUNNY_IMG_MYNAUI_TAG_SOLID (&sunny_img_MYNAUI_TAG_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TAG;
+#define SUNNY_IMG_MYNAUI_TAG (&sunny_img_MYNAUI_TAG)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TALLY_FIVE_SOLID;
+#define SUNNY_IMG_MYNAUI_TALLY_FIVE_SOLID (&sunny_img_MYNAUI_TALLY_FIVE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TALLY_FIVE;
+#define SUNNY_IMG_MYNAUI_TALLY_FIVE (&sunny_img_MYNAUI_TALLY_FIVE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TALLY_FOUR_SOLID;
+#define SUNNY_IMG_MYNAUI_TALLY_FOUR_SOLID (&sunny_img_MYNAUI_TALLY_FOUR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TALLY_FOUR;
+#define SUNNY_IMG_MYNAUI_TALLY_FOUR (&sunny_img_MYNAUI_TALLY_FOUR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TALLY_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_TALLY_ONE_SOLID (&sunny_img_MYNAUI_TALLY_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TALLY_ONE;
+#define SUNNY_IMG_MYNAUI_TALLY_ONE (&sunny_img_MYNAUI_TALLY_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TALLY_THREE_SOLID;
+#define SUNNY_IMG_MYNAUI_TALLY_THREE_SOLID (&sunny_img_MYNAUI_TALLY_THREE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TALLY_THREE;
+#define SUNNY_IMG_MYNAUI_TALLY_THREE (&sunny_img_MYNAUI_TALLY_THREE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TALLY_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_TALLY_TWO_SOLID (&sunny_img_MYNAUI_TALLY_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TALLY_TWO;
+#define SUNNY_IMG_MYNAUI_TALLY_TWO (&sunny_img_MYNAUI_TALLY_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TARGET_SOLID;
+#define SUNNY_IMG_MYNAUI_TARGET_SOLID (&sunny_img_MYNAUI_TARGET_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TARGET;
+#define SUNNY_IMG_MYNAUI_TARGET (&sunny_img_MYNAUI_TARGET)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_CALL_SOLID;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_CALL_SOLID (&sunny_img_MYNAUI_TELEPHONE_CALL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_CALL;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_CALL (&sunny_img_MYNAUI_TELEPHONE_CALL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_FORWARD_SOLID;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_FORWARD_SOLID (&sunny_img_MYNAUI_TELEPHONE_FORWARD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_FORWARD;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_FORWARD (&sunny_img_MYNAUI_TELEPHONE_FORWARD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_IN_SOLID;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_IN_SOLID (&sunny_img_MYNAUI_TELEPHONE_IN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_IN;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_IN (&sunny_img_MYNAUI_TELEPHONE_IN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_MISSED_SOLID;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_MISSED_SOLID (&sunny_img_MYNAUI_TELEPHONE_MISSED_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_MISSED;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_MISSED (&sunny_img_MYNAUI_TELEPHONE_MISSED)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_OUT_SOLID;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_OUT_SOLID (&sunny_img_MYNAUI_TELEPHONE_OUT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_OUT;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_OUT (&sunny_img_MYNAUI_TELEPHONE_OUT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_SLASH_SOLID (&sunny_img_MYNAUI_TELEPHONE_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_SLASH;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_SLASH (&sunny_img_MYNAUI_TELEPHONE_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE_SOLID;
+#define SUNNY_IMG_MYNAUI_TELEPHONE_SOLID (&sunny_img_MYNAUI_TELEPHONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TELEPHONE;
+#define SUNNY_IMG_MYNAUI_TELEPHONE (&sunny_img_MYNAUI_TELEPHONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TENT_SOLID;
+#define SUNNY_IMG_MYNAUI_TENT_SOLID (&sunny_img_MYNAUI_TENT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TENT_TREE_SOLID;
+#define SUNNY_IMG_MYNAUI_TENT_TREE_SOLID (&sunny_img_MYNAUI_TENT_TREE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TENT_TREE;
+#define SUNNY_IMG_MYNAUI_TENT_TREE (&sunny_img_MYNAUI_TENT_TREE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TENT;
+#define SUNNY_IMG_MYNAUI_TENT (&sunny_img_MYNAUI_TENT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TERMINAL_SOLID;
+#define SUNNY_IMG_MYNAUI_TERMINAL_SOLID (&sunny_img_MYNAUI_TERMINAL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TERMINAL;
+#define SUNNY_IMG_MYNAUI_TERMINAL (&sunny_img_MYNAUI_TERMINAL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TEXT_ALIGN_CENTER_SOLID;
+#define SUNNY_IMG_MYNAUI_TEXT_ALIGN_CENTER_SOLID (&sunny_img_MYNAUI_TEXT_ALIGN_CENTER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TEXT_ALIGN_CENTER;
+#define SUNNY_IMG_MYNAUI_TEXT_ALIGN_CENTER (&sunny_img_MYNAUI_TEXT_ALIGN_CENTER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TEXT_ALIGN_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_TEXT_ALIGN_LEFT_SOLID (&sunny_img_MYNAUI_TEXT_ALIGN_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TEXT_ALIGN_LEFT;
+#define SUNNY_IMG_MYNAUI_TEXT_ALIGN_LEFT (&sunny_img_MYNAUI_TEXT_ALIGN_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TEXT_ALIGN_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_TEXT_ALIGN_RIGHT_SOLID (&sunny_img_MYNAUI_TEXT_ALIGN_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TEXT_ALIGN_RIGHT;
+#define SUNNY_IMG_MYNAUI_TEXT_ALIGN_RIGHT (&sunny_img_MYNAUI_TEXT_ALIGN_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TEXT_JUSTIFY_SOLID;
+#define SUNNY_IMG_MYNAUI_TEXT_JUSTIFY_SOLID (&sunny_img_MYNAUI_TEXT_JUSTIFY_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TEXT_JUSTIFY;
+#define SUNNY_IMG_MYNAUI_TEXT_JUSTIFY (&sunny_img_MYNAUI_TEXT_JUSTIFY)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THERMOMETER_SNOWFLAKE_SOLID;
+#define SUNNY_IMG_MYNAUI_THERMOMETER_SNOWFLAKE_SOLID (&sunny_img_MYNAUI_THERMOMETER_SNOWFLAKE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THERMOMETER_SNOWFLAKE;
+#define SUNNY_IMG_MYNAUI_THERMOMETER_SNOWFLAKE (&sunny_img_MYNAUI_THERMOMETER_SNOWFLAKE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THERMOMETER_SOLID;
+#define SUNNY_IMG_MYNAUI_THERMOMETER_SOLID (&sunny_img_MYNAUI_THERMOMETER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THERMOMETER_SUN_SOLID;
+#define SUNNY_IMG_MYNAUI_THERMOMETER_SUN_SOLID (&sunny_img_MYNAUI_THERMOMETER_SUN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THERMOMETER_SUN;
+#define SUNNY_IMG_MYNAUI_THERMOMETER_SUN (&sunny_img_MYNAUI_THERMOMETER_SUN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THERMOMETER;
+#define SUNNY_IMG_MYNAUI_THERMOMETER (&sunny_img_MYNAUI_THERMOMETER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_THREE_CIRCLE_SOLID (&sunny_img_MYNAUI_THREE_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_CIRCLE;
+#define SUNNY_IMG_MYNAUI_THREE_CIRCLE (&sunny_img_MYNAUI_THREE_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_THREE_DIAMOND_SOLID (&sunny_img_MYNAUI_THREE_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_DIAMOND;
+#define SUNNY_IMG_MYNAUI_THREE_DIAMOND (&sunny_img_MYNAUI_THREE_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_THREE_HEXAGON_SOLID (&sunny_img_MYNAUI_THREE_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_HEXAGON;
+#define SUNNY_IMG_MYNAUI_THREE_HEXAGON (&sunny_img_MYNAUI_THREE_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_THREE_OCTAGON_SOLID (&sunny_img_MYNAUI_THREE_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_OCTAGON;
+#define SUNNY_IMG_MYNAUI_THREE_OCTAGON (&sunny_img_MYNAUI_THREE_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_SOLID;
+#define SUNNY_IMG_MYNAUI_THREE_SOLID (&sunny_img_MYNAUI_THREE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_THREE_SQUARE_SOLID (&sunny_img_MYNAUI_THREE_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_SQUARE;
+#define SUNNY_IMG_MYNAUI_THREE_SQUARE (&sunny_img_MYNAUI_THREE_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_THREE_WAVES_SOLID (&sunny_img_MYNAUI_THREE_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE_WAVES;
+#define SUNNY_IMG_MYNAUI_THREE_WAVES (&sunny_img_MYNAUI_THREE_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_THREE;
+#define SUNNY_IMG_MYNAUI_THREE (&sunny_img_MYNAUI_THREE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TICKET_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_TICKET_SLASH_SOLID (&sunny_img_MYNAUI_TICKET_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TICKET_SLASH;
+#define SUNNY_IMG_MYNAUI_TICKET_SLASH (&sunny_img_MYNAUI_TICKET_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TICKET_SOLID;
+#define SUNNY_IMG_MYNAUI_TICKET_SOLID (&sunny_img_MYNAUI_TICKET_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TICKET;
+#define SUNNY_IMG_MYNAUI_TICKET (&sunny_img_MYNAUI_TICKET)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TOGGLE_LEFT_SOLID;
+#define SUNNY_IMG_MYNAUI_TOGGLE_LEFT_SOLID (&sunny_img_MYNAUI_TOGGLE_LEFT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TOGGLE_LEFT;
+#define SUNNY_IMG_MYNAUI_TOGGLE_LEFT (&sunny_img_MYNAUI_TOGGLE_LEFT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TOGGLE_RIGHT_SOLID;
+#define SUNNY_IMG_MYNAUI_TOGGLE_RIGHT_SOLID (&sunny_img_MYNAUI_TOGGLE_RIGHT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TOGGLE_RIGHT;
+#define SUNNY_IMG_MYNAUI_TOGGLE_RIGHT (&sunny_img_MYNAUI_TOGGLE_RIGHT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TOOL_SOLID;
+#define SUNNY_IMG_MYNAUI_TOOL_SOLID (&sunny_img_MYNAUI_TOOL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TOOL;
+#define SUNNY_IMG_MYNAUI_TOOL (&sunny_img_MYNAUI_TOOL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TORNADO_SOLID;
+#define SUNNY_IMG_MYNAUI_TORNADO_SOLID (&sunny_img_MYNAUI_TORNADO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TORNADO;
+#define SUNNY_IMG_MYNAUI_TORNADO (&sunny_img_MYNAUI_TORNADO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRAIN_SOLID;
+#define SUNNY_IMG_MYNAUI_TRAIN_SOLID (&sunny_img_MYNAUI_TRAIN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRAIN;
+#define SUNNY_IMG_MYNAUI_TRAIN (&sunny_img_MYNAUI_TRAIN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRASH_ONE_SOLID;
+#define SUNNY_IMG_MYNAUI_TRASH_ONE_SOLID (&sunny_img_MYNAUI_TRASH_ONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRASH_ONE;
+#define SUNNY_IMG_MYNAUI_TRASH_ONE (&sunny_img_MYNAUI_TRASH_ONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRASH_SOLID;
+#define SUNNY_IMG_MYNAUI_TRASH_SOLID (&sunny_img_MYNAUI_TRASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRASH_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_TRASH_TWO_SOLID (&sunny_img_MYNAUI_TRASH_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRASH_TWO;
+#define SUNNY_IMG_MYNAUI_TRASH_TWO (&sunny_img_MYNAUI_TRASH_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRASH;
+#define SUNNY_IMG_MYNAUI_TRASH (&sunny_img_MYNAUI_TRASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TREE_DECIDUOUS_SOLID;
+#define SUNNY_IMG_MYNAUI_TREE_DECIDUOUS_SOLID (&sunny_img_MYNAUI_TREE_DECIDUOUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TREE_DECIDUOUS;
+#define SUNNY_IMG_MYNAUI_TREE_DECIDUOUS (&sunny_img_MYNAUI_TREE_DECIDUOUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TREE_PALM_SOLID;
+#define SUNNY_IMG_MYNAUI_TREE_PALM_SOLID (&sunny_img_MYNAUI_TREE_PALM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TREE_PALM;
+#define SUNNY_IMG_MYNAUI_TREE_PALM (&sunny_img_MYNAUI_TREE_PALM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TREE_PINE_SOLID;
+#define SUNNY_IMG_MYNAUI_TREE_PINE_SOLID (&sunny_img_MYNAUI_TREE_PINE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TREE_PINE;
+#define SUNNY_IMG_MYNAUI_TREE_PINE (&sunny_img_MYNAUI_TREE_PINE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TREE_SOLID;
+#define SUNNY_IMG_MYNAUI_TREE_SOLID (&sunny_img_MYNAUI_TREE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TREE;
+#define SUNNY_IMG_MYNAUI_TREE (&sunny_img_MYNAUI_TREE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TREES_SOLID;
+#define SUNNY_IMG_MYNAUI_TREES_SOLID (&sunny_img_MYNAUI_TREES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TREES;
+#define SUNNY_IMG_MYNAUI_TREES (&sunny_img_MYNAUI_TREES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRENDING_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_TRENDING_DOWN_SOLID (&sunny_img_MYNAUI_TRENDING_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRENDING_DOWN;
+#define SUNNY_IMG_MYNAUI_TRENDING_DOWN (&sunny_img_MYNAUI_TRENDING_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRENDING_UP_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_TRENDING_UP_DOWN_SOLID (&sunny_img_MYNAUI_TRENDING_UP_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRENDING_UP_DOWN;
+#define SUNNY_IMG_MYNAUI_TRENDING_UP_DOWN (&sunny_img_MYNAUI_TRENDING_UP_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRENDING_UP_SOLID;
+#define SUNNY_IMG_MYNAUI_TRENDING_UP_SOLID (&sunny_img_MYNAUI_TRENDING_UP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRENDING_UP;
+#define SUNNY_IMG_MYNAUI_TRENDING_UP (&sunny_img_MYNAUI_TRENDING_UP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRIANGLE_DANGER;
+#define SUNNY_IMG_MYNAUI_TRIANGLE_DANGER (&sunny_img_MYNAUI_TRIANGLE_DANGER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRIANGLE_INFO;
+#define SUNNY_IMG_MYNAUI_TRIANGLE_INFO (&sunny_img_MYNAUI_TRIANGLE_INFO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRIANGLE_SOLID;
+#define SUNNY_IMG_MYNAUI_TRIANGLE_SOLID (&sunny_img_MYNAUI_TRIANGLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRIANGLE;
+#define SUNNY_IMG_MYNAUI_TRIANGLE (&sunny_img_MYNAUI_TRIANGLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRUCK_SOLID;
+#define SUNNY_IMG_MYNAUI_TRUCK_SOLID (&sunny_img_MYNAUI_TRUCK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TRUCK;
+#define SUNNY_IMG_MYNAUI_TRUCK (&sunny_img_MYNAUI_TRUCK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TV_SOLID;
+#define SUNNY_IMG_MYNAUI_TV_SOLID (&sunny_img_MYNAUI_TV_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TV;
+#define SUNNY_IMG_MYNAUI_TV (&sunny_img_MYNAUI_TV)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_TWO_CIRCLE_SOLID (&sunny_img_MYNAUI_TWO_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_CIRCLE;
+#define SUNNY_IMG_MYNAUI_TWO_CIRCLE (&sunny_img_MYNAUI_TWO_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_TWO_DIAMOND_SOLID (&sunny_img_MYNAUI_TWO_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_DIAMOND;
+#define SUNNY_IMG_MYNAUI_TWO_DIAMOND (&sunny_img_MYNAUI_TWO_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_TWO_HEXAGON_SOLID (&sunny_img_MYNAUI_TWO_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_HEXAGON;
+#define SUNNY_IMG_MYNAUI_TWO_HEXAGON (&sunny_img_MYNAUI_TWO_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_TWO_OCTAGON_SOLID (&sunny_img_MYNAUI_TWO_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_OCTAGON;
+#define SUNNY_IMG_MYNAUI_TWO_OCTAGON (&sunny_img_MYNAUI_TWO_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_SOLID;
+#define SUNNY_IMG_MYNAUI_TWO_SOLID (&sunny_img_MYNAUI_TWO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_TWO_SQUARE_SOLID (&sunny_img_MYNAUI_TWO_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_SQUARE;
+#define SUNNY_IMG_MYNAUI_TWO_SQUARE (&sunny_img_MYNAUI_TWO_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_TWO_WAVES_SOLID (&sunny_img_MYNAUI_TWO_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO_WAVES;
+#define SUNNY_IMG_MYNAUI_TWO_WAVES (&sunny_img_MYNAUI_TWO_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TWO;
+#define SUNNY_IMG_MYNAUI_TWO (&sunny_img_MYNAUI_TWO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TYPE_BOLD_SOLID;
+#define SUNNY_IMG_MYNAUI_TYPE_BOLD_SOLID (&sunny_img_MYNAUI_TYPE_BOLD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TYPE_BOLD;
+#define SUNNY_IMG_MYNAUI_TYPE_BOLD (&sunny_img_MYNAUI_TYPE_BOLD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TYPE_ITALIC_SOLID;
+#define SUNNY_IMG_MYNAUI_TYPE_ITALIC_SOLID (&sunny_img_MYNAUI_TYPE_ITALIC_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TYPE_ITALIC;
+#define SUNNY_IMG_MYNAUI_TYPE_ITALIC (&sunny_img_MYNAUI_TYPE_ITALIC)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TYPE_TEXT_SOLID;
+#define SUNNY_IMG_MYNAUI_TYPE_TEXT_SOLID (&sunny_img_MYNAUI_TYPE_TEXT_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TYPE_TEXT;
+#define SUNNY_IMG_MYNAUI_TYPE_TEXT (&sunny_img_MYNAUI_TYPE_TEXT)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TYPE_UNDERLINE_SOLID;
+#define SUNNY_IMG_MYNAUI_TYPE_UNDERLINE_SOLID (&sunny_img_MYNAUI_TYPE_UNDERLINE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_TYPE_UNDERLINE;
+#define SUNNY_IMG_MYNAUI_TYPE_UNDERLINE (&sunny_img_MYNAUI_TYPE_UNDERLINE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UMBRELLA_OFF_SOLID;
+#define SUNNY_IMG_MYNAUI_UMBRELLA_OFF_SOLID (&sunny_img_MYNAUI_UMBRELLA_OFF_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UMBRELLA_OFF;
+#define SUNNY_IMG_MYNAUI_UMBRELLA_OFF (&sunny_img_MYNAUI_UMBRELLA_OFF)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UMBRELLA_SOLID;
+#define SUNNY_IMG_MYNAUI_UMBRELLA_SOLID (&sunny_img_MYNAUI_UMBRELLA_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UMBRELLA;
+#define SUNNY_IMG_MYNAUI_UMBRELLA (&sunny_img_MYNAUI_UMBRELLA)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UNDO_SOLID;
+#define SUNNY_IMG_MYNAUI_UNDO_SOLID (&sunny_img_MYNAUI_UNDO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UNDO;
+#define SUNNY_IMG_MYNAUI_UNDO (&sunny_img_MYNAUI_UNDO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UNION_SOLID;
+#define SUNNY_IMG_MYNAUI_UNION_SOLID (&sunny_img_MYNAUI_UNION_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UNION;
+#define SUNNY_IMG_MYNAUI_UNION (&sunny_img_MYNAUI_UNION)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UNLINK_SOLID;
+#define SUNNY_IMG_MYNAUI_UNLINK_SOLID (&sunny_img_MYNAUI_UNLINK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UNLINK;
+#define SUNNY_IMG_MYNAUI_UNLINK (&sunny_img_MYNAUI_UNLINK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UPLOAD_SOLID;
+#define SUNNY_IMG_MYNAUI_UPLOAD_SOLID (&sunny_img_MYNAUI_UPLOAD_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_UPLOAD;
+#define SUNNY_IMG_MYNAUI_UPLOAD (&sunny_img_MYNAUI_UPLOAD)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_CHECK_SOLID (&sunny_img_MYNAUI_USER_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_CHECK;
+#define SUNNY_IMG_MYNAUI_USER_CHECK (&sunny_img_MYNAUI_USER_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_CIRCLE_SOLID (&sunny_img_MYNAUI_USER_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_CIRCLE;
+#define SUNNY_IMG_MYNAUI_USER_CIRCLE (&sunny_img_MYNAUI_USER_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_DIAMOND_SOLID (&sunny_img_MYNAUI_USER_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_DIAMOND;
+#define SUNNY_IMG_MYNAUI_USER_DIAMOND (&sunny_img_MYNAUI_USER_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_HEXAGON_SOLID (&sunny_img_MYNAUI_USER_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_HEXAGON;
+#define SUNNY_IMG_MYNAUI_USER_HEXAGON (&sunny_img_MYNAUI_USER_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_MINUS_SOLID (&sunny_img_MYNAUI_USER_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_MINUS;
+#define SUNNY_IMG_MYNAUI_USER_MINUS (&sunny_img_MYNAUI_USER_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_OCTAGON_SOLID (&sunny_img_MYNAUI_USER_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_OCTAGON;
+#define SUNNY_IMG_MYNAUI_USER_OCTAGON (&sunny_img_MYNAUI_USER_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_PLUS_SOLID (&sunny_img_MYNAUI_USER_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_PLUS;
+#define SUNNY_IMG_MYNAUI_USER_PLUS (&sunny_img_MYNAUI_USER_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_SETTINGS_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_SETTINGS_SOLID (&sunny_img_MYNAUI_USER_SETTINGS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_SETTINGS;
+#define SUNNY_IMG_MYNAUI_USER_SETTINGS (&sunny_img_MYNAUI_USER_SETTINGS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_SOLID (&sunny_img_MYNAUI_USER_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_SQUARE_SOLID (&sunny_img_MYNAUI_USER_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_SQUARE;
+#define SUNNY_IMG_MYNAUI_USER_SQUARE (&sunny_img_MYNAUI_USER_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_WAVES_SOLID (&sunny_img_MYNAUI_USER_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_WAVES;
+#define SUNNY_IMG_MYNAUI_USER_WAVES (&sunny_img_MYNAUI_USER_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_X_SOLID;
+#define SUNNY_IMG_MYNAUI_USER_X_SOLID (&sunny_img_MYNAUI_USER_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER_X;
+#define SUNNY_IMG_MYNAUI_USER_X (&sunny_img_MYNAUI_USER_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USER;
+#define SUNNY_IMG_MYNAUI_USER (&sunny_img_MYNAUI_USER)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USERS_GROUP_SOLID;
+#define SUNNY_IMG_MYNAUI_USERS_GROUP_SOLID (&sunny_img_MYNAUI_USERS_GROUP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USERS_GROUP;
+#define SUNNY_IMG_MYNAUI_USERS_GROUP (&sunny_img_MYNAUI_USERS_GROUP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USERS_SOLID;
+#define SUNNY_IMG_MYNAUI_USERS_SOLID (&sunny_img_MYNAUI_USERS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_USERS;
+#define SUNNY_IMG_MYNAUI_USERS (&sunny_img_MYNAUI_USERS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VIDEO_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_VIDEO_SLASH_SOLID (&sunny_img_MYNAUI_VIDEO_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VIDEO_SLASH;
+#define SUNNY_IMG_MYNAUI_VIDEO_SLASH (&sunny_img_MYNAUI_VIDEO_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VIDEO_SOLID;
+#define SUNNY_IMG_MYNAUI_VIDEO_SOLID (&sunny_img_MYNAUI_VIDEO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VIDEO;
+#define SUNNY_IMG_MYNAUI_VIDEO (&sunny_img_MYNAUI_VIDEO)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_VOLUME_CHECK_SOLID (&sunny_img_MYNAUI_VOLUME_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_CHECK;
+#define SUNNY_IMG_MYNAUI_VOLUME_CHECK (&sunny_img_MYNAUI_VOLUME_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_HIGH_SOLID;
+#define SUNNY_IMG_MYNAUI_VOLUME_HIGH_SOLID (&sunny_img_MYNAUI_VOLUME_HIGH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_HIGH;
+#define SUNNY_IMG_MYNAUI_VOLUME_HIGH (&sunny_img_MYNAUI_VOLUME_HIGH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_LOW_SOLID;
+#define SUNNY_IMG_MYNAUI_VOLUME_LOW_SOLID (&sunny_img_MYNAUI_VOLUME_LOW_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_LOW;
+#define SUNNY_IMG_MYNAUI_VOLUME_LOW (&sunny_img_MYNAUI_VOLUME_LOW)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_VOLUME_MINUS_SOLID (&sunny_img_MYNAUI_VOLUME_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_MINUS;
+#define SUNNY_IMG_MYNAUI_VOLUME_MINUS (&sunny_img_MYNAUI_VOLUME_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_NONE_SOLID;
+#define SUNNY_IMG_MYNAUI_VOLUME_NONE_SOLID (&sunny_img_MYNAUI_VOLUME_NONE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_NONE;
+#define SUNNY_IMG_MYNAUI_VOLUME_NONE (&sunny_img_MYNAUI_VOLUME_NONE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_VOLUME_PLUS_SOLID (&sunny_img_MYNAUI_VOLUME_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_PLUS;
+#define SUNNY_IMG_MYNAUI_VOLUME_PLUS (&sunny_img_MYNAUI_VOLUME_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_VOLUME_SLASH_SOLID (&sunny_img_MYNAUI_VOLUME_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_SLASH;
+#define SUNNY_IMG_MYNAUI_VOLUME_SLASH (&sunny_img_MYNAUI_VOLUME_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_X_SOLID;
+#define SUNNY_IMG_MYNAUI_VOLUME_X_SOLID (&sunny_img_MYNAUI_VOLUME_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_VOLUME_X;
+#define SUNNY_IMG_MYNAUI_VOLUME_X (&sunny_img_MYNAUI_VOLUME_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WATCH_SOLID;
+#define SUNNY_IMG_MYNAUI_WATCH_SOLID (&sunny_img_MYNAUI_WATCH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WATCH;
+#define SUNNY_IMG_MYNAUI_WATCH (&sunny_img_MYNAUI_WATCH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_WAVES_SOLID (&sunny_img_MYNAUI_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WAVES;
+#define SUNNY_IMG_MYNAUI_WAVES (&sunny_img_MYNAUI_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WEBCAM_SOLID;
+#define SUNNY_IMG_MYNAUI_WEBCAM_SOLID (&sunny_img_MYNAUI_WEBCAM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WEBCAM;
+#define SUNNY_IMG_MYNAUI_WEBCAM (&sunny_img_MYNAUI_WEBCAM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WHEEL_SOLID;
+#define SUNNY_IMG_MYNAUI_WHEEL_SOLID (&sunny_img_MYNAUI_WHEEL_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WHEEL;
+#define SUNNY_IMG_MYNAUI_WHEEL (&sunny_img_MYNAUI_WHEEL)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WHEELCHAIR_SOLID;
+#define SUNNY_IMG_MYNAUI_WHEELCHAIR_SOLID (&sunny_img_MYNAUI_WHEELCHAIR_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WHEELCHAIR;
+#define SUNNY_IMG_MYNAUI_WHEELCHAIR (&sunny_img_MYNAUI_WHEELCHAIR)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_CHECK_SOLID;
+#define SUNNY_IMG_MYNAUI_WIFI_CHECK_SOLID (&sunny_img_MYNAUI_WIFI_CHECK_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_CHECK;
+#define SUNNY_IMG_MYNAUI_WIFI_CHECK (&sunny_img_MYNAUI_WIFI_CHECK)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_LOW_SOLID;
+#define SUNNY_IMG_MYNAUI_WIFI_LOW_SOLID (&sunny_img_MYNAUI_WIFI_LOW_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_LOW;
+#define SUNNY_IMG_MYNAUI_WIFI_LOW (&sunny_img_MYNAUI_WIFI_LOW)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_MEDIUM_SOLID;
+#define SUNNY_IMG_MYNAUI_WIFI_MEDIUM_SOLID (&sunny_img_MYNAUI_WIFI_MEDIUM_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_MEDIUM;
+#define SUNNY_IMG_MYNAUI_WIFI_MEDIUM (&sunny_img_MYNAUI_WIFI_MEDIUM)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_MINUS_SOLID;
+#define SUNNY_IMG_MYNAUI_WIFI_MINUS_SOLID (&sunny_img_MYNAUI_WIFI_MINUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_MINUS;
+#define SUNNY_IMG_MYNAUI_WIFI_MINUS (&sunny_img_MYNAUI_WIFI_MINUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_PLUS_SOLID;
+#define SUNNY_IMG_MYNAUI_WIFI_PLUS_SOLID (&sunny_img_MYNAUI_WIFI_PLUS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_PLUS;
+#define SUNNY_IMG_MYNAUI_WIFI_PLUS (&sunny_img_MYNAUI_WIFI_PLUS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_SLASH_SOLID;
+#define SUNNY_IMG_MYNAUI_WIFI_SLASH_SOLID (&sunny_img_MYNAUI_WIFI_SLASH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_SLASH;
+#define SUNNY_IMG_MYNAUI_WIFI_SLASH (&sunny_img_MYNAUI_WIFI_SLASH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_SOLID;
+#define SUNNY_IMG_MYNAUI_WIFI_SOLID (&sunny_img_MYNAUI_WIFI_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_X_SOLID;
+#define SUNNY_IMG_MYNAUI_WIFI_X_SOLID (&sunny_img_MYNAUI_WIFI_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI_X;
+#define SUNNY_IMG_MYNAUI_WIFI_X (&sunny_img_MYNAUI_WIFI_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIFI;
+#define SUNNY_IMG_MYNAUI_WIFI (&sunny_img_MYNAUI_WIFI)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIND_ARROW_DOWN_SOLID;
+#define SUNNY_IMG_MYNAUI_WIND_ARROW_DOWN_SOLID (&sunny_img_MYNAUI_WIND_ARROW_DOWN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIND_ARROW_DOWN;
+#define SUNNY_IMG_MYNAUI_WIND_ARROW_DOWN (&sunny_img_MYNAUI_WIND_ARROW_DOWN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIND_SOLID;
+#define SUNNY_IMG_MYNAUI_WIND_SOLID (&sunny_img_MYNAUI_WIND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WIND;
+#define SUNNY_IMG_MYNAUI_WIND (&sunny_img_MYNAUI_WIND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WINDS_SOLID;
+#define SUNNY_IMG_MYNAUI_WINDS_SOLID (&sunny_img_MYNAUI_WINDS_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WINDS;
+#define SUNNY_IMG_MYNAUI_WINDS (&sunny_img_MYNAUI_WINDS)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WINE_SOLID;
+#define SUNNY_IMG_MYNAUI_WINE_SOLID (&sunny_img_MYNAUI_WINE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WINE;
+#define SUNNY_IMG_MYNAUI_WINE (&sunny_img_MYNAUI_WINE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WINK_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_WINK_CIRCLE_SOLID (&sunny_img_MYNAUI_WINK_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WINK_CIRCLE;
+#define SUNNY_IMG_MYNAUI_WINK_CIRCLE (&sunny_img_MYNAUI_WINK_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WINK_GHOST_SOLID;
+#define SUNNY_IMG_MYNAUI_WINK_GHOST_SOLID (&sunny_img_MYNAUI_WINK_GHOST_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WINK_GHOST;
+#define SUNNY_IMG_MYNAUI_WINK_GHOST (&sunny_img_MYNAUI_WINK_GHOST)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WINK_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_WINK_SQUARE_SOLID (&sunny_img_MYNAUI_WINK_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WINK_SQUARE;
+#define SUNNY_IMG_MYNAUI_WINK_SQUARE (&sunny_img_MYNAUI_WINK_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WRENCH_SOLID;
+#define SUNNY_IMG_MYNAUI_WRENCH_SOLID (&sunny_img_MYNAUI_WRENCH_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_WRENCH;
+#define SUNNY_IMG_MYNAUI_WRENCH (&sunny_img_MYNAUI_WRENCH)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_X_CIRCLE_SOLID (&sunny_img_MYNAUI_X_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_CIRCLE;
+#define SUNNY_IMG_MYNAUI_X_CIRCLE (&sunny_img_MYNAUI_X_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_X_DIAMOND_SOLID (&sunny_img_MYNAUI_X_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_DIAMOND;
+#define SUNNY_IMG_MYNAUI_X_DIAMOND (&sunny_img_MYNAUI_X_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_X_HEXAGON_SOLID (&sunny_img_MYNAUI_X_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_HEXAGON;
+#define SUNNY_IMG_MYNAUI_X_HEXAGON (&sunny_img_MYNAUI_X_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_X_OCTAGON_SOLID (&sunny_img_MYNAUI_X_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_OCTAGON;
+#define SUNNY_IMG_MYNAUI_X_OCTAGON (&sunny_img_MYNAUI_X_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_SOLID;
+#define SUNNY_IMG_MYNAUI_X_SOLID (&sunny_img_MYNAUI_X_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_X_SQUARE_SOLID (&sunny_img_MYNAUI_X_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_SQUARE;
+#define SUNNY_IMG_MYNAUI_X_SQUARE (&sunny_img_MYNAUI_X_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_TRIANGLE_SOLID;
+#define SUNNY_IMG_MYNAUI_X_TRIANGLE_SOLID (&sunny_img_MYNAUI_X_TRIANGLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_TRIANGLE;
+#define SUNNY_IMG_MYNAUI_X_TRIANGLE (&sunny_img_MYNAUI_X_TRIANGLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_X_WAVES_SOLID (&sunny_img_MYNAUI_X_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X_WAVES;
+#define SUNNY_IMG_MYNAUI_X_WAVES (&sunny_img_MYNAUI_X_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_X;
+#define SUNNY_IMG_MYNAUI_X (&sunny_img_MYNAUI_X)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_YEN_CIRCLE_SOLID (&sunny_img_MYNAUI_YEN_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_CIRCLE;
+#define SUNNY_IMG_MYNAUI_YEN_CIRCLE (&sunny_img_MYNAUI_YEN_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_YEN_DIAMOND_SOLID (&sunny_img_MYNAUI_YEN_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_DIAMOND;
+#define SUNNY_IMG_MYNAUI_YEN_DIAMOND (&sunny_img_MYNAUI_YEN_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_YEN_HEXAGON_SOLID (&sunny_img_MYNAUI_YEN_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_HEXAGON;
+#define SUNNY_IMG_MYNAUI_YEN_HEXAGON (&sunny_img_MYNAUI_YEN_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_YEN_OCTAGON_SOLID (&sunny_img_MYNAUI_YEN_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_OCTAGON;
+#define SUNNY_IMG_MYNAUI_YEN_OCTAGON (&sunny_img_MYNAUI_YEN_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_SOLID;
+#define SUNNY_IMG_MYNAUI_YEN_SOLID (&sunny_img_MYNAUI_YEN_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_YEN_SQUARE_SOLID (&sunny_img_MYNAUI_YEN_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_SQUARE;
+#define SUNNY_IMG_MYNAUI_YEN_SQUARE (&sunny_img_MYNAUI_YEN_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_YEN_WAVES_SOLID (&sunny_img_MYNAUI_YEN_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN_WAVES;
+#define SUNNY_IMG_MYNAUI_YEN_WAVES (&sunny_img_MYNAUI_YEN_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_YEN;
+#define SUNNY_IMG_MYNAUI_YEN (&sunny_img_MYNAUI_YEN)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZAP_OFF_SOLID;
+#define SUNNY_IMG_MYNAUI_ZAP_OFF_SOLID (&sunny_img_MYNAUI_ZAP_OFF_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZAP_OFF;
+#define SUNNY_IMG_MYNAUI_ZAP_OFF (&sunny_img_MYNAUI_ZAP_OFF)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZAP_SOLID;
+#define SUNNY_IMG_MYNAUI_ZAP_SOLID (&sunny_img_MYNAUI_ZAP_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZAP;
+#define SUNNY_IMG_MYNAUI_ZAP (&sunny_img_MYNAUI_ZAP)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_CIRCLE_SOLID;
+#define SUNNY_IMG_MYNAUI_ZERO_CIRCLE_SOLID (&sunny_img_MYNAUI_ZERO_CIRCLE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_CIRCLE;
+#define SUNNY_IMG_MYNAUI_ZERO_CIRCLE (&sunny_img_MYNAUI_ZERO_CIRCLE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_DIAMOND_SOLID;
+#define SUNNY_IMG_MYNAUI_ZERO_DIAMOND_SOLID (&sunny_img_MYNAUI_ZERO_DIAMOND_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_DIAMOND;
+#define SUNNY_IMG_MYNAUI_ZERO_DIAMOND (&sunny_img_MYNAUI_ZERO_DIAMOND)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_HEXAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_ZERO_HEXAGON_SOLID (&sunny_img_MYNAUI_ZERO_HEXAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_HEXAGON;
+#define SUNNY_IMG_MYNAUI_ZERO_HEXAGON (&sunny_img_MYNAUI_ZERO_HEXAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_OCTAGON_SOLID;
+#define SUNNY_IMG_MYNAUI_ZERO_OCTAGON_SOLID (&sunny_img_MYNAUI_ZERO_OCTAGON_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_OCTAGON;
+#define SUNNY_IMG_MYNAUI_ZERO_OCTAGON (&sunny_img_MYNAUI_ZERO_OCTAGON)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_SOLID;
+#define SUNNY_IMG_MYNAUI_ZERO_SOLID (&sunny_img_MYNAUI_ZERO_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_SQUARE_SOLID;
+#define SUNNY_IMG_MYNAUI_ZERO_SQUARE_SOLID (&sunny_img_MYNAUI_ZERO_SQUARE_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_SQUARE;
+#define SUNNY_IMG_MYNAUI_ZERO_SQUARE (&sunny_img_MYNAUI_ZERO_SQUARE)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_WAVES_SOLID;
+#define SUNNY_IMG_MYNAUI_ZERO_WAVES_SOLID (&sunny_img_MYNAUI_ZERO_WAVES_SOLID)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO_WAVES;
+#define SUNNY_IMG_MYNAUI_ZERO_WAVES (&sunny_img_MYNAUI_ZERO_WAVES)
+extern const lv_img_dsc_t sunny_img_MYNAUI_ZERO;
+#define SUNNY_IMG_MYNAUI_ZERO (&sunny_img_MYNAUI_ZERO)
+

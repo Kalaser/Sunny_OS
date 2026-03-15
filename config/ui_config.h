@@ -1,0 +1,164 @@
+#pragma once
+
+// UI 布局与时序配置宏。
+//
+// 可在编译期通过 `-D...` 覆盖任意宏值，例如：
+//   -DSUNNY_UI_STATUS_BAR_H=32
+//   -DSUNNY_UI_LAUNCHER_ICON_PX=56
+//
+// 目标：
+// - 集中管理 UI 的“魔法数字”
+// - 方便适配不同分辨率/宽高比
+// - 支持按平台覆写，无需修改源码
+//
+// 模拟器分辨率（Win32 宿主窗口客户区尺寸）。
+// 注意：LVGL 的内部绘制缓冲区由 LVGL 自身配置（LV_CONF）控制，
+// 不由这些宏控制。
+#ifndef SUNNY_UI_SIM_HOR_RES
+#define SUNNY_UI_SIM_HOR_RES 480
+#endif
+
+#ifndef SUNNY_UI_SIM_VER_RES
+#define SUNNY_UI_SIM_VER_RES 340
+#endif
+
+// 全局栏/头
+#ifndef SUNNY_UI_STATUS_BAR_H
+#define SUNNY_UI_STATUS_BAR_H 29
+#endif
+
+#ifndef SUNNY_UI_HINT_BAR_H
+#define SUNNY_UI_HINT_BAR_H 28
+#endif
+
+#ifndef SUNNY_UI_APP_HEADER_H
+#define SUNNY_UI_APP_HEADER_H 40
+#endif
+
+// 桌面布局
+#ifndef SUNNY_UI_DESKTOP_TITLE_Y
+#define SUNNY_UI_DESKTOP_TITLE_Y 26
+#endif
+
+#ifndef SUNNY_UI_DESKTOP_BUTTON_W
+#define SUNNY_UI_DESKTOP_BUTTON_W 170
+#endif
+
+#ifndef SUNNY_UI_DESKTOP_BUTTON_H
+#define SUNNY_UI_DESKTOP_BUTTON_H 74
+#endif
+
+#ifndef SUNNY_UI_DESKTOP_BUTTON_RADIUS
+#define SUNNY_UI_DESKTOP_BUTTON_RADIUS 18
+#endif
+
+// 桌面电源按钮（居中）
+#ifndef SUNNY_UI_DESKTOP_POWER_BTN_PX
+#define SUNNY_UI_DESKTOP_POWER_BTN_PX 28
+#endif
+
+#ifndef SUNNY_UI_DESKTOP_POWER_BTN_RADIUS
+#define SUNNY_UI_DESKTOP_POWER_BTN_RADIUS 14
+#endif
+
+// 桌面内容区内的 Y 偏移（状态栏下方 / 提示栏上方）
+#ifndef SUNNY_UI_DESKTOP_POWER_BTN_Y
+#define SUNNY_UI_DESKTOP_POWER_BTN_Y -10
+#endif
+
+#ifndef SUNNY_UI_DESKTOP_LAUNCHER_BTN_Y
+#define SUNNY_UI_DESKTOP_LAUNCHER_BTN_Y 74
+#endif
+
+#ifndef SUNNY_UI_DESKTOP_POWER_SPACING_Y
+#define SUNNY_UI_DESKTOP_POWER_SPACING_Y 14
+#endif
+
+// 桌面“卡片组”整体垂直偏移（负值表示上移）
+#ifndef SUNNY_UI_DESKTOP_GROUP_DY
+#define SUNNY_UI_DESKTOP_GROUP_DY -40
+#endif
+
+// 相对间距：标题 -> Launcher 按钮
+#ifndef SUNNY_UI_DESKTOP_TITLE_TO_LAUNCHER_DY
+#define SUNNY_UI_DESKTOP_TITLE_TO_LAUNCHER_DY -28
+#endif
+
+// 相对间距：电源按钮 -> Launcher 按钮
+#ifndef SUNNY_UI_DESKTOP_POWER_TO_LAUNCHER_DY
+#define SUNNY_UI_DESKTOP_POWER_TO_LAUNCHER_DY 10
+#endif
+
+// 桌面背景粒子（编译期开关）
+#ifndef SUNNY_UI_DESKTOP_BG_PARTICLES_ENABLE
+#define SUNNY_UI_DESKTOP_BG_PARTICLES_ENABLE 1
+#endif
+
+#ifndef SUNNY_UI_DESKTOP_BG_PARTICLES_COUNT
+#define SUNNY_UI_DESKTOP_BG_PARTICLES_COUNT 14
+#endif
+
+#ifndef SUNNY_UI_DESKTOP_BG_PARTICLES_PERIOD_MS
+#define SUNNY_UI_DESKTOP_BG_PARTICLES_PERIOD_MS 16
+#endif
+
+// Launcher 布局
+#ifndef SUNNY_UI_LAUNCHER_ICON_PX
+#define SUNNY_UI_LAUNCHER_ICON_PX 60
+#endif
+
+#ifndef SUNNY_UI_LAUNCHER_ITEM_H
+#define SUNNY_UI_LAUNCHER_ITEM_H 92
+#endif
+
+#ifndef SUNNY_UI_LAUNCHER_RADIUS_FACTOR_X100
+#define SUNNY_UI_LAUNCHER_RADIUS_FACTOR_X100 46
+#endif
+
+#ifndef SUNNY_UI_LAUNCHER_CENTER_X_FACTOR_X100
+#define SUNNY_UI_LAUNCHER_CENTER_X_FACTOR_X100 50
+#endif
+
+#ifndef SUNNY_UI_LAUNCHER_CENTER_Y_FACTOR_X100
+#define SUNNY_UI_LAUNCHER_CENTER_Y_FACTOR_X100 45
+#endif
+
+#ifndef SUNNY_UI_LAUNCHER_ANGLE_STEP_DEG
+#define SUNNY_UI_LAUNCHER_ANGLE_STEP_DEG 45
+#endif
+
+// Launcher 提示/返回按钮
+#ifndef SUNNY_UI_LAUNCHER_BACK_BTN_W
+#define SUNNY_UI_LAUNCHER_BACK_BTN_W 84
+#endif
+
+#ifndef SUNNY_UI_LAUNCHER_BACK_BTN_H
+#define SUNNY_UI_LAUNCHER_BACK_BTN_H 22
+#endif
+
+// 开关机动画时序（ms）
+#ifndef SUNNY_UI_BOOT_ANIM_MS
+#define SUNNY_UI_BOOT_ANIM_MS 4006
+#endif
+
+#ifndef SUNNY_UI_BOOT_HOLD_MS
+#define SUNNY_UI_BOOT_HOLD_MS 1000
+#endif
+
+#ifndef SUNNY_UI_SHUTDOWN_ANIM_MS
+#define SUNNY_UI_SHUTDOWN_ANIM_MS 1802
+#endif
+
+// 开关机文字淡入淡出时序（ms）
+#ifndef SUNNY_UI_PWR_TEXT_FADE_MS
+#define SUNNY_UI_PWR_TEXT_FADE_MS 4006
+#endif
+
+#ifndef SUNNY_UI_PWR_TEXT_STAGGER_MS
+#define SUNNY_UI_PWR_TEXT_STAGGER_MS 1802
+#endif
+
+// 页面转场
+#ifndef SUNNY_UI_TRANSITION_SLIDE_DX
+#define SUNNY_UI_TRANSITION_SLIDE_DX 20
+#endif
