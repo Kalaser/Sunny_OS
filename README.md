@@ -10,8 +10,8 @@ SUNNY_OS 是一套基于 LVGL 的应用层代码。它不提供自己的 `main()
 
 说明：
 
-- Win32 模拟器的 `main()` 入口在 `SUNNY_OS/Simulator/host_win32/sunny_os_host_win32.cpp`（SUNNY_OS 自己的宿主程序，不再复用 `Wand/.../LVGL.Simulator.cpp`）。
-- 目前仅 LVGL 源码仍从 `Wand/X-Wand/applaction/Simulator/LVGL.Simulator/lvgl/` 目录以源码方式编译进可执行文件；`win32drv` 与 `lv_fs_if` 已迁入 `SUNNY_OS/third_party/` 由 SUNNY_OS 自己编译维护。
+- Win32 模拟器的 `main()` 入口在 `Sunny_OS/Simulator/host_win32/sunny_os_host_win32.cpp`（SUNNY_OS 自己的宿主程序）。
+- 目前仅 LVGL 源码从 `Sunny_OS/libs/lvgl/` 目录以源码方式编译进可执行文件；`win32drv` 与 `lv_fs_if` 已迁入 `SUNNY_OS/third_party/` 由 SUNNY_OS 自己编译维护。
 
 ## 构建（Win32 模拟器）
 
@@ -56,11 +56,26 @@ powershell -ExecutionPolicy Bypass -File .\run.ps1 -Detach
 
 ## 文档
 
-- `SUNNY_OS/apps/APP_DEV_GUIDE.md`：`apps/` 应用开发指南（Slice/Model/View、外设解耦建议等）。
-- `SUNNY_OS/docs/ARCHITECTURE.md`：整体架构与分层说明。
-- `SUNNY_OS/docs/NAMING.md`：命名规范。
-- `SUNNY_OS/docs/CONFIG.md`：配置说明（`ui_config.h` 等）。
-- `SUNNY_OS/docs/PORTING_GUIDE.md`：移植到 FreeRTOS/NuttX/Linux/RT-Thread 的落点与步骤。
+- ### 应用开发
+
+  - [APP_DEV_GUIDE.md](SUNNY_OS/apps/APP_DEV_GUIDE.md) 
+      `apps/` 目录应用开发指南，包括 Slice / Model / View 架构以及外设解耦建议。
+
+  ### 系统设计
+
+  - [ARCHITECTURE.md](SUNNY_OS/docs/ARCHITECTURE.md) 
+      Sunny_OS 整体架构与系统分层说明。
+
+  - [NAMING.md](SUNNY_OS/docs/NAMING.md) 
+      项目命名规范与代码风格。
+
+  - [CONFIG.md](SUNNY_OS/docs/CONFIG.md) 
+      系统配置说明，例如 `ui_config.h`、UI 宏配置等。
+
+  ### 移植指南
+
+  - [PORTING_GUIDE.md](SUNNY_OS/docs/PORTING_GUIDE.md) 
+      移植到 **FreeRTOS / NuttX / Linux / RT-Thread** 的关键接口与步骤。
 
 ## 备注
 
