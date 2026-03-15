@@ -1,22 +1,22 @@
-﻿# SUNNY_OS 移植指南（FreeRTOS、NuttX、Linux、RT-Thread）
+﻿# Sunny_OS 移植指南（FreeRTOS、NuttX、Linux、RT-Thread）
 
-本文说明把 SUNNY_OS 从 Win32 模拟器迁移到真实 OS/硬件时，哪些模块需要替换，应该落在哪里，以及推荐的集成步骤。
+本文说明把 Sunny_OS 从 Win32 模拟器迁移到真实 OS/硬件时，哪些模块需要替换，应该落在哪里，以及推荐的集成步骤。
 
-## SUNNY_OS 的基本假设
+## Sunny_OS 的基本假设
 
 - 有 LVGL tick（`lv_tick_inc`）以及定期调用 `lv_timer_handler()` 的事件循环。
 - 已实现 LVGL 显示驱动（`flush_cb`）与输入驱动（indev：touch/encoder/key 等）。
 - 需要时实现 LVGL 文件系统驱动（用于加载外部资源）。
-- 平台钩子（SUNNY_OS 内部会调用）：
-  - 时间：`vsun::port::get_local_time_hhmm(...)`（`SUNNY_OS/port/time.h`）
-  - 关机/退出：`vsun::port::request_shutdown()`（`SUNNY_OS/port/system.h`）
-  - 设备状态：`vsun::hal::*`（`SUNNY_OS/sunny_hal/hal.h`）
+- 平台钩子（Sunny_OS 内部会调用）：
+  - 时间：`vsun::port::get_local_time_hhmm(...)`（`Sunny_OS/port/time.h`）
+  - 关机/退出：`vsun::port::request_shutdown()`（`Sunny_OS/port/system.h`）
+  - 设备状态：`vsun::hal::*`（`Sunny_OS/Sunny_hal/hal.h`）
 
 当前模拟器使用：
 
-- `SUNNY_OS/port/time_std.cpp`
-- `SUNNY_OS/port/system_win32.cpp`
-- `SUNNY_OS/sunny_hal/hal_sim.cpp`
+- `Sunny_OS/port/time_std.cpp`
+- `Sunny_OS/port/system_win32.cpp`
+- `Sunny_OS/Sunny_hal/hal_sim.cpp`
 
 ## 通用建议（强烈推荐）
 
@@ -31,9 +31,9 @@
 - 显示/输入：实现 LVGL 驱动（SPI/8080/DMA、touch/encoder/buttons 等）。
 - 存储：把持久化映射到 NVS/FlashDB/LittleFS 等，尽量保持 `StorageService` 的 API 不变。
 - 文件落点建议：
-  - `SUNNY_OS/port/time_rtc.cpp`
-  - `SUNNY_OS/port/system_freertos.cpp`
-  - `SUNNY_OS/sunny_hal/hal_freertos.cpp`（或更贴近板级命名）
+  - `Sunny_OS/port/time_rtc.cpp`
+  - `Sunny_OS/port/system_freertos.cpp`
+  - `Sunny_OS/Sunny_hal/hal_freertos.cpp`（或更贴近板级命名）
 
 ## NuttX
 
