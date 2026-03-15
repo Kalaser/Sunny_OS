@@ -45,7 +45,5 @@ SUNNY_OS 已提供一个最小实现：`services::UiPublishQueue`（见 `SUNNY_O
 
 建议平台侧驱动/协议栈回调在任意线程调用这些方法，上报会通过 `UiPublishQueue` 安全地在 UI 线程发布到 `DataCenter`。
 
-## 与 X-TRACK USER 的映射（参考）
-
-- X-TRACK：`HAL` + `DataProc(DataCenter/Account)` + `PageManager`。
+## （参考）
 - SUNNY_OS：`sunny_hal/port` + `services::DataCenter` + `services::PageManager` + `AppSlice`。
