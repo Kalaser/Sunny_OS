@@ -28,6 +28,18 @@ private:
             kItems,
             static_cast<std::uint8_t>(sizeof(kItems) / sizeof(kItems[0]))};
     }
+    TranslateSlice()
+        : PlaceholderSliceBase(
+              "translate",
+              "TRANSLATE",
+              placeholder::PlaceholderSpec{
+                  "TRANSLATE",
+                  SUNNY_IMG(MYNAUI_REFRESH_SOLID),
+                  "REAL-TIME LANGUAGE MODE",
+                  "EN <-> 中文",
+                  "VOICE ON",
+                  "TEXT LOCK",
+                  72}) {}
 };
 
 } // namespace vsun::apps::translate

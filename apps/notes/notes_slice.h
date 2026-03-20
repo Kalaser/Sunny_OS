@@ -28,6 +28,18 @@ private:
             kItems,
             static_cast<std::uint8_t>(sizeof(kItems) / sizeof(kItems[0]))};
     }
+    NotesSlice()
+        : PlaceholderSliceBase(
+              "notes",
+              "NOTES",
+              placeholder::PlaceholderSpec{
+                  "NOTES",
+                  SUNNY_IMG(MYNAUI_EDIT_SOLID),
+                  "3 tasks due today",
+                  "SYNCED 2 MIN AGO",
+                  "TODO",
+                  "DRAFT",
+                  38}) {}
 };
 
 } // namespace vsun::apps::notes

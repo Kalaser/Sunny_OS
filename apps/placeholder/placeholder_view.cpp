@@ -109,18 +109,22 @@ void PlaceholderView::build(lv_obj_t* parent, const PlaceholderSpec& spec)
     lv_obj_set_style_img_recolor_opa(icon, LV_OPA_COVER, 0);
     lv_obj_set_style_opa(icon, LV_OPA_85, 0);
     lv_obj_align(icon, LV_ALIGN_CENTER, 0, -h / 3);
+    lv_obj_set_style_opa(icon, LV_OPA_80, 0);
+    lv_obj_align(icon, LV_ALIGN_CENTER, 0, -48);
 
     lv_obj_t* t = lv_label_create(root_);
     lv_label_set_text(t, spec.title ? spec.title : "APP");
     lv_obj_set_style_text_color(t, core::theme::primary(), 0);
     lv_obj_set_style_text_letter_space(t, 2, 0);
     lv_obj_align(t, LV_ALIGN_CENTER, 0, -h / 4);
+    lv_obj_align(t, LV_ALIGN_CENTER, 0, -18);
 
     lv_obj_t* sub = lv_label_create(root_);
     lv_label_set_text(sub, spec.subtitle ? spec.subtitle : "APPLICATION LOADED");
     lv_obj_set_style_text_color(sub, core::theme::hint(), 0);
     lv_obj_set_style_text_opa(sub, LV_OPA_90, 0);
     lv_obj_align(sub, LV_ALIGN_CENTER, 0, -h / 5 + 26);
+    lv_obj_align(sub, LV_ALIGN_CENTER, 0, 2);
 
     lv_obj_t* detail = lv_label_create(root_);
     lv_label_set_text(detail, spec.detail ? spec.detail : "READY");
@@ -129,6 +133,7 @@ void PlaceholderView::build(lv_obj_t* parent, const PlaceholderSpec& spec)
     lv_obj_align(detail, LV_ALIGN_CENTER, 0, -h / 5 + 46);
 
     create_items_panel(root_, spec, w, h);
+    lv_obj_align(detail, LV_ALIGN_CENTER, 0, 22);
 
     if(spec.chip_left || spec.chip_right) {
         lv_obj_t* row = lv_obj_create(root_);
@@ -140,6 +145,7 @@ void PlaceholderView::build(lv_obj_t* parent, const PlaceholderSpec& spec)
         lv_obj_set_style_pad_column(row, 8, 0);
         lv_obj_set_size(row, lv_pct(100), LV_SIZE_CONTENT);
         lv_obj_align(row, LV_ALIGN_BOTTOM_MID, 0, (spec.progress >= 0) ? -34 : -16);
+        lv_obj_align(row, LV_ALIGN_CENTER, 0, 50);
 
         if(spec.chip_left) create_chip(row, spec.chip_left);
         if(spec.chip_right) create_chip(row, spec.chip_right);
@@ -156,6 +162,9 @@ void PlaceholderView::build(lv_obj_t* parent, const PlaceholderSpec& spec)
         lv_obj_t* bar_bg = lv_obj_create(root_);
         lv_obj_remove_style_all(bar_bg);
         lv_obj_set_size(bar_bg, bar_w, 4);
+        lv_obj_t* bar_bg = lv_obj_create(root_);
+        lv_obj_remove_style_all(bar_bg);
+        lv_obj_set_size(bar_bg, 200, 4);
         lv_obj_set_style_bg_opa(bar_bg, LV_OPA_COVER, 0);
         lv_obj_set_style_bg_color(bar_bg, core::theme::divider(), 0);
         lv_obj_set_style_radius(bar_bg, 4, 0);
@@ -164,6 +173,7 @@ void PlaceholderView::build(lv_obj_t* parent, const PlaceholderSpec& spec)
         lv_obj_t* bar = lv_obj_create(bar_bg);
         lv_obj_remove_style_all(bar);
         lv_obj_set_size(bar, (bar_w * progress) / 100, 4);
+        lv_obj_set_size(bar, (200 * progress) / 100, 4);
         lv_obj_set_style_bg_opa(bar, LV_OPA_COVER, 0);
         lv_obj_set_style_bg_color(bar, core::theme::primary(), 0);
         lv_obj_set_style_radius(bar, 4, 0);

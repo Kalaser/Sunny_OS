@@ -29,6 +29,18 @@ private:
             kItems,
             static_cast<std::uint8_t>(sizeof(kItems) / sizeof(kItems[0]))};
     }
+    SettingsSlice()
+        : PlaceholderSliceBase(
+              "settings",
+              "SETTINGS",
+              placeholder::PlaceholderSpec{
+                  "SETTINGS",
+                  SUNNY_IMG(MYNAUI_COG_SOLID),
+                  "SYSTEM READY FOR UPDATE",
+                  "BATTERY SAVER OFF",
+                  "WIFI",
+                  "DISPLAY",
+                  46}) {}
 };
 
 } // namespace vsun::apps::settings

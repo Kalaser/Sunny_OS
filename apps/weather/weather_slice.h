@@ -28,6 +28,18 @@ private:
             kItems,
             static_cast<std::uint8_t>(sizeof(kItems) / sizeof(kItems[0]))};
     }
+    WeatherSlice()
+        : PlaceholderSliceBase(
+              "weather",
+              "WEATHER",
+              placeholder::PlaceholderSpec{
+                  "WEATHER",
+                  SUNNY_IMG(MYNAUI_CLOUD_SUN_SOLID),
+                  "PARTLY CLOUDY · 23°C",
+                  "AQI 42 GOOD",
+                  "H:27°",
+                  "L:18°",
+                  64}) {}
 };
 
 } // namespace vsun::apps::weather
