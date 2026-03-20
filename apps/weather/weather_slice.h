@@ -7,18 +7,20 @@ namespace vsun::apps::weather {
 
 class WeatherSlice final : public placeholder::PlaceholderSliceBase {
 public:
-    WeatherSlice()
-        : PlaceholderSliceBase(
-              "weather",
-              "WEATHER",
-              placeholder::PlaceholderSpec{
-                  "WEATHER",
-                  SUNNY_IMG(MYNAUI_CLOUD_SUN_SOLID),
-                  "PARTLY CLOUDY · 23°C",
-                  "AQI 42 GOOD",
-                  "H:27°",
-                  "L:18°",
-                  64}) {}
+    WeatherSlice() : PlaceholderSliceBase("weather", "WEATHER", spec()) {}
+
+private:
+    static placeholder::PlaceholderSpec spec()
+    {
+        return placeholder::PlaceholderSpec{
+            "WEATHER",
+            SUNNY_IMG(MYNAUI_CLOUD_SUN_SOLID),
+            "PARTLY CLOUDY · 23°C",
+            "AQI 42 GOOD",
+            "H:27°",
+            "L:18°",
+            64};
+    }
 };
 
 } // namespace vsun::apps::weather

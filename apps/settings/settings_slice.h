@@ -7,18 +7,20 @@ namespace vsun::apps::settings {
 
 class SettingsSlice final : public placeholder::PlaceholderSliceBase {
 public:
-    SettingsSlice()
-        : PlaceholderSliceBase(
-              "settings",
-              "SETTINGS",
-              placeholder::PlaceholderSpec{
-                  "SETTINGS",
-                  SUNNY_IMG(MYNAUI_COG_SOLID),
-                  "SYSTEM READY FOR UPDATE",
-                  "BATTERY SAVER OFF",
-                  "WIFI",
-                  "DISPLAY",
-                  46}) {}
+    SettingsSlice() : PlaceholderSliceBase("settings", "SETTINGS", spec()) {}
+
+private:
+    static placeholder::PlaceholderSpec spec()
+    {
+        return placeholder::PlaceholderSpec{
+            "SETTINGS",
+            SUNNY_IMG(MYNAUI_COG_SOLID),
+            "SYSTEM READY FOR UPDATE",
+            "BATTERY SAVER OFF",
+            "WIFI",
+            "DISPLAY",
+            46};
+    }
 };
 
 } // namespace vsun::apps::settings

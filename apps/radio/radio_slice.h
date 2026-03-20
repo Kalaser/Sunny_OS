@@ -7,18 +7,20 @@ namespace vsun::apps::radio {
 
 class RadioSlice final : public placeholder::PlaceholderSliceBase {
 public:
-    RadioSlice()
-        : PlaceholderSliceBase(
-              "radio",
-              "RADIO",
-              placeholder::PlaceholderSpec{
-                  "RADIO",
-                  SUNNY_IMG(MYNAUI_WIFI_MEDIUM_SOLID),
-                  "CONNECTED TO SUNNY FM",
-                  "SIGNAL STABLE",
-                  "98.3 MHz",
-                  "STEREO",
-                  91}) {}
+    RadioSlice() : PlaceholderSliceBase("radio", "RADIO", spec()) {}
+
+private:
+    static placeholder::PlaceholderSpec spec()
+    {
+        return placeholder::PlaceholderSpec{
+            "RADIO",
+            SUNNY_IMG(MYNAUI_WIFI_MEDIUM_SOLID),
+            "CONNECTED TO SUNNY FM",
+            "SIGNAL STABLE",
+            "98.3 MHz",
+            "STEREO",
+            91};
+    }
 };
 
 } // namespace vsun::apps::radio
