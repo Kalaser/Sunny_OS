@@ -6,8 +6,6 @@
 namespace vsun::apps::placeholder {
 namespace {
 
-static constexpr lv_opa_t kIconOpacity = LV_OPA_80;
-
 static lv_obj_t* create_chip(lv_obj_t* parent, const char* text)
 {
     lv_obj_t* chip = lv_obj_create(parent);
