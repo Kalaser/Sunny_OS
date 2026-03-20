@@ -6,7 +6,7 @@ void PlaceholderSliceBase::ensure_built(lv_obj_t* parent)
 {
     if(built_) return;
     (void)model_;
-    view_.build(parent, label_);
+    view_.build(parent, spec_);
     built_ = true;
 }
 
