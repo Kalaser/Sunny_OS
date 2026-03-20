@@ -3,8 +3,14 @@
 #include "core/theme.h"
 #include "sunny_resources.h"
 
+#ifndef LV_OPA_85
+#define LV_OPA_85 LV_OPA_80
+#endif
+
 namespace vsun::apps::placeholder {
 namespace {
+
+static constexpr lv_opa_t kIconOpacity = LV_OPA_85;
 
 static lv_obj_t* create_chip(lv_obj_t* parent, const char* text)
 {
@@ -26,6 +32,23 @@ static lv_obj_t* create_chip(lv_obj_t* parent, const char* text)
     return chip;
 }
 
+static void create_progress_bar(lv_obj_t* parent, int progress)
+{
+    lv_obj_t* progress_bg = lv_obj_create(parent);
+    lv_obj_remove_style_all(progress_bg);
+    lv_obj_set_size(progress_bg, 200, 4);
+    lv_obj_set_style_bg_opa(progress_bg, LV_OPA_COVER, 0);
+    lv_obj_set_style_bg_color(progress_bg, core::theme::divider(), 0);
+    lv_obj_set_style_radius(progress_bg, 4, 0);
+    lv_obj_align(progress_bg, LV_ALIGN_BOTTOM_MID, 0, -16);
+
+    lv_obj_t* progress_fg = lv_obj_create(progress_bg);
+    lv_obj_remove_style_all(progress_fg);
+    lv_obj_set_size(progress_fg, (200 * progress) / 100, 4);
+    lv_obj_set_style_bg_opa(progress_fg, LV_OPA_COVER, 0);
+    lv_obj_set_style_bg_color(progress_fg, core::theme::primary(), 0);
+    lv_obj_set_style_radius(progress_fg, 4, 0);
+    lv_obj_align(progress_fg, LV_ALIGN_LEFT_MID, 0, 0);
 static void create_items_panel(lv_obj_t* parent, const PlaceholderSpec& spec, lv_coord_t w, lv_coord_t h)
 {
     if(!spec.items || spec.item_count == 0) return;
@@ -107,6 +130,7 @@ void PlaceholderView::build(lv_obj_t* parent, const PlaceholderSpec& spec)
     lv_img_set_src(icon, spec.icon ? spec.icon : SUNNY_IMG(MYNAUI_CHECK_SOLID));
     lv_obj_set_style_img_recolor(icon, core::theme::primary(), 0);
     lv_obj_set_style_img_recolor_opa(icon, LV_OPA_COVER, 0);
+    lv_obj_set_style_opa(icon, kIconOpacity, 0);
     lv_obj_set_style_opa(icon, LV_OPA_85, 0);
     lv_obj_align(icon, LV_ALIGN_CENTER, 0, -h / 3);
     lv_obj_set_style_opa(icon, LV_OPA_80, 0);
@@ -154,6 +178,7 @@ void PlaceholderView::build(lv_obj_t* parent, const PlaceholderSpec& spec)
     if(spec.progress >= 0) {
         int progress = spec.progress;
         if(progress > 100) progress = 100;
+        create_progress_bar(root_, progress);
 
         lv_coord_t bar_w = (lv_coord_t)(w * 55 / 100);
         if(bar_w > 240) bar_w = 240;
