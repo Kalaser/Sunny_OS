@@ -6,6 +6,8 @@
 namespace vsun::apps::placeholder {
 namespace {
 
+static constexpr lv_opa_t kIconOpacity = LV_OPA_80;
+
 static lv_obj_t* create_chip(lv_obj_t* parent, const char* text)
 {
     lv_obj_t* chip = lv_obj_create(parent);
@@ -26,6 +28,25 @@ static lv_obj_t* create_chip(lv_obj_t* parent, const char* text)
     return chip;
 }
 
+static void create_progress_bar(lv_obj_t* parent, int progress)
+{
+    lv_obj_t* progress_bg = lv_obj_create(parent);
+    lv_obj_remove_style_all(progress_bg);
+    lv_obj_set_size(progress_bg, 200, 4);
+    lv_obj_set_style_bg_opa(progress_bg, LV_OPA_COVER, 0);
+    lv_obj_set_style_bg_color(progress_bg, core::theme::divider(), 0);
+    lv_obj_set_style_radius(progress_bg, 4, 0);
+    lv_obj_align(progress_bg, LV_ALIGN_BOTTOM_MID, 0, -16);
+
+    lv_obj_t* progress_fg = lv_obj_create(progress_bg);
+    lv_obj_remove_style_all(progress_fg);
+    lv_obj_set_size(progress_fg, (200 * progress) / 100, 4);
+    lv_obj_set_style_bg_opa(progress_fg, LV_OPA_COVER, 0);
+    lv_obj_set_style_bg_color(progress_fg, core::theme::primary(), 0);
+    lv_obj_set_style_radius(progress_fg, 4, 0);
+    lv_obj_align(progress_fg, LV_ALIGN_LEFT_MID, 0, 0);
+}
+
 } // namespace
 
 void PlaceholderView::build(lv_obj_t* parent, const PlaceholderSpec& spec)
@@ -41,7 +62,7 @@ void PlaceholderView::build(lv_obj_t* parent, const PlaceholderSpec& spec)
     lv_img_set_src(icon, spec.icon ? spec.icon : SUNNY_IMG(MYNAUI_CHECK_SOLID));
     lv_obj_set_style_img_recolor(icon, core::theme::primary(), 0);
     lv_obj_set_style_img_recolor_opa(icon, LV_OPA_COVER, 0);
-    lv_obj_set_style_opa(icon, LV_OPA_85, 0);
+    lv_obj_set_style_opa(icon, kIconOpacity, 0);
     lv_obj_align(icon, LV_ALIGN_CENTER, 0, -48);
 
     lv_obj_t* t = lv_label_create(root_);
@@ -80,22 +101,7 @@ void PlaceholderView::build(lv_obj_t* parent, const PlaceholderSpec& spec)
     if(spec.progress >= 0) {
         int progress = spec.progress;
         if(progress > 100) progress = 100;
-
-        lv_obj_t* bar_bg = lv_obj_create(root_);
-        lv_obj_remove_style_all(bar_bg);
-        lv_obj_set_size(bar_bg, 200, 4);
-        lv_obj_set_style_bg_opa(bar_bg, LV_OPA_COVER, 0);
-        lv_obj_set_style_bg_color(bar_bg, core::theme::divider(), 0);
-        lv_obj_set_style_radius(bar_bg, 4, 0);
-        lv_obj_align(bar_bg, LV_ALIGN_BOTTOM_MID, 0, -16);
-
-        lv_obj_t* bar = lv_obj_create(bar_bg);
-        lv_obj_remove_style_all(bar);
-        lv_obj_set_size(bar, (200 * progress) / 100, 4);
-        lv_obj_set_style_bg_opa(bar, LV_OPA_COVER, 0);
-        lv_obj_set_style_bg_color(bar, core::theme::primary(), 0);
-        lv_obj_set_style_radius(bar, 4, 0);
-        lv_obj_align(bar, LV_ALIGN_LEFT_MID, 0, 0);
+        create_progress_bar(root_, progress);
     }
 }
 
