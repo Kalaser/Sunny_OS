@@ -41,7 +41,7 @@ void PlaceholderView::build(lv_obj_t* parent, const PlaceholderSpec& spec)
     lv_img_set_src(icon, spec.icon ? spec.icon : SUNNY_IMG(MYNAUI_CHECK_SOLID));
     lv_obj_set_style_img_recolor(icon, core::theme::primary(), 0);
     lv_obj_set_style_img_recolor_opa(icon, LV_OPA_COVER, 0);
-    lv_obj_set_style_opa(icon, LV_OPA_85, 0);
+    lv_obj_set_style_opa(icon, LV_OPA_80, 0);
     lv_obj_align(icon, LV_ALIGN_CENTER, 0, -48);
 
     lv_obj_t* t = lv_label_create(root_);
